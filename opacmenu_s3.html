@@ -1,0 +1,187 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+
+<html>
+<head>
+<title>St. Charles Community College Library Catalog</title>
+<script language="JavaScript">
+<!--hide this script from non-javascript-enabled browsers
+
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&self.frames.length) {
+    d=self.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+/* Functions that swaps images. */
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+/* Functions that handle preload. */
+function MM_preloadImages() { //v3.0
+ var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+   var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+   if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function preload() {
+	MM_preloadImages('/screens/keyword2.gif','/screens/subject2.gif','/screens/title2.gif','/screens/author2.gif',
+	'/screens/journal2.gif','/screens/reserve2.gif','/screens/authtitle2.gif','/screens/ebook2.gif');
+}
+
+// stop hiding -->
+</script>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<LINK REL="STYLESHEET" TYPE="TEXT/CSS" HREF="http://archway.missouri.edu:2082/screens/archway_styles.css">
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" link="#006699" vlink="#006699" alink="#006699" onLoad="MM_preloadImages ('/screens/keyword2.gif',
+	'/screens/subject2.gif','/screens/title2.gif','/screens/author2.gif','/screens/journal2.gif','/screens/reserve2.gif','/screens/authtitle2.gif',
+	'/screens/ebook2.gif')">
+  
+<div align="center">
+<p style="color:#7A1F1F; font-size:medium; font-weight:bold;">On November 11, 2009, the library catalog will be offline for system maintenance. <br />You may search the <a href="http://mobius.umsystem.edu/">Mobius catalog</a> while our catalog is offline.</p>
+</div>
+
+<!--{patron}--> 
+<!--{logout}-->
+
+<center>
+  <IMG SRC="/screens/medlogo.gif" HEIGHT="105" WIDTH="306" ALT=" Archway: a MOBIUS Library Catalog " BORDER="0" >
+</center>
+<center>
+  <IMG SRC="/screens/banner.gif" HEIGHT="30" WIDTH="319" ALT="" BORDER="0" >
+</center>
+
+
+<center>
+  <form name="SearchForm" target="_parent" action="/search/Y" method="GET">
+	<table width="700" border="0" align="center" cellspacing="10">
+	   <tr>
+	    <td colspan="3">
+	          <div align="center"> 
+	            <select name="searchtype">
+	              <option value="Y">KEYWORD 
+	              <option value="t">TITLE 
+	              <option value="a">AUTHOR 
+	              <option value="s">JOURNAL TITLE 
+	              <option value="d">LC SUBJECT 
+	            </select>
+	            &nbsp; 
+	            <input type="TEXT" name="searcharg" maxlength="75" size="20" style="width: 200px;">
+				<input type="Hidden" name="searchscope" value="3">
+	            <input type="Hidden" name="SORT" value="D">
+	            &nbsp; 
+	            <input name="cmdSubmit" type="Submit" value="Search">
+	      </div></form></td>
+	   </tr>
+    </table>
+</center>
+
+<center>
+ <table width="70%" border="0" align="center" cellspacing="10">
+    <tr>
+	  <td WIDTH="8%">&nbsp;</td>
+      <td width="45%" height="50"><a href="/search~S3/Y"
+ onMouseOver="MM_swapImage('keyword','','/screens/keyword2.gif',1);"
+ onFocus="MM_swapImage('keyword','','/screens/keyword2.gif',1);"
+ onBlur="MM_swapImgRestore();"
+ onMouseOut="MM_swapImgRestore();">
+<IMG SRC="/screens/keyword.gif" HEIGHT="25" WIDTH="105" ALT="Keyword" BORDER="0" name="keyword"></a><br>
+		<b><font face="Arial, Helvetica, sans-serif" size="-1" color="#006699">Search words in titles, subjects, and notes</font></b></td>
+	  <td WIDTH="2%">&nbsp;</td> 
+	  <td width="45%"><a href="/search~S3/t"
+ onMouseOver="MM_swapImage('title','','/screens/title2.gif',1);"
+ onFocus="MM_swapImage('title','','/screens/title2.gif',1);"
+ onBlur="MM_swapImgRestore();"
+ onMouseOut="MM_swapImgRestore();">
+<IMG SRC="/screens/title.gif" HEIGHT="25" WIDTH="55" ALT="Title" BORDER="0" name="title"></a><br>
+			<b><font face="Arial, Helvetica, sans-serif" size="-1" color="#006699">Search for a title</font></b></td>
+	</tr>
+    <tr> 
+	  <td WIDTH="8%">&nbsp;</td>
+      <td width="45%" height="50"><a href="/search~S3/d"
+ onMouseOver="MM_swapImage('subject','','/screens/subject2.gif',1);"
+ onFocus="MM_swapImage('subject','','/screens/subject2.gif',1);"
+ onBlur="MM_swapImgRestore();"
+ onMouseOut="MM_swapImgRestore();">
+<IMG SRC="/screens/subject.gif" HEIGHT="25" WIDTH="85" ALT="Subject" BORDER="0" name="subject"></a><br>
+		<b><font face="Arial, Helvetica, sans-serif" size="-1" color="#006699">Search subject headings</font></b></td>
+	  <td WIDTH="2%">&nbsp;</td>
+	  <TD WIDTH="45%"><a href="/search~S3/a"
+ onMouseOver="MM_swapImage('author','','/screens/author2.gif',1);"
+ onFocus="MM_swapImage('author','','/screens/author2.gif',1);"
+ onBlur="MM_swapImgRestore();"
+ onMouseOut="MM_swapImgRestore();">
+<IMG SRC="/screens/author.gif" HEIGHT="25" WIDTH="85" ALT=" Author" BORDER="0" name="author"></a><br>
+		<b><font face="Arial, Helvetica, sans-serif" size="-1" color="#006699">Search for an author</font></b></td>
+	</tr>
+	<tr>       
+	  <td WIDTH="8%">&nbsp;</td>  
+	  <td WIDTH="45%" HEIGHT="50"><a href="/search~S3/q"
+ onMouseOver="MM_swapImage('authtitle','','/screens/authtitle2.gif',1);"
+ onFocus="MM_swapImage('authtitle','','/screens/authtitle2.gif',1);"
+ onBlur="MM_swapImgRestore();"
+ onMouseOut="MM_swapImgRestore();">
+<IMG SRC="/screens/authtitle.gif" HEIGHT="25" WIDTH="145" ALT=" Author/Title" BORDER="0" name="authtitle"></a><br>
+		<b><font face="Arial, Helvetica, sans-serif" size="-1" color="#006699">Search both author and title keyword</font></b></td>
+      <td WIDTH="2%">&nbsp;</td>
+      <td WIDTH="45%"><a href="/search~S3/s"
+ onMouseOver="MM_swapImage('journal','','/screens/journal2.gif',1);"
+ onFocus="MM_swapImage('journal','','/screens/journal2.gif',1);"
+ onBlur="MM_swapImgRestore();"
+ onMouseOut="MM_swapImgRestore();">
+<IMG SRC="/screens/journal.gif" HEIGHT="25" WIDTH="145" ALT="Journal" BORDER="0" name="journal"></a><br>
+		<b><font face="Arial, Helvetica, sans-serif" size="-1" color="#006699">Search journal title to see if SCC subcribes</font></b></td>
+    </tr>
+    <tr>
+      <td WIDTH="8%">&nbsp;</td>
+      <td width="45%" height="50"><a href="http://www.stchas.edu:2048/login?url=http://www.netlibrary.com"
+ onMouseOver="MM_swapImage('ebook','','/screens/ebook2.gif',1);"
+ onFocus="MM_swapImage('ebook','','/screens/ebook2.gif',1);"
+ onBlur="MM_swapImgRestore();"
+ onMouseOut="MM_swapImgRestore();">
+<IMG SRC="/screens/ebook.gif" HEIGHT="25" WIDTH="200" ALT="Ebook" BORDER="0" name="ebook"></a><br>
+		<b><font face="Arial, Helvetica, sans-serif" size="-1" color="#006699">Search our collection of e-books</font></b></td>
+      <td WIDTH="2%">&nbsp;</td>
+      <td WIDTH="45%"><a href="/search~S3/b"
+ onMouseOver="MM_swapImage('reserve','','/screens/reserve2.gif',1);"
+ onFocus="MM_swapImage('reserve','','/screens/reserve2.gif',1);"
+ onBlur="MM_swapImgRestore();"
+ onMouseOut="MM_swapImgRestore();">
+<IMG SRC="/screens/reserve.gif" HEIGHT="25" WIDTH="145" ALT="Reserves" BORDER="0" name="reserve"></a><br>
+		<b><font face="Arial, Helvetica, sans-serif" size="-1" color="#006699">Search for items on reserve</font></b></td>
+    </tr>
+   </table>
+  </center>
+
+<table width="700" border="0" align="center">
+  <tr> 
+    <td colspan="2" height="14"> 
+      <div align="center">
+        <p><b><font face="Arial, Helvetica, sans-serif" size="3" color="#006699"><a href=/patroninfo><br>
+          Renew Items/View Record</a></font></b></p>
+        <p><br>
+          <strong>  <font color="#006699" size="3" face="Arial, Helvetica, sans-serif"><a href="http://www.stchas.edu/library">SCC Library Home</a></font></strong></p>
+      </div>
+    </td>
+  </tr>
+  <tr> 
+    <td colspan="2"> 
+      <font size="4" face="Arial, Helvetica, sans-serif" color="#006699"><b>More Options</b></font></h1>
+      <p><font face="Arial, Helvetica, sans-serif" color="#006699" size="2"><b><a href="/search~S3/c">Call 
+        Number</a></b><br>
+        <b><a href="/search~S3/i">ISBN/ISSN</a></b><br>
+        <b><a href="/search~S3/m">Children's Subject</a></b></font></p>
+    </td>
+  </tr>
+</table>
+<br>
+<h2>&nbsp;</h2>
+</body>
+</html>

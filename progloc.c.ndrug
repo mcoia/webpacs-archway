@@ -1,0 +1,23 @@
+progloc.c
+130.37
+28473 28473 06163 06163 zzz12358.part2
+set noai
+1437a
+	{"t.utf8", "t", "t.utf8", "TIC","","root","root", 0644,0,0,-1},
+.
+1388a
+	{"diac.http","d","diac.http","IIIDB","data/diac.http","iii","iii",0440,0 ,0,-1},
+	{"diac.utf8","d","diac.utf8","IIIDB","data/diac.utf8","iii","iii",0440,0 ,0,-1},
+.
+1318a
+	{"approvelist","d","approvelist","IIIDB","data/approvelist","iii","iii",0440,0 ,0,-1},
+.
+1293a
+	{"updateinfo","m","updateinfo.c","LIBDIR","libiii1.a","iii","iii",0,0,0,-1},
+.
+1110,1111d
+755d
+662d
+7c
+static char VERSION[] = "130@(#) progloc.c 130.42@(#) 2/9/00 12:51:44";
+.

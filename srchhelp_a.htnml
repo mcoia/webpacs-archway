@@ -1,0 +1,141 @@
+<html>
+
+<head>
+<title>ARCHWAY Library Catalog</title>
+</head>
+
+<body bgcolor="#ffffff" link="blue" vlink="blue">
+<div align="center"><center>
+
+<table border="0" cellpadding="5" cellspacing="0" width="691">
+  <tr>
+    <td width="165"><p align="left"><font face="Arial"><small><strong><a 
+href="http://archway.missouri.edu/search~b1a1o1c1i1/">East 
+Central College</a></strong></small></font></p>
+    <dl>
+      <div align="left">
+      <dt><font face="Arial"><small><strong>
+<a href="http://archway.missouri.edu/search~b001a001o001c001i001/">St. Charles
+ County
+      <dt>Community 
+College</a></strong></small></font></dt>
+      </div>
+    </dl>
+    </td>
+    <td width="320"><p align="center"><img src="../screens/medlogo.gif"
+    alt="Archway Library Catalog" WIDTH="306" HEIGHT="105"></td>
+    <td width="176"><p align="right"><font 
+face="Arial"><small><strong><a 
+href="http://archway.missouri.edu/search~b01a01o01c01i01/">Jefferson 
+College</a></strong></small></font></p>
+    <dl>
+      <div align="right">
+      <dt><small><font face="Arial"><strong><a 
+href="http://archway.missouri.edu/search~b0001a0001o0001c0001i0001/">St. Louis
+ 
+Community
+      
+      <dt>College</a></strong></font></small></dt>
+      </div>
+    </dl>
+    </td>
+  </tr>
+</table>
+</center></div>
+
+<hr width="90%" color="#C0C0C0">
+
+<p align="center"><small><strong><font face="Arial">To search this union 
+catalog, choose
+one of the options below:</font></strong></small></p>
+<div align="center"><center>
+
+<table border="2" width="75%" cellpadding="4" height="121">
+  <tr valign="middle" align="center" bgcolor="#99CCFF">
+    <td width="33%" align="center" height="21"><font face="Arial"><a 
+href="/search/w"><b>Keywords</b></a></font></td>
+    <td width="33%" align="center" height="21"><a href="/search/t"><b><font
+    face="Arial, Helvetica, sans-serif">Title</font></b></a></td>
+    <td width="34%" align="center" height="21"><a href="/search/a"><b><font
+    face="Arial, Helvetica, sans-serif">Author</font></b></a></td>
+  </tr>
+  <tr valign="middle" align="center" bgcolor="#99CCFF">
+    <td width="33%" align="center" height="21"><a href="/search/d"><b><font
+    face="Arial, Helvetica, sans-serif">LC Subject</font></b></a></td>
+    <td width="33%" align="center" height="21"><a href="/search/s"><b><font
+    face="Arial, Helvetica, sans-serif">Journal Title</font></b></a></td>
+    <td width="34%" align="center" height="21"><a 
+href="#additional"><b><font
+    face="Arial, Helvetica, sans-serif">Other Searches</font></b></a></td>
+  </tr>
+  <tr valign="middle" align="center" bgcolor="#99CCFF">
+    <td width="100%" align="center" colspan="3" height="19"><font 
+face="Arial"><a
+    href="/patroninfo"><b>View Your Own Record (Renew Items/Create 
+PIN)</b></a></font></td>
+  </tr>
+</table>
+</center></div><div align="center"><center>
+
+<table width="290" border="2" cellpadding="4" align="center" 
+bordercolorlight="#CCCCCC"
+bordercolordark="#666666" bgcolor="#FFFFFF" bordercolor="#CCCCCC" 
+height="81">
+  <tr valign="middle" align="center" bgcolor="#99CCFF">
+    <td colspan="2" width="268"><p align="center"><a 
+href="/search/b"><b><font
+    face="Arial, Helvetica, sans-serif">Course Reserves</font></b></a></td>
+  </tr>
+  <tr valign="middle" align="center" bgcolor="#99CCFF">
+    <td width="120"><p align="center"><a href="/search/p"><b><font
+    face="Arial, Helvetica, sans-serif">By Professor</font></b></a></td>
+    <td width="126"><p align="center"><a href="/search/r"><b><font
+    face="Arial, Helvetica, sans-serif">By Course</font></b></a></td>
+  </tr>
+</table>
+</center></div>
+
+<p>&nbsp;</p>
+<div align="center"><center>
+
+<table border="2" width="75%" cellpadding="4" height="162">
+  <tr valign="middle" align="center" bgcolor="#99CCFF">
+    <td width="100%" align="center" colspan="2"><a name="additional"><font
+    face="Arial, Helvetica, sans-serif" color="#000080"><b>Other 
+Searches</b></font></td>
+    </a>
+  </tr>
+  <tr valign="middle" align="center" bgcolor="#99CCFF">
+    <td width="50%" align="center"><a href="/search/q"><b><font
+    face="Arial, Helvetica, sans-serif">Author/Title</font></b></a></td>
+    <td width="50%" align="center"><a href="/search/c"><b><font
+    face="Arial, Helvetica, sans-serif">Library of Congress Call 
+Number</font></b></a></td>
+  </tr>
+  <tr valign="middle" align="center" bgcolor="#99CCFF">
+    <td width="50%" align="center"><a href="/search/i"><b><font
+    face="Arial, Helvetica, sans-serif">ISBN/ISSN</font></b></a></td>
+    <td width="50%" align="center"><a href="/search/e"><b><font
+    face="Arial, Helvetica, sans-serif">Dewey Call Number</font></b></a></td>
+  </tr>
+  <tr valign="middle" align="center" bgcolor="#99CCFF">
+    <td width="50%" align="center"><a href="/search/g"><b><font
+    face="Arial, Helvetica, sans-serif">Government Documents 
+Number</font></b></a></td>
+    <td width="50%" align="center"><a href="/search/f"><b><font
+    face="Arial, Helvetica, sans-serif">Local Call Number</font></b></a></td>
+  </tr>
+</table>
+</center></div>
+
+<p align="center">&nbsp;</p>
+
+<p align="center"><font face="Arial"><a href="/screens/mainmenu.html">Archway 
+Home 
+Page</a></font>
+&nbsp;&nbsp;&nbsp; <font face="Arial"><a href="/screens/libinfo.html">Library
+Information</a></font></p>
+
+<p>&nbsp;</p>
+</body>
+</html>

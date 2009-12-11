@@ -1,0 +1,250 @@
+/* archway_styles.css last updated 10/16/2007 lee */
+
+body, div, span, p, form, .qs, h1, h2, h3, ul, ol, li, a, td ,th, select, input, textarea
+{ font-family: Arial, Helvetica, sans-serif; }
+tt, pre
+{ font-family: "Courier New", Courier, mono, monospace; }
+body, div, p, form, ul, ol, li, th, td, select, input, textarea
+{ font-size: 12px; color: #000000; }
+h2 { font-size: 16px; color: #000000; }
+h3 { font-size: 14px; color: #000000; }
+h4 { font-size: 14px; color: #003399; }
+.qs { font-size: 10px; color: #000000; }
+.blurb { font-size: 11px; }
+.msg { font-size: 14px; color: #FF0000; }
+hr { color: #003399; }
+ul { list-style-position: outside; list-style-type: disc; }
+OL { list-style-position: outside; list-style-type: decimal; }
+.small { font-size: 11px; }
+.big { font-size: 12px; color: #ffffff; background-color: #032585; }
+.bodystyle { font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+.smaller { font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+.smaller_reversed { font-size: 11px; color: #ffffff; font-family: Verdana, Arial, Helvetica, sans-serif; }
+.smaller_reversed_nodecoration
+{ font-size: 11px; color: #ffffff; font-family: Verdana, Arial, Helvetica, sans-serif; text-decoration: none; }
+.box1 { padding: 3px; background-color: #032585; }
+.box2 { border: 3px solid; padding: 5px; }
+.menu { font-weight: bold; color: #032585; background-color: #ffffff; }
+.mnote { font-weight: normal; color: #000000; font-style: italic; }
+
+/* AUTHORITY REDIRECTION CLASSES */
+/* TABLE.authTerm { }
+TR.authTerm { }
+TD.unauthTerm { } */
+
+/* BIBLIOGRAPHIC DISPLAY CLASSES */
+.bibBookingsHeader { font-weight: bold; text-decoration: none; padding: 0px; border: none; }
+
+.bibTOC {
+	border: 1px solid gray;
+}
+DIV.bibTOC {
+	border: none;
+}
+
+bibDetail */
+TABLE.bibHoldings { border-bottom: 2px; color: #003399; }
+/* bibHoldingsEntry
+bibHoldingsHeader
+bibHoldingsLabel
+bibHolds
+bibHoldsEntry
+TABLE.bibInfo { }
+bibInfoData { }
+bibInfoEntry { }
+bibInfoLabel { } 
+TABLE.bibItems {} */
+TR.bibItemsEntry { color: #000000; text-align: left; }
+TH.bibItemsHeader { color: #000000; font-weight: bold; text-align: left; }
+TR.bibItemsLabel { color: #FFFFFF; font-weight: bold; text-align: center; }
+/* bibLicense
+bibLicenseEntry
+bibLicenseHeader */
+TABLE.bibLinks { font-variant: small-caps; }
+/* bibOrder
+bibOrderEntry
+bibPager */
+TR.bibRecordLink { font-variant: small-caps; text-align: left; padding-top: 3px; padding-bottom: 3px; }
+/* bibResource
+bibResourceBrief
+bibResourceCaption
+bibResourceEntry
+bibResourceEntry td
+bibResourceHeader
+bibResourceLicense
+bibResourceLicenseEntry
+bibResourceSubEntry
+bibResourceTable
+bibResourceTableEntry
+bibResourceTableHeader
+bibScreen
+bibSearchtool
+bibThumbnails
+bibTOC
+bibWidget
+bibXML
+patFuncReviewFull
+patFuncReviewHeadline */
+
+/* BOOKINGS DISPLAY CLASSES */
+.available { font-weight: bold; color: green; }
+/* bookingsConfirmMsg 
+bookingsItemEntry
+bookingsItemHeader 
+bookingsLegend
+bookingsLocation
+bookingsSelect */
+.bookingsSelectCal { background-color: white; }
+/* bookingsSelectTime */
+.closed { font-weight: bold; color: red; }
+/* main */
+.unavailable { font-weight: bold; color: black; }
+
+/********* BRIEFCIT CLASSES *********/
+TABLE.briefcitTable { border: 0px; padding: 0px; } 
+TR.briefcitRow { color: #000000; font-weight: normal; }
+/*.briefcitActions { padding-left: 2px; text-align: left; vertical-align: top; }*/
+/*.briefcitCall { padding-left: .2em; font-style: italic; }*/
+.briefcitDetail { vertical-align: top; text-align: left; padding-top: 2%; }
+.briefcitEntryNum { width: 3%; text-align: center; vertical-align: top; font-size: 14px; }
+.briefcitItems { width: 40%; margin-left: 10%; margin-top: 5px; text-align: left; vertical-align: top; }
+.briefcitMark { width: 5%; /*padding-left: 5px; padding-right: 5%;*/ text-align: left; vertical-align: top; }
+/*.briefCitPublish { text-align: left; }*/
+/*.briefcitRequest { width: 5%; padding-left: 5px; padding-right: 5%; vertical-align: bottom; text-align: left; }*/
+/*.briefcitStatus { font-weight: bold; }*/
+.briefcitTitle { text-align: left; vertical-align: top; font-size: -1px; font-weight: bold; width: 85%; }
+
+/* BROWSE DISPLAY CLASSES */
+TR.browseEntry { background-color: #FFFFFF; color: #000000; }
+TD.browseEntryData { background-color: #FFFFFF; color: #000000; font-weight: bold; }
+TD.browseEntryEntries { text-align: center; }
+TD.browseEntryMark { font-weight: bold; }
+TD.browseEntryMedia { vertical-align: middle; }
+TD.browseEntryNum { text-align: left; }
+/* browseEntryRelevance */
+TD.browseEntryYear {text-align: center; }
+TR.browseHeader { background-color: #FFFFFF; color: #FFFFFF; font-weight: bold; }
+TD.browseHeaderData { background-color: #FFFFFF; color: #FFFFFF; font-weight: bold; vertical-align: bottom; }
+TD.browseHeaderEntries { background-color: #FFFFFF; color: #FFFFFF; font-weight: bold; }
+TD.browseHeaderMark { background-color: #FFFFFF; color: #FFFFFF; font-weight: bold; }
+TD.browseHeaderMedia { background-color: #FFFFFF; color: #FFFFFF; font-weight: bold; }
+TD.browseHeaderNum { background-color: #FFFFFF; color: #FFFFFF; font-weight: bold; }
+TD.browseHeaderRelevance { background-color: #FFFFFF; color: #FFFFFF; font-weight: bold; }
+TD.browseHeaderYear { background-color: #FFFFFF; color: #FFFFFF; font-weight: bold; text-align: center; }
+/* browseList
+browsePager
+browseResourceTable
+browseResourceTableEntry
+browseResourceTableHeader */
+TD.browseSaveJump { color: #000000; background: #FFFFFF; text-align: left; }
+TABLE.browseScreen { border-top: 1px solid #000000; } 
+/* browseSearchtool
+browseSearchtoolMessage */
+TR.browseSubEntry { background-color: #FFFFFF; color: #000000; }
+/* browseSubEntryData
+browseSubEntryEntries
+browseSubEntryMedia
+browseSubEntryRelevance
+browseSubEntryYear */
+TR.browseSuperEntry { background-color: #FFFFFF; color: #000000; }
+TABLE.browseWidgit { background: #FFFFFF; }
+TD.browseWidgit { color: #000000; background: #FFFFFF; text-align: center; }
+/* marked
+yourEntryWouldBeHere
+yourEntryWouldBeHereData */
+ 
+/* FEATURED LISTS DISPLAY CLASSES */
+/* ftlistHeader */
+
+/* FEEDS DISPLAY CLASSES */
+/* rssChannelTitle
+rssChannelEntries
+rssChannelEntry
+rssChannelEntryDate
+rssChannelEntryHead
+rssChannelEntryDesc
+rssChannelImage
+rssChannelNoContent */
+ 
+/* GENERAL CLASSES */
+errormessage { font-size: large; color: red }
+
+/* LIMIT/SORT DISPLAY CLASSES */
+/* limitEntriesFoundText
+limitEntriesFoundNum
+limitSearchTerm
+limitSearchTypeIndex
+limitSearchTypeText */
+
+/* PATRON RECORD DISPLAY CLASSES */
+TABLE.patDisplayTable { border: 1px solid #000000; }
+patDisplay { border: 1px solid #000000; }
+patDisplayAuthor { border: 1px solid #000000; }
+patDisplayFunc { border: 1px solid #000000; }
+patDisplayInfo { border: 1px solid #000000; }
+TABLE.patFuncTable { border: 1px solid #000000; }
+TR.patFunc { border: 1px solid #000000; } 
+/* patFuncBookDate
+patFuncBtns
+patFuncCallNo
+patFuncCancel
+patFuncDate */
+TD.patFuncEntry { border: 1px solid #000000; }
+/* patFuncFinesDetail
+patFuncFinesDetailAmt
+patFuncFinesDetailDate
+patFuncFinesDetailDateLabel
+patFuncFinesDetailType */
+TD.patFuncFinesEntryDetail { border: 1px solid #000000; } 
+TD.patFuncFinesTitle { border: 1px solid #000000; }
+/* patFuncFinesTotal
+patFuncFinesTotalAmt
+patFuncFinesTotalLabel
+patFuncHeaders
+patFuncMark
+patFuncModifyPatInfo
+patFuncModifyPIN
+patFuncModifyPINExample
+patFuncNoEntries
+patFuncPickup
+patFuncPSrchBtn
+patFuncPSrchType
+patFuncRating
+patFuncStatus
+patFuncTitle
+patInfo
+patImage */
+ 
+/* REQUEST DISPLAY CLASSES */
+/* on_ice
+reqFilltimeMsg */
+ 
+/* RESOURCE DISPLAY CLASSES */
+/* resourceBib
+resourceBibEntry
+resourceBibHeader
+resourceInfoData
+resourceInfoLabel
+resourceLicense
+resourceLicenseEntry
+resourceLicenseHeader
+resourceLinkEntry
+resourceResource */
+
+/* Spellcheck Tool Token Formatting */
+.spellcheckTool { font-size: medium; text-align: center; }
+ 
+/* WEBBRIDGE DISPLAY CLASSES */
+/* wbbody
+wbcategory
+wbheading
+wbpanelcategory
+wbsubheading
+wblinkdisplay
+wblinkfield
+wblinktext
+wbresourcelist */
+ 
+/* XML DISPLAY CLASSES */
+/* xmlframe */
+ 

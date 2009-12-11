@@ -1,0 +1,51 @@
+<!--{iferrmsg}-->
+<FONT COLOR=RED SIZE=+2><EM>
+<!--{errmsg}-->
+</EM></FONT><BR><BR><BR>
+<!--{xif}-->
+<FORM TARGET=_self METHOD=POST onSubmit="return formCheck(this)">
+<FONT SIZE=-1>
+<!--{pininstructions}-->
+</FONT>
+<BR>
+<!--{pin}-->
+<!--{pinprompt}-->
+<BR><BR>
+<!--{newpinmsg}-->
+<BR>
+<!--{pin1}-->
+<!--{pin1prompt}-->
+<BR>
+<!--{pin2}-->
+<!--{pin2prompt}-->
+<BR>
+<!--{submit}-->
+</FORM>
+<!-- javascript validation code -->
+<script language="JavaScript">
+<!--
+
+///////////////////////////////////////////////////////////////////////////////////////
+// begin form validation
+///////////////////////////////////////////////////////////////////////////////////////
+
+function formCheck(form) 
+{
+
+    // read in value from the form
+    var strPIN = form.pin1.value.toString();
+
+    // if strPIN is less than four characters, it is invalid
+    if (strPIN.length < 4)
+    {
+        alert("We're sorry, a PIN must be a minimum of 4 alphanumeric characters. Please input a longer PIN.");
+        return false;
+    }
+
+    // if we made it this far, the pin must be good
+    return true;
+
+}
+
+//-->;
+</script>
