@@ -270,7 +270,7 @@ MARC=yes
 
 TABLEPARAM_BIB=BORDER="0"|BORDER="0"
 
-TABLEPARAM_BIB_DETAIL=width="99%" border="0" cellspacing="1"
+TABLEPARAM_BIB_DETAIL=id='bib_detail' width="99%" border="0" cellspacing="1"
 
 #TABLEPARAM_BIB_HOLDINGS=width="98%" border="0" cellspacing="1"
 
@@ -278,7 +278,7 @@ TABLEPARAM_BIB_HOLDS=width="98%" border="0"cellspacing="1"
 
 TABLEPARAM_BIB_INFO=width="99%" border="0" cellspacing="1"
 
-TABLEPARAM_BIB_ITEMS=width="98%" border="1" cellspacing="1" 
+TABLEPARAM_BIB_ITEMS=id='bib_items' width="98%" border="1" cellspacing="1" 
 
 TABLEPARAM_BIB_LINKS=width="98%" border="0" cellspacing="1"
 
