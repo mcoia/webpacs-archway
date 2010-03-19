@@ -17,7 +17,9 @@ ul { list-style-position: outside; list-style-type: disc; }
 OL { list-style-position: outside; list-style-type: decimal; }
 .small { font-size: 11px; }
 .big { font-size: 12px; color: #ffffff; background-color: #032585; }
-.bodystyle { font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+.bodystyle { font-size: 12px; font-family: Verdana, Arial, Helvetica, sans-serif; }
+
+.clear {clear:both;}
 .smaller { font-size: 11px; font-family: Verdana, Arial, Helvetica, sans-serif; }
 .smaller_reversed { font-size: 11px; color: #ffffff; font-family: Verdana, Arial, Helvetica, sans-serif; }
 .smaller_reversed_nodecoration
@@ -48,7 +50,12 @@ TABLE.bibHoldings { border-bottom: 2px; color: #003399; }
 bibHoldingsHeader
 bibHoldingsLabel
 bibHolds
-bibHoldsEntry
+bibHoldsEntry */
+
+#bibimage {
+    float:left;
+}
+/*
 TABLE.bibInfo { }
 bibInfoData { }
 bibInfoEntry { }
@@ -84,7 +91,17 @@ bibTOC
 bibWidget
 bibXML
 patFuncReviewFull
-patFuncReviewHeadline */
+patFuncReviewHeadline */
+
+#bib_items {
+    margin:5px;
+    
+}
+
+#recordinfo {
+    float:left;
+    width:70%;
+}
 
 /* BOOKINGS DISPLAY CLASSES */
 .available { font-weight: bold; color: green; }
