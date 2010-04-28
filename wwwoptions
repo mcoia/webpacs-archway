@@ -668,21 +668,21 @@ ICON_NEARBY2=<img src="/screens/nearby.gif" alt="Nearby on Shelf" border="0" />
 
 ICON_NEARBY3=<img src="/screens/nearby.gif" alt="Nearby on Shelf" border="0" />
 
-ICON_NEARBY4=<img src="/screens/nearby.gif" alt="Nearby on Shelf" border="0" />
+ICON_NEARBY4=<img src="/screens/similaritems.png" alt="See similar items" border="0" />
 
-ICON_NEARBY5=<img src="/screens/nearby.gif" alt="Nearby on Shelf" border="0" />
+ICON_NEARBY5=<img src="/screens/similaritems.png" alt="See similar items" border="0" />
 
-ICON_NEARBY6=<img src="/screens/nearby.gif" alt="Nearby on Shelf" border="0" />
+ICON_NEARBY6=<img src="/screens/similaritems.png" alt="See similar items" border="0" />
 
-ICON_NEARBY7=<img src="/screens/nearby.gif" alt="Nearby on Shelf" border="0" />
+ICON_NEARBY7=<img src="/screens/similaritems.png" alt="See similar items" border="0" />
 
-ICON_NEARBY8=<div><strong>See similar items</strong></div>
+ICON_NEARBY8=<img src="/screens/similaritems.png" alt="See similar items" border="0" />
 
 ICON_NEARBY9=<img src="/screens/nearby.gif" alt="Nearby on Shelf" border="0" />
 
-ICON_NEARBY10=<div><strong>See similar items</strong></div>
+ICON_NEARBY10=<img src="/screens/similaritems.png" alt="See similar items" border="0" />
 
-ICON_NEARBY11=<div><strong>See similar items</strong></div>
+ICON_NEARBY11=<img src="/screens/similaritems.png" alt="See similar items" border="0" />
 
 
 
