@@ -264,7 +264,7 @@ ITEM_NOTE=true
 
 #ITEMOUT_MSG=Due
 
-LINK856TEXT=Link to web version
+LINK856TEXT=Link to
 
 MARC=yes
 
@@ -715,3 +715,4 @@ ICON_HOURLYCAL=View Hourly Calendar
 ICON_NEXTCAL=Next
 
 ICON_PREVCAL=Previous
+
