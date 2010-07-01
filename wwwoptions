@@ -84,7 +84,9 @@ CLEAR_PRIVATE_INFO=yes
 
 #FORM_FOCUS=
 
-SSLPORT=80:443:archway.umsystem.edu:archway.mobius.umsystem.edu|80:443:archway.missouri.edu:archway.mobius.umsystem.edu|2082:444:archway.umsystem.edu:archway.mobius.umsystem.edu|2082:444:archway.missouri.edu:archway.mobius.umsystem.edu
+SSLPORT=80:443:archway.missouri.edu:archway.mobius.umsystem.edu|2082:444:archway.missouri.edu:archway.mobius.umsystem.edu
+
+
 
 STARTOVER=/search
 
