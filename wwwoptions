@@ -158,9 +158,9 @@ SORT_ITEMS=true
 
 
 
-INNREACH=<br /><img src="/screens/b_srchmobi.gif" border=0 alt="(Search MOBIUS Union Catalog)">@mobius.umsystem.edu(X=X*;Y=Y*;a=a;c=c;d=d;e=e;f=c;g=g;i=i;m=d;o=o;p=p;r=r;s=s;t=t)<br />
+INNREACH=<br /><img src="/screens/b_srchmobi.gif" border=0 alt="(Search MOBIUS Union Catalog)">@mobius.umsystem.edu(X=X*;Y=Y*;a=a;c=c;d=d;e=e;f=c;g=g;i=i;m=h;o=o;p=p;r=r;s=s;t=t)<br />
 
-@mobius.missouri.edu(X=X*;Y=Y*;a=a;c=c;d=d;e=e;f=c;g=g;i=i;m=d;o=o;p=p;r=r;s=s;t=t)<br />
+@mobius.missouri.edu(X=X*;Y=Y*;a=a;c=c;d=d;e=e;f=c;g=g;i=i;m=h;o=o;p=p;r=r;s=s;t=t)<br />
 
 #The spaces at the beginning of the previous 2 lines are crucial.
 
