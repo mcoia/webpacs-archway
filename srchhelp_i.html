@@ -1,67 +1,75 @@
-<!doctype html public "-//W3C//DTD HTML 4.0 Transitional//EN">
-
-
-
-
-<HTML>
-<HEAD>
-	<TITLE>ARCHWAY - ISBN/ISSN Search</TITLE>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
-
-
-
-<LINK REL="STYLESHEET" TYPE="TEXT/CSS" HREF="http://archway.missouri.edu/screens/archway_styles.css">
-
-
-<meta http-equiv="Refresh" CONTENT="300;URL=http://archway.missouri.edu/search----->">
-
-
-
-
-</HEAD>
-
-<BODY bgcolor="#ffffff" text="#000000" link="#003399" vlink="#003399" alink="#003399" 
-	onLoad="document.forms[0].SEARCH.focus(); document.forms[0].SEARCH.select();">
-
-
-
-<!--{toplogo}-->
-
-<br>
-
-<!--{patron}-->
-<!--{logout}-->
-<!--{msg}-->
-
-<!-- Begin Search Help Text -->
-  <center><h3>ISBN/ISSN Search</h3></center>
-
-
-Type the <B>ISBN/ISSN</B> you want, then press <b>&lt;Enter&gt;</b>
-or click <b>Submit Search</b>
-<FORM METHOD=GET ACTION="/search/i">
-<INPUT TYPE=TEXT NAME=SEARCH MAXLENGTH=64 SIZE=48 ALIGN=CENTER>
-<br />
-<INPUT TYPE=SUBMIT VALUE="Submit Search">
-</FORM>
-
-
-<P>
-
-Type as much or as little of the <B>ISBN/ISSN</B></FONT> as you want, 
-for example
-<UL>
-<TABLE>
-<TR><TD><LI> 1234-5678</TD>
-<TR><TD><LI> 012-56789-123</TD>
-<TR><TD><LI> 012-5678</TD>
-</TABLE>
-</UL>
-<!-- End Search Help Text -->
-<p align="center"><A HREF="/search~S0"><IMG SRC="/screens/b_newsrch.gif" BORDER=0 ALT="[START OVER]"></A></p>
-<p><A HREF="/search~S0">Return to main menu</A></p>
-<center>
-<!--{botlogo}-->
-</center>
-</BODY>
-</HTML>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<!-- Rel 2009B Example Set -->
+<!-- This File Last Changed: 23 Mar 2010 -->
+<head>
+<title>Millennium Web Catalog</title>
+<script language="JavaScript">
+<!-- Hide the JS
+startTimeout(600000, "/");
+// -->
+
+</script>
+<noscript>
+<meta http-equiv="Refresh" content="600;URL=/" />
+</noscript>
+<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
+<link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print">
+</head>
+<body>
+<!--{toplogo}-->
+<div class="pageContentInner">
+
+<h1 class="pageHeader">ISBN/ISSN Search</h1>
+
+<div id="accessibleForm" class="form2Part">
+<div class="formLeft">
+<form method="get">
+<fieldset>
+<!-- Optional legend:
+<legend>Type the standard number (ISBN or ISSN) you want to find, then press the Enter key or click Submit.</legend>
+-->
+<div class="formEntryArea">
+<span class="formLabel">
+<label for="SEARCH">Search for:</label>
+</span>
+<!--{search}-->
+</div>
+<div class="formEntryArea">
+<span class="formLabel">
+<label for="sortdropdown">Sort by:</label>
+</span>
+<!--{indexsort}-->
+</div>
+<div class="formEntryArea formScopeSearch">
+<span class="formLabel">
+<label for="searchscope">Search in the:</label>
+</span>
+<!--{scope}-->
+</div>
+
+<div class="formButtonArea">
+<!--{submit}-->
+</div>
+</fieldset>
+</form>
+</div><!--formLeft -->
+
+<div class="formRight">
+<p>Type the ISBN or ISSN as it appears. Punctuation and spaces can be omitted if desired. For example:</p>
+<ul>
+<li>0060254920</li>
+<li>0303-7207</li>
+</ul>
+</div><!--formRight -->
+
+</div><!--form2Part -->
+</div><!--pageContentInner -->
+
+<!--{botlogo}-->
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+try { document.forms[0].SEARCH.focus(); }
+catch(err) {}
+//--><!]]></script>
+</body>
+</html>
