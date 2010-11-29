@@ -222,7 +222,23 @@ PREFTEXT=SAVE THIS SEARCH?
 
 READING_HISTORY_DELETE=F
 
+#MY LISTS
 
+MY_LISTS=T
+
+ICON_BACK_TO_MYLISTS=<img src="/screens/back_to_my_lists.gif" alt="Return to My Lists" border="0" />
+
+ICON_MYLISTS=<img src="/screens/my_lists.gif" alt="My Lists" border="0" />
+
+ICON_MYLISTS_EXPORT=<img src="/screens/mylists_export.gif" alt="Export My Lists" border="0" />
+
+ICON_MYLIST_REMOVE_DUPLICATES=<img src="/screens/mylist_remove_duplicates.gif" alt="Remove titles already in Reading History" border="0" />
+
+ICON_MYLISTS_REQUEST=<img src="/screens/request.gif" alt="Request" border="0" />
+
+ICON_MYLISTS_SAVE=<img src="/screens/mylists_save.gif" alt="Save to My Lists" border="0" />
+
+ICON_MYLISTS_SAVE_TO_LIST=<img src="/screens/save_to_my_lists.gif" alt="Save to List" border="0" />
 
 # PATRON RECORD OPTIONS
 
@@ -304,7 +320,7 @@ REQUEST=Request item|denyiflocalavail|ask|TRUE
 
 #REQUEST_INSTRUCTION=Any Special Instructions? 
 
-#REQUEST_MULTI=
+REQUEST_MULTI=Request item|denyiflocalavail|ask|TRUE
 
 
 
@@ -592,9 +608,9 @@ ICON_BIB_PAGING_PREV=<img src="/screens/b_previous.gif" alt="Previous Page" bord
 
 #ICON_BIB_RESOURCE_DETAILS  	Electronic Resource Management Options
 
-ICON_BOOKCART=<input type="image" src="/screens/b_saverecord.gif" alt="Save record" border="0" />
+#ICON_BOOKCART=<input type="image" src="/screens/b_saverecord.gif" alt="Save record" border="0" />
 
-ICON_BOOKCART_SAVED=<img src="/screens/b_cancelsavedrecord.gif" alt="Cancel Saved Record" border="0" />
+#ICON_BOOKCART_SAVED=<img src="/screens/b_cancelsavedrecord.gif" alt="Cancel Saved Record" border="0" />
 
 ICON_CANCEL=<img src="/screens/b_cancel.gif" alt="Cancel" border="0"/>
 
