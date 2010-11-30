@@ -226,7 +226,7 @@ READING_HISTORY_DELETE=F
 
 MY_LISTS=T
 
-ICON_BACK_TO_MYLISTS=<img src="/screens/back_to_my_lists.gif" alt="Return to My Lists" border="0" />
+ICON_BACK_TO_MYLISTS=<img src="/screens/back_to_mylists.gif" alt="Return to My Lists" border="0" />
 
 ICON_MYLISTS=<img src="/screens/my_lists.gif" alt="My Lists" border="0" />
 
