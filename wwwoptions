@@ -232,9 +232,7 @@ ICON_MYLISTS=<img src="/screens/b_mylists.gif" alt="My Lists" border="0" />
 
 ICON_MYLISTS_BRIEF=<img src="/screens/b_my_lists_add.gif" alt="Add to My Lists" border="0" />
 
-#ICON_MYLISTS_EXPORT=<img src="/screens/b_mylists_export.gif" alt="Exporting a List" border="0" />
-
-ICON_MYLISTS_EXPORT=<strong>Exporting a List - This is a Test</strong>
+ICON_MYLISTS_EXPORT=<img src="/screens/b_mylists_export.gif" alt="Export List" border="0" />
 
 ICON_MYLISTS_MOVE=<img src="/screens/b_mylists_move.gif" alt="Moved Marked" border="0" />
 
@@ -466,7 +464,7 @@ BUT_EMAIL=/screens/b_email.gif
 
 #BUT_ENCYCPD=/screens/encycpd.gif
 
-#BUT_EXPORT_MULTI
+ICON_BUT_EXPORT_MULTI=<img src="/screens/b_mylists_export.gif" alt="Export List" border="0" />
 
 BUT_EXPORT_VIEW_SAVES=/screens/b_export.gif
 
