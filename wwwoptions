@@ -226,19 +226,29 @@ READING_HISTORY_DELETE=F
 
 MY_LISTS=T
 
-ICON_BACK_TO_MYLISTS=<img src="/screens/back_to_mylists.gif" alt="Return to My Lists" border="0" />
+ICON_BACK_TO_MYLISTS=<img src="/screens/b_mylists_return.gif" alt="Return to My Lists" border="0" />
 
-ICON_MYLISTS=<img src="/screens/my_lists.gif" alt="My Lists" border="0" />
+ICON_MYLISTS=<img src="/screens/b_mylists.gif" alt="My Lists" border="0" />
 
-ICON_MYLISTS_EXPORT=<img src="/screens/mylists_export.gif" alt="Export My Lists" border="0" />
+ICON_MYLISTS_BRIEF=<img src="/screens/b_my_lists_add.gif" alt="Add to My Lists" border="0" />
 
-ICON_MYLIST_REMOVE_DUPLICATES=<img src="/screens/mylist_remove_duplicates.gif" alt="Remove titles already in Reading History" border="0" />
+#ICON_MYLISTS_EXPORT=<img src="/screens/b_mylists_export.gif" alt="Exporting a List" border="0" />
+
+ICON_MYLISTS_EXPORT=<strong>Exporting a List - This is a Test</strong>
+
+ICON_MYLISTS_MOVE=<img src="/screens/b_mylists_move.gif" alt="Moved Marked" border="0" />
+
+ICON_MYLISTS_RECORD=<img src="/screens/b_mylists_add.gif" alt="Add to My Lists" border="0" />
+
+#ICON_MYLIST_REMOVE_DUPLICATES=<img src="/screens/mylist_remove_duplicates.gif" alt="Remove titles already in Reading History" border="0" />
+
+ICON_MYLISTS_RENAME=<img src="/screens/b_mylists_rename.gif" alt="Rename List" border="0" />
 
 ICON_MYLISTS_REQUEST=<img src="/screens/request.gif" alt="Request" border="0" />
 
-ICON_MYLISTS_SAVE=<img src="/screens/mylists_save.gif" alt="Save to My Lists" border="0" />
+ICON_MYLISTS_SAVE=<img src="/screens/b_mylists_save.gif" alt="Save to My Lists" border="0" />
 
-ICON_MYLISTS_SAVE_TO_LIST=<img src="/screens/save_to_my_lists.gif" alt="Save to List" border="0" />
+ICON_MYLISTS_SAVE_TO_LIST=<img src="/screens/b_mylists_save.gif" alt="Save to My Lists" border="0" />
 
 # PATRON RECORD OPTIONS
 
