@@ -146,8 +146,8 @@ ICON_PROGRAM=<img src="/screens/media_program.gif" border="0" alt="Library Event
 ICON_RESOURCE=<img src="/screens/media_resource.gif" alt="Internet Resource">
 ICON_SAVEALLPAGE=<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Add All On Page</span></span>
 ICON_SAVEMARKED=<span class="button"><img src="/screens/ico_bag_add.gif" alt=""><span class="buttonText">Add Marked to Bag</span></span>
-IMAGE_MATTYPE-=/screens/media_book.gif
-IMAGE_MATTYPEa=/screens/media_book.gif
+IMAGE_MATTYPE-=/screens/media_book_small.gif
+IMAGE_MATTYPEa=/screens/media_book_small.gif
 IMAGE_MATTYPEb=/screens/media_archive.gif
 IMAGE_MATTYPEe=/screens/media_map.gif
 IMAGE_MATTYPEg=/screens/media_film.gif
