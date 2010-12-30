@@ -1211,3 +1211,27 @@ tr.highlight { background:#FFFFE4; }
 .wblinkdisplay form { margin-bottom:8px; }
 
 .wbnoresources { display:block; margin: 3px 0; }
+
+/*SMS Feature Styles*/
+
+#info, #sms {
+       border:1px solid #36647b;
+       position:absolute;
+       top:250;
+       left:50; 
+       z-index:1000;
+       background:#fff;
+       padding:10px;
+       margin:10px;
+       background:#efefcf;
+}
+
+#sms .eg {
+       font-style:italic;
+       font-size:80%;
+}
+
+#info {top:500}
+
+#sms {font-size:70%}
+
