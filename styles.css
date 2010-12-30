@@ -515,7 +515,11 @@ span.buttonRight:hover {
 .checkinInfoData { height:auto; }
 
 /*Relative position allows this bg color to show in older IE.*/
-.colorBar { background:#3B77B6; margin:0; position:relative;height:2em;}
+.colorBar { background:#3B77B6; margin:0; position:relative;height:2em;color:#FFFFFF;font-weight:bold;}
+
+.colorBar a {color:#FFFFFF;text-decoration:none;float:right;margin:.3em .7em;}
+
+.colorBar li {list-style-type:none;}
 
 .ecommerceFormDone { background:#ffffff; margin-left:auto; margin-right:auto; padding:0px; text-align:left; width:97%; padding-bottom:12em; }
 
