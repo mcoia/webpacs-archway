@@ -744,6 +744,8 @@ width:55%;
 
 .mylistsSavePage .pageMainAreaHeader { font-size:1.3333em; font-weight:bold; }
 
+.mylistsSavePage .msg {color:#000000;}
+
 span.navButton {
     background: transparent url('button_blank.gif') no-repeat;
     display:block;
@@ -771,7 +773,7 @@ padding:2px;
 }
 
 
-.navigationRow a, .navigationRowRecord a{display:inline-block;vertical-align:text-top;}
+.navigationRow a, .navigationRowRecord a {display:inline-block;vertical-align:text-top;}
 
 .navigationRow a:link,.navigationRow a:visited  { font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; text-decoration:none; width:auto; }
 
