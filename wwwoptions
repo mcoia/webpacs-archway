@@ -66,6 +66,8 @@ AVAILLIM_STATS= -,c,d,e,j,l,w
 
 BOTLOGO=@screens/botlogo.html
 
+BOTLOGO3=@screens/botlogo_s3.html
+
 BOTLOGO4=@screens/botlogo_s4.html
 
 BOTLOGO5=@screens/botlogo_s5.html
