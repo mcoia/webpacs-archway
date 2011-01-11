@@ -634,9 +634,7 @@ ICON_READING_HISTORY_OPTIN=<img src="/screens/b_read_history_optin.gif" alt="Opt
 
 #ICON_READING_HISTORY_OPTOUT=<img src="/screens/b_read_history_optout.gif" alt="Opt Out" border="0" />
 
-#ICON_RECORDLINK=<div CLASS="bibRecordLink" id="recordnum" align="right"><font size="-2" COLOR="#333333">&nbsp;Persistent record link: %s </font></div>
-
-ICON_RECORDLINK=<div class="bibRecordLink" id="recordnum" align="right"><font size="-2" COLOR="#333333">&nbsp; Persistent record link: http://archway.missouri.edu:80%s</font></div>
+ICON_RECORDLINK=<div class="bibRecordLink" align="right"><font size="-2" COLOR="#333333"><a href="%s">Persistent record link: %s</a></font></div>
 
 ICON_REL_GROUP_1=<img src="/screens/relevance5.gif" alt="Most relevant">&nbsp;Most relevant titles&nbsp; 
 
