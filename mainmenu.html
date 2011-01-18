@@ -5,6 +5,16 @@
 <head>
 <title>Archway Library Catalog</title>
 <meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
+<script type="text/javascript" src="/screens/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+	$("span:contains(WebPAC PRO)").hide(); //Hide the iii footer
+
+	$('#searchtype').change(function(){
+    	$("#exampleText").load("screens/" + this.value + ".inc");
+	});
+});
+</script>
 <link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print">
 <!--<link rel="stylesheet" type="text/css" href="/screens/stylesmain.css" > Un-comment to offer a larger logo on mainmenu.-->
 <script type="text/javascript">/* <![CDATA[ */
@@ -52,10 +62,10 @@ obj.submit();
 <select name="searchtype" id="searchtype">
 <option value="X" selected="selected">Keyword</option>
 <option value="t">Title</option>
-<option value="s">Journal Title</option>
 <option value="a">Author</option>
-<option value="d">Subject</option>
-<option value="y">Resource Name</option>
+<option value="d">Subject (LC)</option>
+<option value="m">Subject (Children's)</option>
+<option value="s">Journal, Magazine, Newspapers</option>
 </select>
 <!--{nosort}-->
 <label for="searcharg" class="accessibleAddInfo">Search term</label>
@@ -93,7 +103,14 @@ obj.submit();
 
 </div><!--pageContentInner -->
 
-<!--{botlogo}-->
+</div><!-- pageContent  -->
+<div style="clear:both"></div>
+</div><!-- fullPage -->
+</div><!-- min-height -->
+<span id="botlogo" style="display: block; margin-top:-10em; margin-bottom:4em; padding:0;">
+<p><strong>Archway</strong> includes the collections of the following Eastern Missouri college libraries:</p>
+<p><a href="/search~S1">East Central College</a> | <a href="/search~S2">Jefferson College</a> | <a href="/search~S3">St. Charles Community College</a> | <a href="/search~S9">St. Louis College of Pharmacy</a> | <a href="/search~S4">St. Louis Community College</a></p>
+</span>
 <script type="text/javascript"><!--//--><![CDATA[//><!--
 try { document.forms[0].searcharg.focus(); }
 catch(err) {}
