@@ -24,7 +24,7 @@ if (!document.getElementById("recordnum")) {} else{
 var ref = document.getElementById("recordnum").getAttribute("href");
 var str = ref.indexOf("=")
 var recno = ref.substr(str+1,8);
-var encoreLink = '<a href="http://archwayencore.mobius.umsystem.edu/iii/encore/record/C%7CR'+recno+'"><img src="/screens/b_encore.gif">Encore button here</a>';
+var encoreLink = '<a href="http://archwayencore.mobius.umsystem.edu/iii/encore/record/C%7CR'+recno+'"><img src="/screens/b_encore.gif"></a>';
 // Put link to Encore record on record page
 document.getElementById("encoreLink").innerHTML = encoreLink;
 }
