@@ -674,9 +674,11 @@ ICON_REQUEST=<img src="/screens/b_request.gif" ALT="Request" border="0">
 
 #ICON_RESOURCE_RECORD 	Electronic Resource Management Options
 
-#ICON_SAVEALLPAGE=<img type="image" src="/screens/save_all_page.gif" alt="Save all on page" border="0" />
+ICON_SAVEALLPAGE=<img type="image" src="/screens/save_all_page.gif" alt="Save all on page" border="0" />
 
-#ICON_SAVEMARKED=<input type="image" src="/screens/savemarked.gif" alt="Save record" border="0" />
+ICON_SAVEMARKED=<img type="image" src="/screens/save_marked.gif" alt="Save record" border="0" />
+
+#ICON_SAVEMARKED=Does this work?
 
 ICON_SPELLCHECK_MORE=<span class="spellcheckToolMore">more ;</span>
 
