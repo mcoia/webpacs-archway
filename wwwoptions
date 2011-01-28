@@ -236,7 +236,7 @@ ICON_MYLISTS_EXPORT=<img src="/screens/b_mylists_export.gif" alt="Export List" b
 
 ICON_MYLISTS_MOVE=<img src="/screens/b_mylists_move.gif" alt="Moved Marked" border="0" />
 
-ICON_MYLISTS_RECORD=<img src="/screens/b_mylists_add.gif" alt="Add to My Lists" border="0" />
+ICON_MYLISTS_RECORD=<img src="/screens/b_mylists_save.gif" alt="Add to My Lists" border="0" />
 
 #ICON_MYLIST_REMOVE_DUPLICATES=<img src="/screens/mylist_remove_duplicates.gif" alt="Remove titles already in Reading History" border="0" />
 
