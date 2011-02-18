@@ -173,7 +173,7 @@ BIB_TOC_HEADER=<strong>Table of Contents</strong>
 ICON_BUT_MARC_DISPLAY=<span class="navButton">MARC Display</span>
 ICON_BUT_REGULAR_DISPLAY=<span class="navButton">Regular Display</span>
 ICON_BUT_RTRNTB=<span class="navButton">Return to Browse</span>
-DISPLAY_856=z|true
+DISPLAY_856=3z|false
 HOLDINGS_POS=atpR
 #HOTLINK=i^020,c^09,n^505
 ICON_BIB_HOLDINGS_ITEMS=View Copies
