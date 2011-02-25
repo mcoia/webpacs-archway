@@ -767,6 +767,10 @@ span.navButtonSmall {
     height:15px;
 }
 
+span.navButtonYellow {
+    background: transparent url('button_blank_yellow.gif') no-repeat;
+}
+
 
 
 .navHeader {
