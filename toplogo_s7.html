@@ -39,36 +39,13 @@ if (document.body){document.body.className = "bodybg";}
 
 </div><!--topLogo-->
 
-
-<div class="topMyLibrary">
-<div id="topMyLibraryHeader"><h1>My Library</h1></div>
-
-
-
-<script type="text/javascript"><!--//--><![CDATA[//><!--
-
-//Enable optional dropdown menu for additional navigation options.
-if (document.all&&document.getElementById) {
-	navRoot = document.getElementById("toplogoMoreNav");
-	for (i=0; i<navRoot.childNodes.length; i++) {
-		node = navRoot.childNodes[i];
-		if (node.nodeName=="LI") {
-			node.onmouseover=function() {
-				this.className+=" over";
-			}
-			node.onmouseout=function() {
-				this.className=this.className.replace(" over", "");
-			}
-		}
-	}
-}
-
-//--><!]]></script>
-
-</div><!--myLibrary-->
 <div class="topNavClear"></div>
 
-<div class="colorBar">
+<div class="searchNav">
+
+<div id="searchNavMenu">
+
+<div class="navRight">
 <ul>
 <li><a href="http://mobius.umsystem.edu/">MOBIUS</a></li>
 <li><a href="/">Archway</a></li>
@@ -76,9 +53,14 @@ if (document.all&&document.getElementById) {
 <li><a href="/patroninfo" tabindex="120">My Library Account</a></li>
 <li><a href="/help" tabindex="115">Help</a></li>
 </ul>	
-</div><!--end colorBar-->
+</div>
+
 <div class="clear"></div>
 
+</div>
+
+</div><!--searchNav-->
+<div class="clear"></div>
 <div class="pageNavColumn"><!-- nav menu column-->
 
 <h1 class="navHeader">Search Options</h1>

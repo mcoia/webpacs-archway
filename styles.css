@@ -515,11 +515,6 @@ span.buttonRight:hover {
 .checkinInfoData { height:auto; }
 
 /*Relative position allows this bg color to show in older IE.*/
-.colorBar { background:#3B77B6; margin:0; position:relative;height:2em;color:#FFFFFF;font-weight:bold;}
-
-.colorBar a {color:#FFFFFF;text-decoration:none;float:right;margin:.3em .7em;}
-
-.colorBar li {list-style-type:none;}
 
 .ecommerceFormDone { background:#ffffff; margin-left:auto; margin-right:auto; padding:0px; text-align:left; width:97%; padding-bottom:12em; }
 
@@ -1055,9 +1050,21 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 #searcharg { }
 
+.searchNav { background:#3B77B6; margin:0; position:relative; }
 
+.searchNav a {color: #ffffff; font-weight:bold; text-decoration:none;}
 
-#searchNavMenu { margin:0; text-align:right; }
+.searchNav .navLeft {float: left;}
+
+.searchNav. .navRight {float: right;}
+
+.searchNav .navLeft ul li {margin-left: 0; margin-right:2em;}
+
+.searchNav ul {list-style-type:none; margin: 0; padding: 0 1.2em;}
+
+.searchNav ul li {display: inline; margin-left:2em;}
+
+#searchNavMenu { margin:0; text-align:right; padding:.5em 0;}
 
 .searchNavBut { vertical-align:bottom; margin:3px 10px 3px 5px; }
 
