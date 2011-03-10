@@ -729,6 +729,8 @@ width:55%;
 
 .minHeight { height:100%; width:97%; margin-left:auto; margin-right:auto; background:#ffffff; padding-bottom:0; padding-top:0; }
 
+.miscButtons {margin-left:-4.5%;}
+
 .msg td { padding-top:3px; }
 
 .mylistsSavePage { height:100%; width:100%; padding-bottom:0; padding-top:0; }
@@ -779,14 +781,13 @@ margin-top:5px;
 padding:2px;
 }
 
+.navigationRow a, .navigationRowRecord a, .miscButtons a {display:inline-block;vertical-align:text-top;}
 
-.navigationRow a, .navigationRowRecord a {display:inline-block;vertical-align:text-top;}
+.navigationRow a:link,.navigationRow a:visited, .miscButtons a:link, .miscButtons a:visited { font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; text-decoration:none; width:auto; }
 
-.navigationRow a:link,.navigationRow a:visited  { font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; text-decoration:none; width:auto; }
+.navigationRow a:active,.navigationRow a:hover, .miscButtons a:hover { text-decoration:underline; }
 
-.navigationRow a:active,.navigationRow a:hover   { text-decoration:underline; }
-
-.navigationRow a, .navigationRowRecord a {padding:0;}
+.navigationRow a, .navigationRowRecord a, .miscButtons a {padding:0;}
 
 .navigationRow { margin:0; }
 
@@ -874,6 +875,8 @@ width:19%;
 .patFloat .button img { margin-top:3px; }
 
 .patFloat .buttonText { margin-left:3px; }
+
+.patFloat a {text-decoration:none;}
 
 .patFuncArea { background:#FFFFFF; float:left; margin-left:20px; width:60%; margin-bottom:18px; }
 
