@@ -339,6 +339,8 @@ div.bookingsVerify { padding:0; margin-top:18px; }
 
 .briefcitMedia, .bibMedia, .briefcitResourceMedia, .briefcitProgramMedia, td.browseEntryMedia, td.browseSubEntryMedia { color:#878787; font-size:.7em; line-height:.95em; margin-top:6em; overflow:hidden; width:41px; text-align:center; }
 
+.briefcitRequest a, .briefcitMark a {text-decoration: none;}
+
 .briefcitResourceMedia, .briefcitProgramMedia { margin-top:3em; }
 
 .briefcitMediaEnd { display:none; }
@@ -781,11 +783,7 @@ margin-top:5px;
 padding:2px;
 }
 
-.navigationRow a, .navigationRowRecord a, .miscButtons a {display:inline-block;vertical-align:text-top;}
-
-.navigationRow a:link,.navigationRow a:visited, .miscButtons a:link, .miscButtons a:visited { font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; text-decoration:none; width:auto; }
-
-.navigationRow a:active,.navigationRow a:hover, .miscButtons a:hover { text-decoration:underline; }
+.navigationRow a, .navigationRowRecord a, .miscButtons a {display:inline-block;vertical-align:text-top; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; text-decoration:none; width:auto; }
 
 .navigationRow a, .navigationRowRecord a, .miscButtons a {padding:0;}
 
