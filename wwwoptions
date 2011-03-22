@@ -538,3 +538,8 @@ TABLEPARAM_PROG_SECTIONS=width="100%" border="0" cellspacing="0" align="center"
 
 PATFEEDS_MT=205.227.91.123
 
+# Scoping
+
+LOCKSCOPE=no
+
+
