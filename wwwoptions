@@ -718,9 +718,9 @@ ICON_NEARBY11=<span id="nearby"><img src="/screens/similaritems.png" alt="See si
 
 BOOKINGS=no|true|true|false
 
-BOOKINGS_DAY_LEGEND=<span class="bookingsLegend">Library closed on <span class="closed">X</span> hours. No items available on <span class= "unavailable">grayed out</span> hours.<br />Click on the month to return to the Monthly calendar.</span>
+BOOKINGS_DAY_LEGEND=<span class="bookingsLegend">Library closed on <span class="closed">X</span> hours. No items available on <span class= "unavailable">grayed out</span> hours.</span>
 
-BOOKINGS_MONTH_LEGEND=<span class="bookingsLegend">Library closed on <span class="closed">X</span> days. No items available on <span class= "unavailable">grayed out</span> days.<br />Click a day to check detailed availability.</span>
+BOOKINGS_MONTH_LEGEND=<span class="bookingsLegend">Library closed on <span class="closed">X</span> days. No items available on <span class= "unavailable">grayed out</span> days.</span>
 
 BOOKINGS_REPEAT=false
 
