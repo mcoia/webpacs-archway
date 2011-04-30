@@ -745,6 +745,8 @@ width:55%;
 
 .mylistsSavePage .msg {color:#000000;}
 
+.mylistsSelect {display:none;}
+
 span.navButton {
     background: transparent url('button_blank.gif') no-repeat;
     display:block;
