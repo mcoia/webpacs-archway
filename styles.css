@@ -512,9 +512,13 @@ span.buttonRight:hover {
 
 .checkinCard { margin-left:21%; text-align:left; }
 
-.checkinInfoLabel { clear:both; font-weight:bold; width:19%; text-align:right; }
+.checkinInfoLabel { clear:both; font-weight:bold; width:19%; text-align:right; height:auto;}
 
 .checkinInfoData { height:auto; }
+
+.checkinInfoHoldingsData { height: auto; }
+
+.checkinInfoHoldingsLabel { height:auto; width: 19%; font-weight:bold; text-align:right; }
 
 /*Relative position allows this bg color to show in older IE.*/
 
