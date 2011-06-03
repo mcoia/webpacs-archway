@@ -1111,7 +1111,7 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 .topLogo { }
 
-.topLogoSmall img { border:0; margin-top:5px; }
+.topLogoSmall img { border:0; margin:.5em;}
 
 .topLogoSmall a:link, .topLogoSmall a:visited { background:#FFFFFF; padding:0; }
 
