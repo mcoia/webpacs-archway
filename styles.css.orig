@@ -12,7 +12,7 @@ Color Scheme:
 background dark gray: #4D4D4D
 text dark gray: #444444
 blue: #1367A7
-link blue-green: #2F5558
+link blue: #014184
 link active: #7C14B8
 light blue: #E8F2F9
 yellow hover color: #FFFFE4
@@ -102,10 +102,10 @@ td { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif; font-style: 
 th { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif; }
 
 /* traditional link colors are suggested for better usability */
-a:link { color: #2F5558; }
-a:active { color: #420A63; }
-a:visited { color: #420A63; }
-a:hover  { color: #420A63; }
+a:link { color: #014184; }
+a:active { color: #7C14B8; }
+a:visited { color: #7C14B8; }
+a:hover  { color: #7C14B8; }
 
 /* Section 2 */
 /* named styles listed in alphabetical order */
@@ -150,7 +150,7 @@ a:hover  { color: #420A63; }
 
 #bibDisplayBody { padding-top:5px; }
 
-#bibDisplayBody a:link,#bibDisplayBody a:visited, #formLinks a:link,#formLinks a:visited, .recordPager a:link, .recordPager a:visited, .actionButtonArea a:link, .actionButtonArea a:visited, .bibPager a:visited, .bibPager a:link { color: #2F5558; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
+#bibDisplayBody a:link,#bibDisplayBody a:visited, #formLinks a:link,#formLinks a:visited, .recordPager a:link, .recordPager a:visited, .actionButtonArea a:link, .actionButtonArea a:visited, .bibPager a:visited, .bibPager a:link { color: #014184; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
 
 #bibDisplayBody a:active,#bibDisplayBody a:hover,#formLinks a:active,#formLinks a:hover, .recordPager a:active, .recordPager a:hover, .actionButtonArea a:active, .actionButtonArea a:hover, .bibPager a:active, .bibPager a:hover { text-decoration:underline; }
 
@@ -369,7 +369,7 @@ h2.briefcitTitle { font-size:1em; display:inline; }
 
 .browseEntryRelGroup1 { margin:0; }
 
-.browseHeaderData, .browseHeaderEntries, .browseHeaderMark, .browseHeaderNum, .browseHeaderYear, .browseHeaderMedia { background: #d5e9eb; border-bottom:1px dotted #ECECEC; font-weight:normal; margin:0; padding-left:10px; text-align:left; }
+.browseHeaderData, .browseHeaderEntries, .browseHeaderMark, .browseHeaderNum, .browseHeaderYear, .browseHeaderMedia { background: #e8f2f9; border-bottom:1px dotted #ECECEC; font-weight:normal; margin:0; padding-left:10px; text-align:left; }
 
 .browseList th { padding: 0 12px; }
 
@@ -383,17 +383,17 @@ h2.briefcitTitle { font-size:1em; display:inline; }
 
 .browsePager td.browsePager {  position:static; }
 
-.browsePager strong { border:0; padding:5px; margin:2px 1px; color:#2F5558; background:#FFFFFF; }
+.browsePager strong { border:0; padding:5px; margin:2px 1px; color:#014184; background:#FFFFFF; }
 
 .browsePager a { color:#202020; text-decoration:none; border:1px solid #D3D3D3; padding:0 4px; }
 
-.browsePager a:hover { background:#2F5558; color:#FFFFFF; }
+.browsePager a:hover { background:#014184; color:#FFFFFF; }
 
 div.browseResourceTable { background:#FFFFFF url('tile_vgradient.jpg') repeat-x top left; border:0; margin:30px 10px 0 12px; padding:0; }
 
 .browseResourceTable { padding-top:5px; }
 
-.browseResourceTable a:link,.browseResourceTable a:visited  { color: #2F5558; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; padding:6px 5px 0px 0px; text-decoration:none; width:auto; }
+.browseResourceTable a:link,.browseResourceTable a:visited  { color: #014184; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; padding:6px 5px 0px 0px; text-decoration:none; width:auto; }
 
 .browseResourceTable a:active,.browseResourceTable a:hover { text-decoration:underline; }
 
@@ -411,7 +411,7 @@ table.browseResourceTable { border:0; }
 
 .browseSaveJump	 { height:1.2em; overflow:hidden; padding:3px 0 3px 10px; }
 
-.browseSaveJump a:link,.browseSaveJump a:visited  { color: #2F5558; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
+.browseSaveJump a:link,.browseSaveJump a:visited  { color: #014184; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
 
 .browseSaveJump a:active,.browseSaveJump a:hover   { text-decoration:underline; }
 
@@ -516,11 +516,13 @@ span.buttonRight:hover {
 
 .checkinInfoData { height:auto; }
 
+<<<<<<< HEAD
+/*Relative position allows this bg color to show in older IE.*/
+=======
 .checkinInfoHoldingsData { height: auto; }
 
 .checkinInfoHoldingsLabel { height:auto; width: 19%; font-weight:bold; text-align:right; }
-
-/*Relative position allows this bg color to show in older IE.*/
+>>>>>>> 2009
 
 .ecommerceFormDone { background:#ffffff; margin-left:auto; margin-right:auto; padding:0px; text-align:left; width:97%; padding-bottom:12em; }
 
@@ -832,7 +834,7 @@ width:71%;
 
 .pageNavColumn {
 background-color:#F3F3F3;
-border:3px ridge #0D7781;
+border:3px ridge #3B77B6;
 float:right;
 margin:2% 1.75%;
 padding:0.5%;
@@ -850,7 +852,7 @@ width:19%;
 
 .patActionsLinks  { float:left; background:#FFFFFF; display:inline; margin:0px 0px 20px 20px; padding:10px 0 5px; width:21.33em; }
 
-.patActionsLinks  a:link,.patActionsLinks a:visited  { clear:both; color:#2F5558; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; text-decoration:none; width:auto; }
+.patActionsLinks  a:link,.patActionsLinks a:visited  { clear:both; color:#014184; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; text-decoration:none; width:auto; }
 
 .patActionsLinks a:active,.patActionsLinks a:hover   { text-decoration:underline; }
 
@@ -1057,7 +1059,7 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 #searcharg { }
 
-.searchNav { background: #0D7781; margin:0; position:relative; }
+.searchNav { background:#3B77B6; margin:0; position:relative; }
 
 .searchNav a {color: #ffffff; font-weight:bold; text-decoration:none;}
 
@@ -1172,7 +1174,7 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 #topMyLibraryHeader { float:left; }
 
-div#searchNavMenu { clear:both; float:right; background:#0D7781; width:100%; }
+div#searchNavMenu { clear:both; float:right; background:#3B77B6; width:100%; }
 
 /*Special treatment for IE6, using the JS-activated "li.over"*/
 #toplogoMoreNav li.over ul { margin:0; }
@@ -1204,7 +1206,7 @@ tr.highlight { background:#FFFFE4; }
 
 /* Section 3: WebBridge */
 
-.webbridge a:link,.webbridge a:visited  { color: #2F5558; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
+.webbridge a:link,.webbridge a:visited  { color: #014184; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
 
 .webbridge a:active,.webbridge a:hover   { text-decoration:underline; }
 
