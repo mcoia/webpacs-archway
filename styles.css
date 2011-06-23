@@ -1000,19 +1000,19 @@ td.progInfoLabel { color:#767C70; font-weight:bold; padding-right:25px; text-ali
 
 .resourcePager { width:10em; margin-left:auto; }
 
-.rightCol {
+#rightCol {
 font-size:15px;
 margin:0 20px;
 padding:0;
 }
 
-.rightCol li {
+#rightCol li {
 list-style-type:none;
 padding:4px 0;
 text-indent:-14px;
 }
 
-.rightCol li a:link, .rightCol li a:visited, .rightCol li a:active {
+#rightCol li a {
 color:#444444;
 margin:0 0 0 3px;
 padding:0;
