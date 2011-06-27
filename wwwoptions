@@ -43,7 +43,7 @@ BOTLOGO=@screens/botlogo.html
 ICON_BUT_CANCEL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel</span></span></div></div>
 ICON_BUT_CLOSEWINDOW=<span class="button"><img src="/screens/ico_x.gif" alt=""><span class="buttonText">Close Window</span></span>
 ICON_BUT_RET2CAT=<span class="button"><img src="/screens/ico_back.gif" alt=""><span class="buttonText">Return to Catalog</span></span>
-ICON_BUT_STARTOVER=<span class="navButton">Start Over</span>
+ICON_BUT_STARTOVER=<span class="navButtonOneLine">Start Over</span>
 FORM_FOCUS=true
 ICON_CANCEL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel</span></span></div></div>
 ICON_OK=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">OK</span></span></div></div>
@@ -126,7 +126,7 @@ BRIEF=A
 BROWSE_d=6xx
 BROWSE_t=245/abc/h|240/a/|505/t/|970/t/c
 BROWSE_HEADERS=Mark|Media
-ICON_BUT_BRIEF=<span class="navButton">Brief Display</span>
+ICON_BUT_BRIEF=<span class="navButtonOneLine">Brief Display</span>
 ICON_BUT_EXTENDED=<span class="navButton">Extended Display</span>
 ICON_BUT_LIMAVAIL=<span class="button"><img src="/screens/ico_list.gif" alt=""><span class="buttonText">Limit to Available</span></span>
 ICON_BUT_LIMIT=<span class="navButton">Limit/Sort Search</span>
@@ -249,7 +249,7 @@ BRIEF_EXPORT=a:100|t:245|p:260
 BRIEF_EXPORT_CHKIN=l|c|h|3
 ICON_BUT_BIBEXPORT=<span class="navButton">Save for Print/Email</span>
 ICON_BUT_CLEAR_MARKED=<span class="navButton">Clear Saved Records</span>
-ICON_BUT_EXPORT_MULTI=<span class="navButton">Export Saved</span>
+ICON_BUT_EXPORT_MULTI=<span class="navButtonOneLine">Export Saved</span>
 ICON_BUT_EXPORT_VIEW_SAVES=<span class="button"><img src="/screens/ico_bag.gif" alt=""><span class="buttonText">View Saved Record</span></span>
 ICON_BUT_VIEW_SAVES=<span class="navButton">View Saved Records</span>
 EMAILOP=From the Library Catalog|exporter|
@@ -258,7 +258,7 @@ XRECTYPE=bi
 
 #Requesting
 #BIBREQUEST=true
-ICON_BUT_REQUEST=<span class="navButton">Request</span>
+ICON_BUT_REQUEST=<span class="navButtonOneLine">Request</span>
 ICON_BUT_REQUEST_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Available</span></span></div></div>
 ICON_BUT_REQUEST_MULTI=<span class="navButton">Request Saved</span>
 ICON_BUT_REQUEST_RESET=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Reset Form</span></span></div></div>
@@ -317,7 +317,7 @@ TABLEPARAM_PATFUNC=border="0"|border="0"|border="0"
 #TIMEOUT_POPUP=600
 
 # My Millennium
-ICON_BUT_LOGOUT=<span class="navButton">Log Out</span>
+ICON_BUT_LOGOUT=<span class="navButtonOneLine">Log Out</span>
 ICON_BUT_PAT_PSEARCH_REMOVE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Delete All Searches</span></span></div></div>
 BUT_PAT_PSEARCH_UPDATE=/screens/updatelist.gif" class="button
 ICON_BUT_PAT_PSEARCH_UPDATE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Update List</span></span></div></div>
@@ -410,8 +410,8 @@ RSRV_FORMAT=true
 TABLEPARAM_RSRV_BIBS=width="100%" border="0" cellpadding="0" cellspacing="0"
 
 # Featured Lists
-ICON_BUT_PREVSCRN=<span class="navButton">Back</span>
-ICON_BUT_RET2FEAT=<span class="navButton">Back</span>
+ICON_BUT_PREVSCRN=<span class="navButtonOneLine">Back</span>
+ICON_BUT_RET2FEAT=<span class="navButtonOneLine">Back</span>
 #FEATURED_LIST=01,02,03|FEATURED LISTS|CATEGORY|# of Titles
 
 # Content Linking and Other Resources
