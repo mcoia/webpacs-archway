@@ -751,18 +751,24 @@ width:55%;
 
 .mylistsSelect {display:none;}
 
-span.navButton {
+span.navButton, span.navButtonOneLine {
     background: transparent url('button_blank.gif') no-repeat;
     display:block;
     font-size:11px;
-    padding:5px 1px;
     height:27px; 
     line-height:11px;
     color:#000000;
-    padding: 6px 7px;
     width:65px;
     font-weight:normal;
     text-align:center;
+}
+
+span.navButton {
+    padding: 6px 7px;
+}
+
+span.navButtonOneLine {
+    padding: 10px 7px;
 }
 
 span.navButtonSmall {
