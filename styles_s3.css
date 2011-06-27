@@ -1,0 +1,7 @@
+
+
+.navigationRow select, .navigationrow option { position:relative; right:inherit; top:inherit; }
+
+#scopeLogo {
+    top:30px; 
+}
