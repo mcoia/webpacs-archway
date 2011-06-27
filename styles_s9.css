@@ -2,7 +2,14 @@
 
 .navigationRow select, .navigationrow option { position:relative; right:inherit; top:inherit; }
 
+.pageNavColumn {
+    border-color:#46166A;
+}
+
+div#searchNavMenu {
+    background-color: #46166A;
+}
+
 #scopeLogo {
     top:21px; 
 }
-
