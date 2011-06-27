@@ -1061,6 +1061,11 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 .rssChannelTitle { margin: 0.5em 20px 0.3em; clear:both; display:block;}
 
+#scopeLogo {
+    position:absolute;
+    right:10px; 
+}
+
 #searcharg { }
 
 .searchNav { background: #0D7781; margin:0; position:relative; }
@@ -1115,7 +1120,9 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 .topLinks a { float:right; }
 
-.topLogo { }
+.topLogo {position:relative; }
+
+.topLogoSmall {width:250px;}
 
 .topLogoSmall img { border:0; margin:.5em;}
 
