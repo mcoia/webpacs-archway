@@ -1,0 +1,23 @@
+.topLogo {
+    height:137px;
+}
+
+.topLogoSmall{
+    width:250px;
+    position:absolute;
+    right:10px;
+    top:0;
+}
+
+#scopeLogo {
+    width:250px;
+    position:absolute;
+    left:10px;
+    top:30px;
+}
+    
+#scopeLogo img {
+    border:none;
+}
+
+
