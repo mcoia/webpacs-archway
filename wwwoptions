@@ -416,7 +416,7 @@ ICON_BUT_RET2FEAT=<span class="navButtonOneLine">Back</span>
 
 # Content Linking and Other Resources
 # If your system uses SSL, use the https example, to avoid secure/nonsecure warning on Internet Explorer.
-BIBIMAGE=http://www.syndetics.com/index.aspx?isbn=%s/SC.GIF&client=archwayc&showCaptionBelow=t&bgColor=white|I|http://www.syndetics.com/index.aspx?isbn=%s/index.html&client=archwayc&type=rn&popup=yes
+BIBIMAGE=http://www.syndetics.com/index.aspx?isbn=%s/SC.GIF&client=archwayc&showCaptionBelow=t&bgColor=white|I|http://www.syndetics.com/index.aspx?isbn=%s/index.html&client=archwayc&type=rn&popup=no
 BIBIMAGE_TEXT=Book Jacket
 BUT_ENCYCPD=/screens/encycpd.gif
 BUT_FULL_TEXT=/screens/full_text.gif
