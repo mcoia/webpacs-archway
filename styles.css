@@ -250,7 +250,7 @@ table.bibResourceTable { border:0; }
 
 .bibSearchToolMessage { margin-bottom:5px; }
 
-.bibSearchHistory, .resourceHistory { position:absolute; right:24px; top:36px; }
+/*.bibSearchHistory, .resourceHistory { position:absolute; right:24px; top:36px; }*/
 
 .bibSearchHistory { font-size:0.83333em; }
 
