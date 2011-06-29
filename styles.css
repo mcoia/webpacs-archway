@@ -232,7 +232,7 @@ table.bibResourceTable { border:0; }
 
 .bibHistoryRow, .resourceHistoryRow { font-size:.83333em; }
 
-.bibHoldings { border:none; margin:10px 0 5px; float:right; }
+.bibHoldings { border:none; margin:10px 0; }
 
 .bibHolds { border:0; background-color:#FFFEE4; font-weight:bold; margin-left:9%; }
 
