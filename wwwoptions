@@ -63,7 +63,7 @@ CUSTOM_MESSAGES=F
 STARTOVER=/search
 STATGROUP=login
 STYLESHEET=/screens/styles.css
-SUPPRESS_OPTION=STARTOVER,ANOTHER,NEWSRCH
+#SUPPRESS_OPTION=STARTOVER,ANOTHER,NEWSRCH
 TIMEOUT=900;URL=/search-----> 
 TOPLOGO=@screens/toplogo.html
 TOPLOGO1=@screens/toplogo_s1.html
@@ -88,7 +88,7 @@ STAFF_LOGGEDIN_MSG=<span class="loggedInMessage">You are logged into staff mode 
 
 # General and Phrase Searching
 ICON_BUT_ANOTHER=<span class="navButton">Another Search</span>
-ICON_BUT_NEWSRCH=<span class="navButton">Start Over</span>
+ICON_BUT_NEWSRCH=<span class="navButtonOneLine">Start Over</span>
 ICON_BUT_WORDSRCH=<span class="navButton">Search as Words</span>
 DROP_DOWN=Xtadms
 FRAMEURL=0
