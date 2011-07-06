@@ -150,6 +150,7 @@ ICON_SAVEMARKED=<span class="button"><img src="/screens/ico_bag_add.gif" alt="">
 IMAGE_MATTYPE-=/screens/media_book.gif
 IMAGE_MATTYPEa=/screens/media_book.gif
 IMAGE_MATTYPEb=/screens/media_archive.gif
+IMAGE_MATTYPEc=/screens/media_printedmusic.gif
 IMAGE_MATTYPEe=/screens/media_map.gif
 IMAGE_MATTYPEg=/screens/media_film.gif
 IMAGE_MATTYPEi=/screens/media_cdbook.gif
