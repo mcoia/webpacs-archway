@@ -3,7 +3,7 @@
 <!-- Rel 2009B Example Set -->
 <!-- This File Last Changed: 23 Mar 2010 -->
 <head>
-<title>Millennium Web Catalog - Children's Subject</title>
+<title>Archway - Children's Subject Search</title>
 <script language="JavaScript">
 <!-- Hide the JS
 startTimeout(600000, "/");
@@ -20,57 +20,54 @@ startTimeout(600000, "/");
 <!--{toplogo}-->
 <div class="pageContentInner">
 
-<h1 class="pageHeader">Children's Subject Search</h1>
+<h1 class="pageHeader">Children's Subject</h1>
+
+<!--{iferrmsg}-->
+<span class="errormessage">
+<!--{msg}-->
+</span>
+<!--{xif}-->
 
 <div id="accessibleForm" class="form2Part">
 <div class="formLeft">
-<form method="get">
+<form method="get" name="searchform">
 <fieldset>
 <!-- Optional legend:
-<legend>Type the subject you want to find, then press the Enter key or click Submit.</legend>
+<legend>Type the record number you want to find, then press the Enter key or click Submit.</legend>
 -->
+
 <div class="formEntryArea">
 <span class="formLabel">
 <label for="SEARCH">Search for:</label>
 </span>
 <!--{search}-->
 </div>
-<div class="formEntryArea">
-<span class="formLabel">
-<label for="sortdropdown">Sort by:</label>
-</span>
-<!--{indexsort}-->
-</div>
-<div class="formEntryArea formScopeSearch">
-<span class="formLabel">
-<label for="searchscope">Search in the:</label>
-</span>
-<!--{scope}-->
-</div>
 
 <div class="formButtonArea">
 <!--{submit}-->
 </div>
+
 </fieldset>
 </form>
 </div><!--formLeft -->
-
 <div class="formRight">
-<p>Type as much or as little of the children's subject as you want. For example:</p>
+<p>Type as much or as little as the children's subject as you want. For example:</p>
 <ul>
+<li>picture book</li>
 <li>baseball fiction</li>
 <li>family life</li>
 <li>pets</li>
+<li>fairy tales</li>
 </ul>
 </div><!--formRight -->
-
 </div><!--form2Part -->
-</div><!-- pageContentInner -->
+</div><!--pageContentInner -->
 
-<!--{botlogo}-->
 <script type="text/javascript"><!--//--><![CDATA[//><!--
-try { document.forms[0].SEARCH.focus(); }
+try { document.forms[0].elements[1].focus(); }
 catch(err) {}
 //--><!]]></script>
+
+<!--{botlogo}-->
 </body>
 </html>
