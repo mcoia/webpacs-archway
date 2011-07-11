@@ -12,7 +12,7 @@ Color Scheme:
 background dark gray: #4D4D4D
 text dark gray: #444444
 blue: #1367A7
-link blue: #014184
+link blue-green: #2F5558
 link active: #7C14B8
 light blue: #E8F2F9
 yellow hover color: #FFFFE4
@@ -83,7 +83,7 @@ strong { font-weight: bold; }
 
 pre { margin-left:15px; }
 
-strong .button { display:block; font-weight:normal; margin-top:15px; }
+strong .button { display:block; font-weight:normal; margin-top:15px; } 
 
 .pageContent > h1 { margin:30px 0 10px 20px; font-size:1.1em; }
 
@@ -102,10 +102,10 @@ td { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif; font-style: 
 th { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif; }
 
 /* traditional link colors are suggested for better usability */
-a:link { color: #014184; }
-a:active { color: #7C14B8; }
-a:visited { color: #7C14B8; }
-a:hover  { color: #7C14B8; }
+a:link { color: #2F5558; }
+a:active { color: #420A63; }
+a:visited { color: #420A63; }
+a:hover  { color: #420A63; }
 
 /* Section 2 */
 /* named styles listed in alphabetical order */
@@ -127,7 +127,7 @@ a:hover  { color: #7C14B8; }
 .formButtonArea input { margin:5px 0; }
 .formEntryArea { }
 .formRequired { color:#990000;font-weight:bold;font-size:1.3em;position:relative;top:5px; }
-.formsTogether { width:780px; }
+.formsTogether { width:95%; }
 .formsTogether .form1Part { width:96%; }
 
 .additionalCopies { margin: 20px 6px; }
@@ -150,7 +150,7 @@ a:hover  { color: #7C14B8; }
 
 #bibDisplayBody { padding-top:5px; }
 
-#bibDisplayBody a:link,#bibDisplayBody a:visited, #formLinks a:link,#formLinks a:visited, .recordPager a:link, .recordPager a:visited, .actionButtonArea a:link, .actionButtonArea a:visited, .bibPager a:visited, .bibPager a:link { color: #014184; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
+#bibDisplayBody a:link,#bibDisplayBody a:visited, #formLinks a:link,#formLinks a:visited, .recordPager a:link, .recordPager a:visited, .actionButtonArea a:link, .actionButtonArea a:visited, .bibPager a:visited, .bibPager a:link { color: #2F5558; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
 
 #bibDisplayBody a:active,#bibDisplayBody a:hover,#formLinks a:active,#formLinks a:hover, .recordPager a:active, .recordPager a:hover, .actionButtonArea a:active, .actionButtonArea a:hover, .bibPager a:active, .bibPager a:hover { text-decoration:underline; }
 
@@ -158,7 +158,7 @@ a:hover  { color: #7C14B8; }
 
 .bibDisplayContent { padding:10px 0 10px 10px; }
 
-.bibDisplayContentMain, .resourceDisplayContentMain  { float:left; width:59%; margin-left:1.5em; display:inline; }
+.bibDisplayContentMain, .resourceDisplayContentMain  { float:left; width:76%; margin-left:1.5em; display:inline; }
 
 .bibDisplayContentMain table, .bibDisplayUrls table, table.reserveBibs, .resourceDisplayContentMain table, .bibDisplayReviews  { border:0; font-size:.8824em; }
 
@@ -232,7 +232,7 @@ table.bibResourceTable { border:0; }
 
 .bibHistoryRow, .resourceHistoryRow { font-size:.83333em; }
 
-.bibHoldings { border:none; margin:10px 0 5px; }
+.bibHoldings { border:none; margin:10px 0; }
 
 .bibHolds { border:0; background-color:#FFFEE4; font-weight:bold; margin-left:9%; }
 
@@ -250,7 +250,7 @@ table.bibResourceTable { border:0; }
 
 .bibSearchToolMessage { margin-bottom:5px; }
 
-.bibSearchHistory, .resourceHistory { position:absolute; right:24px; top:36px; }
+/*.bibSearchHistory, .resourceHistory { position:absolute; right:24px; top:36px; }*/
 
 .bibSearchHistory { font-size:0.83333em; }
 
@@ -293,6 +293,8 @@ div.bookingsVerify { padding:0; margin-top:18px; }
 
 .bookingsVerify a .buttonText  { text-decoration:underline; }
 
+#botlogo {font-family: Verdana,Geneva,Arial,Helvetica,sans-serif; font-size: 85%; text-align: center; margin: 5em auto 4em; padding: 1em 0;}
+
 /* Brief Citation display styles */
 
 .briefcitActions { text-align:left; }
@@ -331,17 +333,19 @@ div.bookingsVerify { padding:0; margin-top:18px; }
 
 .briefcitItemsHeader h2 { color:#F7960C; font-size:1em; margin:0; }
 
-.briefcitItemsMain { float:left; width:85%; }
+.briefcitItemsMain { float:left; width:85%;}
 
-.briefcitMark { float:right; }
+/*.briefcitMark { float:right; } */
 
 .briefcitMedia, .bibMedia, .briefcitResourceMedia, .briefcitProgramMedia, td.browseEntryMedia, td.browseSubEntryMedia { color:#878787; font-size:.7em; line-height:.95em; margin-top:6em; overflow:hidden; width:41px; text-align:center; }
+
+.briefcitRequest a, .briefcitMark a {text-decoration: none;}
 
 .briefcitResourceMedia, .briefcitProgramMedia { margin-top:3em; }
 
 .briefcitMediaEnd { display:none; }
 
-.briefcitJacket  { float:left; margin:5px 15px; width:80px; display:inline; }
+.briefcitJacket  { float:left; margin:5px 15px; width:100px; display:inline; }
 
 .briefcitStatus { font-weight:bold; }
 
@@ -365,7 +369,7 @@ h2.briefcitTitle { font-size:1em; display:inline; }
 
 .browseEntryRelGroup1 { margin:0; }
 
-.browseHeaderData, .browseHeaderEntries, .browseHeaderMark, .browseHeaderNum, .browseHeaderYear, .browseHeaderMedia { background: #e8f2f9; border-bottom:1px dotted #ECECEC; font-weight:normal; margin:0; padding-left:10px; text-align:left; }
+.browseHeaderData, .browseHeaderEntries, .browseHeaderMark, .browseHeaderNum, .browseHeaderYear, .browseHeaderMedia { background: #d5e9eb; border-bottom:1px dotted #ECECEC; font-weight:normal; margin:0; padding-left:10px; text-align:left; }
 
 .browseList th { padding: 0 12px; }
 
@@ -379,17 +383,17 @@ h2.briefcitTitle { font-size:1em; display:inline; }
 
 .browsePager td.browsePager {  position:static; }
 
-.browsePager strong { border:0; padding:5px; margin:2px 1px; color:#014184; background:#FFFFFF; }
+.browsePager strong { border:0; padding:5px; margin:2px 1px; color:#2F5558; background:#FFFFFF; }
 
 .browsePager a { color:#202020; text-decoration:none; border:1px solid #D3D3D3; padding:0 4px; }
 
-.browsePager a:hover { background:#014184; color:#FFFFFF; }
+.browsePager a:hover { background:#2F5558; color:#FFFFFF; }
 
 div.browseResourceTable { background:#FFFFFF url('tile_vgradient.jpg') repeat-x top left; border:0; margin:30px 10px 0 12px; padding:0; }
 
 .browseResourceTable { padding-top:5px; }
 
-.browseResourceTable a:link,.browseResourceTable a:visited  { color: #014184; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; padding:6px 5px 0px 0px; text-decoration:none; width:auto; }
+.browseResourceTable a:link,.browseResourceTable a:visited  { color: #2F5558; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; padding:6px 5px 0px 0px; text-decoration:none; width:auto; }
 
 .browseResourceTable a:active,.browseResourceTable a:hover { text-decoration:underline; }
 
@@ -407,7 +411,7 @@ table.browseResourceTable { border:0; }
 
 .browseSaveJump	 { height:1.2em; overflow:hidden; padding:3px 0 3px 10px; }
 
-.browseSaveJump a:link,.browseSaveJump a:visited  { color: #014184; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
+.browseSaveJump a:link,.browseSaveJump a:visited  { color: #2F5558; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
 
 .browseSaveJump a:active,.browseSaveJump a:hover   { text-decoration:underline; }
 
@@ -438,6 +442,39 @@ h1.browseSuperEntryTitle { font-size:1.1em; display:inline; }
 .button img { border:0; margin-right:3px; vertical-align:text-bottom; }
 
 .button2 { font-size:.8824em; white-space:nowrap; }
+
+/*
+
+span.buttonRight {
+   background: transparent url('button_right.png') no-repeat scroll top right; 
+    display: block;
+    float: left;
+    height: 27px;  
+    margin-right: 6px;
+    margin-bottom: 5px;
+    padding-right: 15px;  
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:11px;
+    max-width:50px;
+    min-height:27px;
+}
+
+
+
+span.buttonLeft{     
+    background: transparent url('button_left.png') no-repeat;     display: block;
+    line-height: 10px;
+    padding: 4px 0 4px 18px;
+} 
+
+span.buttonRight:hover {
+    text-decoration:underline;
+}
+
+*/
+
 
 #buttonNextRecord { border-left:1px solid #D3D3D3; margin-right:3px; padding-left:8px; }
 
@@ -483,6 +520,8 @@ h1.browseSuperEntryTitle { font-size:1.1em; display:inline; }
 
 .checkinInfoHoldingsLabel { height:auto; width: 19%; font-weight:bold; text-align:right; }
 
+/*Relative position allows this bg color to show in older IE.*/
+
 .ecommerceFormDone { background:#ffffff; margin-left:auto; margin-right:auto; padding:0px; text-align:left; width:97%; padding-bottom:12em; }
 
 .ecommerceFormDone > div, .ecommerceFormDone > span { margin:10px 20px 15px; }
@@ -525,13 +564,11 @@ div .confirmValue { padding-top:3px; }
 
 .exportBrief pre { margin:0 12px; }
 
-.bibItems {background:#FFFFFF; }
-
 div .bibResourceSidebar { display:none; }
 
-.bibDisplayReviews { display:none; }
+/* .bibDisplayReviews { display:none; } */
 
-.bibDisplayPermLink { display:none; }
+/* .bibDisplayPermLink { display:none; } */
 
 #bibDisplayBody { background:#FFFFFF; }
 
@@ -683,13 +720,22 @@ div .bibResourceSidebar { display:none; }
 
 .mainMenuContentRight li { margin:0px 0px 15px 0px; }
 
+.mainMenuSrchText {
+letter-spacing:1px;
+margin:auto;
+text-align:left;
+width:55%;
+}
+
 .mainSearch { text-align:center; }
 
-.mainSearch .form1Part { float:none; margin-top:36px; text-align:center; }
+.mainSearch .form1Part { float:none; margin: 36px 0; text-align:center; }
 
-.mainSearch .form1Part, .mainMenuContent { width:600px; margin-left:auto; margin-right:auto;  }
+.mainSearch .form1Part, .mainMenuContent { width:95%; margin-left:auto; margin-right:auto;  }
 
 .minHeight { height:100%; width:97%; margin-left:auto; margin-right:auto; background:#ffffff; padding-bottom:0; padding-top:0; }
+
+.miscButtons {margin-left:-4.5%;}
 
 .msg td { padding-top:3px; }
 
@@ -701,27 +747,80 @@ div .bibResourceSidebar { display:none; }
 
 .mylistsSavePage .pageMainAreaHeader { font-size:1.3333em; font-weight:bold; }
 
-.miscButtons {margin-left:-4.5%;}
+.mylistsSavePage .msg {color:#000000;}
 
-.navigationRow a:link,.navigationRow a:visited, .miscButtons a:link, .miscButtons a:visited { color: #014184; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
+.mylistsSelect {display:none;}
 
-.navigationRow a:active,.navigationRow a:hover, .miscButtons a:active,.miscButtonsw a:hover { text-decoration:underline; }
+span.navButton, span.navButtonOneLine {
+    background: transparent url('button_blank.gif') no-repeat;
+    display:block;
+    font-size:11px;
+    height:27px; 
+    line-height:11px;
+    color:#000000;
+    width:65px;
+    font-weight:normal;
+    text-align:center;
+}
+
+span.navButton {
+    padding: 6px 7px;
+}
+
+span.navButtonOneLine {
+    padding: 11px 7px;
+}
+
+span.navButtonSmall {
+    background: transparent url('button_blank_small.gif') no-repeat;
+    padding-top:4px;
+    padding-bottom:4px;
+    height:15px;
+}
+
+span.navButtonYellow {
+    background: transparent url('button_blank_yellow.gif') no-repeat;
+}
+
+
+
+.navHeader {
+border-bottom:1px dashed #5E5D5D;
+color:#5E5D5D;
+font-size:small;
+font-weight:bold;
+letter-spacing:1px;
+margin-bottom:0;
+margin-top:5px;
+padding:2px;
+}
+
+.navigationRow a, .navigationRowRecord a, .miscButtons a {display:inline-block;vertical-align:text-top; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; text-decoration:none; width:auto; }
+
+.navigationRow a, .navigationRowRecord a, .miscButtons a {padding:0;}
 
 .navigationRow { margin:0; }
 
-.navigationRow, .navigationRowRecord { clear:both; text-align:center; }
+.navigationRow, .navigationRowRecord { clear:both; text-align:center;}
 
 .navigationRow > form, .navigationRowNoForm { margin-top:5px; margin-bottom:0; } 
 
 .navigationRow noscript h2, .bibSearchHistory noscript h2 { font-size:1em; margin:-3px 10px 0 0; color:#FF0000; }
 
-.navigationRow select, .navigationrow option { position:absolute; right:24px; top:48px; }
+/*.navigationRow select, .navigationrow option { position:absolute; right:24px; top:48px; } */
 
 .navigationRow select { font-size:.83333em; width:200px; }
 
 .pageContent { clear:both; }
 
 .pageContent > br { display:none; }
+
+.pageContentColumn {
+float:right;
+margin-left:1%;
+padding:1%;
+width:71%;
+}
 
 .pageContentInner > br { display:none; }
 
@@ -737,6 +836,15 @@ div .bibResourceSidebar { display:none; }
 
 .pat br { display:inline; line-height:1px; }
 
+.pageNavColumn {
+background-color:#F3F3F3;
+border:3px ridge #0D7781;
+float:right;
+margin:2% 1.75%;
+padding:0.5%;
+width:19%;
+}
+
 #content { background:#F2F2F2; }
 
 #patActionsLinksList li { list-style:none; padding:0; text-align:left; margin:0px; }
@@ -748,7 +856,7 @@ div .bibResourceSidebar { display:none; }
 
 .patActionsLinks  { float:left; background:#FFFFFF; display:inline; margin:0px 0px 20px 20px; padding:10px 0 5px; width:21.33em; }
 
-.patActionsLinks  a:link,.patActionsLinks a:visited  { clear:both; color:#014184; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; text-decoration:none; width:auto; }
+.patActionsLinks  a:link,.patActionsLinks a:visited  { clear:both; color:#2F5558; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; text-decoration:none; width:auto; }
 
 .patActionsLinks a:active,.patActionsLinks a:hover   { text-decoration:underline; }
 
@@ -777,6 +885,8 @@ div .bibResourceSidebar { display:none; }
 .patFloat .button img { margin-top:3px; }
 
 .patFloat .buttonText { margin-left:3px; }
+
+.patFloat a {text-decoration:none;}
 
 .patFuncArea { background:#FFFFFF; float:left; margin-left:20px; width:60%; margin-bottom:18px; }
 
@@ -896,6 +1006,25 @@ td.progInfoLabel { color:#767C70; font-weight:bold; padding-right:25px; text-ali
 
 .resourcePager { width:10em; margin-left:auto; }
 
+#rightCol {
+font-size:15px;
+margin:0 20px;
+padding:0;
+}
+
+#rightCol li {
+list-style-type:none;
+padding:4px 0;
+text-indent:-14px;
+}
+
+#rightCol li a {
+color:#444444;
+margin:0 0 0 3px;
+padding:0;
+text-decoration:none;
+}
+
 table.resourceResource { margin:15px; width:95%; }
 
 table.reserveBibs { margin:25px 0 20px 15%; width:65%; }
@@ -932,12 +1061,35 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 .rssChannelTitle { margin: 0.5em 20px 0.3em; clear:both; display:block;}
 
+#scopeLogo {
+    position:absolute;
+    right:10px;
+    top:30px; 
+}
+
+#mobiusLogo {
+    position:absolute;
+    right:15px;
+    top:45px; 
+}
+
 #searcharg { }
 
-/*Relative position allows this bg color to show in older IE.*/
-.searchNav { background:#3B77B6; margin:0; position:relative; }
+.searchNav { background: #0D7781; margin:0; position:relative; }
 
-#searchNavMenu { margin:0; text-align:right; }
+.searchNav a {color: #ffffff; font-weight:bold; text-decoration:none;}
+
+.searchNav .navLeft {float: left;}
+
+.searchNav. .navRight {float: right;}
+
+.searchNav .navLeft ul li {margin-left: 0; margin-right:2em;}
+
+.searchNav ul {list-style-type:none; margin: 0; padding: 0 1.2em;}
+
+.searchNav ul li {display: inline; margin-left:2em;}
+
+#searchNavMenu { margin:0; text-align:right; padding:.5em 0;}
 
 .searchNavBut { vertical-align:bottom; margin:3px 10px 3px 5px; }
 
@@ -975,9 +1127,11 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 .topLinks a { float:right; }
 
-.topLogo { }
+.topLogo {position:relative; }
 
-.topLogoSmall img { border:0; margin-top:5px; }
+.topLogoSmall {width:250px;}
+
+.topLogoSmall img { border:0; margin:.5em;}
 
 .topLogoSmall a:link, .topLogoSmall a:visited { background:#FFFFFF; padding:0; }
 
@@ -1020,7 +1174,7 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 #toplogoMoreNav li li a:hover { text-decoration:underline; } 
 
-#toplogoMoreNav li { cursor: default; background-color: white; margin-right:1em; margin-top:5px; float:left; padding:0; } 
+#toplogoMoreNav li { position: relative; cursor: default; background-color: white; margin-right:1em; margin-top:5px; float:left; padding:0; } 
 
 #toplogoMoreNav li#first { } 
 
@@ -1038,7 +1192,7 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 #topMyLibraryHeader { float:left; }
 
-div#searchNavMenu { clear:both; float:right; background:#3B77B6; width:100%; }
+div#searchNavMenu { clear:both; float:right; background:#0D7781; width:100%; }
 
 /*Special treatment for IE6, using the JS-activated "li.over"*/
 #toplogoMoreNav li.over ul { margin:0; }
@@ -1070,7 +1224,7 @@ tr.highlight { background:#FFFFE4; }
 
 /* Section 3: WebBridge */
 
-.webbridge a:link,.webbridge a:visited  { color: #014184; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
+.webbridge a:link,.webbridge a:visited  { color: #2F5558; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
 
 .webbridge a:active,.webbridge a:hover   { text-decoration:underline; }
 
@@ -1105,3 +1259,27 @@ tr.highlight { background:#FFFFE4; }
 .wblinkdisplay form { margin-bottom:8px; }
 
 .wbnoresources { display:block; margin: 3px 0; }
+
+/*SMS Feature Styles*/
+
+#info, #sms {
+       border:1px solid #36647b;
+       position:absolute;
+       top:250;
+       left:50; 
+       z-index:1000;
+       background:#fff;
+       padding:10px;
+       margin:10px;
+       background:#efefcf;
+}
+
+#sms .eg {
+       font-style:italic;
+       font-size:80%;
+}
+
+#info {top:500}
+
+#sms {font-size:70%}
+
