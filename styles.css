@@ -154,7 +154,7 @@ a:hover  { color: #420A63; }
 
 #bibDisplayBody a:link,#bibDisplayBody a:visited, #formLinks a:link,#formLinks a:visited, .recordPager a:link, .recordPager a:visited, .actionButtonArea a:link, .actionButtonArea a:visited, .bibPager a:visited, .bibPager a:link { color: #2F5558; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; padding:6px 5px 3px 0px; text-decoration:none; width:auto; }
 
-#bibDisplayBody a:active,#bibDisplayBody a:hover,#formLinks a:active,#formLinks a:hover, .recordPager a:active, .recordPager a:hover, .actionButtonArea a:active, .actionButtonArea a:hover, { text-decoration:underline; }
+#bibDisplayBody a:active,#bibDisplayBody a:hover,#formLinks a:active,#formLinks a:hover { text-decoration:underline; }
 
 #bibDisplayBody .bibVol a:link, #bibDisplayBody .bibVol a:visited { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif; }
 
@@ -860,8 +860,6 @@ width:19%;
 .patActionsLinks  { float:left; background:#FFFFFF; display:inline; margin:0px 0px 20px 20px; padding:10px 0 5px; width:21.33em; }
 
 .patActionsLinks  a:link,.patActionsLinks a:visited  { clear:both; color:#2F5558; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; text-decoration:none; width:auto; }
-
-.patActionsLinks a:active,.patActionsLinks a:hover   { text-decoration:underline; }
 
 .patActionsLinks,.patTop, .patFuncArea { border:1px solid #ECECEC; outline:5px solid #FFF; padding:5px;  }
 
