@@ -59,6 +59,8 @@ body > * { text-align:left;}
 
 caption { border-bottom:1px solid #D3D3D3; font-weight:bold; text-align:center; }
 
+center a {text-decoration:none;}
+
 div center table { border-color:#D3D3D3; margin-top:10px; margin-bottom:10px; }
 
 div.pageContent > a:link, div.pageContent > a:visited, div.pageContent > a:active, div.pageContent > a:hover { margin:10px; }
@@ -480,6 +482,8 @@ span.buttonRight:hover {
 
 .buttonText { font-size:.8824em; font-weight:bold; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; }
 
+span.buttonText:hover {text-decoration:underline;}
+
 .buttonTopLinks { white-space:nowrap; }
 
 .buttonTopLinks img { border:0; margin-right:3px; }
@@ -798,7 +802,6 @@ padding:2px;
 .navigationRow a, .navigationRowRecord a, .miscButtons a {display:inline-block;vertical-align:text-top; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; text-decoration:none; width:auto; }
 
 .navigationRow a, .navigationRowRecord a, .miscButtons a {padding:0;}
-
 .navigationRow { margin:0; }
 
 .navigationRow, .navigationRowRecord { clear:both; text-align:center;}
