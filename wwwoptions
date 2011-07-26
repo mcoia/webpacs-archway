@@ -160,6 +160,7 @@ IMAGE_MATTYPEm=/screens/media_computerfile.gif
 IMAGE_MATTYPEo=/screens/media_kit.gif
 IMAGE_MATTYPEp=/screens/media_mixed.gif
 IMAGE_MATTYPEr=/screens/media_3dartwork.gif
+IMAGE_MATTYPEu=/screens/media_projectedmedia.gif
 IMAGE_MATTYPEv=/screens/media_periodical2.gif
 IMAGE_MATTYPEw=/screens/media_newspaper.gif
 IMAGE_MATTYPEx=/screens/media_microform.gif
