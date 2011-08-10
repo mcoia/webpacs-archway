@@ -1286,3 +1286,8 @@ tr.highlight { background:#FFFFE4; }
 
 center a {text-decoration:none;display:inline-block; vertical-align:text-top;width:auto;font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif;}
 
+ /* MobileCat */
+ 
+ .mobileinfo {
+    display:none;
+ }
