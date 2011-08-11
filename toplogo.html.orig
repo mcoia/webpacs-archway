@@ -22,10 +22,6 @@
 if (document.body){document.body.className = "bodybg";}
 </script>
 
-<script src="/screens/jquery.cookie.js"></script>
-
-<script src="/screens/mobileredirect.js"></script>
-
 <div class="minHeight">
 <div class="fullPage">
 
@@ -33,7 +29,16 @@ if (document.body){document.body.className = "bodybg";}
 <div class="topLogo">
 
 <div class="topLinks">
+<<<<<<< HEAD
+<ul id="topLinksList">
+<li><a href="/patroninfo" tabindex="120">Login</a></li>
+<li><a href="/help" tabindex="115">Help</a></li>
+<li><a href="#" onClick="window.print();" tabindex="110"><span class="buttonTopLinks"><img src="/screens/ico_printer.png" alt=""><span class="buttonTopLinksText">Print</span></span></a></li>
+<li><a href="/search/" tabindex="105">New Search</a></li>
+</ul>
+=======
 
+>>>>>>> 32d2758cf6601db3254a5221596062ac04e65038
 </div>
 
 <div class="topLogoSmall">
@@ -65,6 +70,36 @@ if (document.body){document.body.className = "bodybg";}
 
 <div class="clear"></div>
 
+<<<<<<< HEAD
+<div class="searchNav">
+<script language="JavaScript"> 
+<!--
+function GotoURL() { 
+//top.location.href = dl.specializedSearch.options[dl.specializedSearch.selectedIndex].value;
+window.location.assign(document.getElementById("specializedSearch").value);
+return false;
+} 
+// -->
+</script>
+<div id="searchNavMenu">
+<select name="specializedSearch" id="specializedSearch">
+<option selected="selected" value=" ">(More Searches)</option>
+<option value="/search/X">Advanced Keyword</option>
+<option value="/search/t">Title</option>
+<option value="/search/s">Journal Title</option>
+<option value="/search/a">Author</option>
+<option value="/search/d">Subject</option>
+<option value="/search/y">Resource Name</option>
+<option value="/search/c">Call Number</option>
+<option value="/search/i">ISBN</option>
+<option value="/search/g">Government Document #</option>
+<option value="/search/q">Author and Title</option>
+<!--<option value="/search/p">Instructor</option>
+<option value="/search/r">Course</option> -->
+</select>
+<input type="image" src="/screens/ico_go.png" class="searchNavBut" value="Go" onclick="GotoURL();" >
+=======
+>>>>>>> 32d2758cf6601db3254a5221596062ac04e65038
 </div>
 
 </div><!--searchNav-->
