@@ -341,7 +341,7 @@ ICON_PAT_DELETE_MARKED=<div onmousedown="this.className='pressedState';" onmouse
 ICON_READING_HISTORY=<span class="button"><img src="/screens/ico_clock.png" alt=""><span class="buttonText">Reading History</span></span>
 ICON_READING_HISTORY_OPTIN=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Opt In</span></span></div></div>
 ICON_READING_HISTORY_OPTOUT=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Opt Out</span></span></div></div>
-ICON_READING_HISTORY_EXPORT=<span class="button"><img src="/screens/ico_disc.png" alt=""><span class="buttonText">Export My Reading List</span></span>
+ICON_READING_HISTORY_EXPORT=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Export My Reading History</span></span></div></div>
 LOGGEDIN_MSG=<span class="loggedInMessage">You are logged in <span class="loggedInMoreInfo">to %s</span> as %s</span>
 NO_REVERIFY=acq,req,ecr
 PATRONVIEW_START=holds,ill,mylists,fines,chkouts,bookings,psearch,mffavs,readhist,patrate,patreview,programs,irnr
