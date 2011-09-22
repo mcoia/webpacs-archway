@@ -96,6 +96,10 @@ h2.briefcitTitle { font-size:10pt; }
 
 .loggedInMessage { display:none; }
 
+.pageNavColumn { display:none; }
+
+.pageContentColumn { width:100%; }
+
 .patActionsLinks, .patTop, .patFuncArea { outline:none; }
 
 .patFuncArea { margin:0; }
@@ -123,5 +127,3 @@ tr.patFuncHeaders { border-bottom:1px solid #888888; }
 .resourceDisplayContentMain { float:left; margin-left:1em; padding-left:4em; position:absolute; left:0; }
 
 .resourceDisplayBibs td, .resourceDisplayBibs th, .resourceLicenseHeader { font-family:Times New Roman,Times,Georgia,serif; font-size:10pt; }
-
-.topLogoSmall img { border:0; height:.25in; width:1.75in; }
