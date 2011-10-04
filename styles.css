@@ -1297,16 +1297,22 @@ center a {text-decoration:none;display:inline-block; vertical-align:text-top;wid
 .syn_title {
     color: #767C70;
     font-weight: bold;
-    font-size: .9em;
     width: 13.5%;
     text-align:right;
-    float:left;
     clear:both;
     margin-right:.8em;
 }
 
 .syn_body {
-    font-size:.9em;
-    float:left;
     width:70%;
+}
+
+.syn_title, .syn_body {
+    font-size: .9em;
+    float: left;
+    margin-top:.5em;
+}
+
+.syn_body p {
+    margin:0;
 }
