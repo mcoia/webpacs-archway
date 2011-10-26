@@ -146,6 +146,10 @@ a:hover  { color: #420A63; }
 
 .availLimMessage { font-style:normal; }
 
+#barcodeInput {float:left; width:20em;}
+
+#barcodeExample {float:left; width:15em; }
+
 .bibClear { clear:both; }
 
 .bibDetail {  }
@@ -665,6 +669,10 @@ div .bibResourceSidebar { display:none; }
 .pageContentInner .helpSubhead { border-top:4px solid #E8E8E8; margin:45px 0 5px; }
 
 .holdingsDivider { border:1px solid #D3D3D3; margin:3px 0; }
+
+#idHelp {float:left;}
+
+#idHelp:hover {cursor:pointer;}
 
 .illform #accessibleForm form legend { font-weight:normal; }
 
