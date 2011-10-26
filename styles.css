@@ -750,6 +750,8 @@ width:55%;
 
 .miscButtons {margin-left:-4.5%;}
 
+.modalBoxBodyContent  strong {color:red;}
+
 .msg td { padding-top:3px; }
 
 .mylistsSavePage { height:100%; width:100%; padding-bottom:0; padding-top:0; }
@@ -1298,3 +1300,5 @@ center a {text-decoration:none;display:inline-block; vertical-align:text-top;wid
  .mobileinfo {
     display:none;
  }
+ 
+ 
