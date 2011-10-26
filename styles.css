@@ -119,7 +119,8 @@ a:hover  { color: #420A63; }
 #accessibleForm h2 { margin-left:15px; margin-bottom:0; margin-top:12px }
 #accessibleForm span.formLabel { display:block; padding-top:3px; }
 #accessibleForm span.formLabelExample { font-style:italic; }
-#accessibleForm .formEntryArea, #accessibleForm .ecommerceFormEntryArea { margin:3px 0 0 15px; }
+#accessibleForm div.formLabelExample { font-style:italic; }
+#accessibleForm .formEntryArea, #accessibleForm .ecommerceFormEntryArea { margin-top:3px; padding-left:15px; } 
 #accessibleForm .formButtonArea .formButtonArea {margin-left:12px; display:inline;}
 #accessibleForm font { font-size:1em; padding:10px; }
 #accessibleForm p { margin-bottom:5px; margin-top:3px; }
