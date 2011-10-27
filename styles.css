@@ -119,7 +119,8 @@ a:hover  { color: #420A63; }
 #accessibleForm h2 { margin-left:15px; margin-bottom:0; margin-top:12px }
 #accessibleForm span.formLabel { display:block; padding-top:3px; }
 #accessibleForm span.formLabelExample { font-style:italic; }
-#accessibleForm .formEntryArea, #accessibleForm .ecommerceFormEntryArea { margin:3px 0 0 15px; }
+#accessibleForm div.formLabelExample { font-style:italic; }
+#accessibleForm .formEntryArea, #accessibleForm .ecommerceFormEntryArea { margin-top:3px; padding-left:15px; } 
 #accessibleForm .formButtonArea .formButtonArea {margin-left:12px; display:inline;}
 #accessibleForm font { font-size:1em; padding:10px; }
 #accessibleForm p { margin-bottom:5px; margin-top:3px; }
@@ -145,6 +146,10 @@ a:hover  { color: #420A63; }
 #accessibleForm .advancedSearch fieldset fieldset { border:none; padding:0; text-align:left; margin:0 0 6px 0; }
 
 .availLimMessage { font-style:normal; }
+
+#barcodeInput {float:left; width:20em;}
+
+#barcodeExample {float:left; width:18em; }
 
 .bibClear { clear:both; }
 
@@ -666,6 +671,10 @@ div .bibResourceSidebar { display:none; }
 
 .holdingsDivider { border:1px solid #D3D3D3; margin:3px 0; }
 
+#idHelp {float:left;}
+
+#idHelp:hover {cursor:pointer;}
+
 .illform #accessibleForm form legend { font-weight:normal; }
 
 .illform .formButtonArea input { font-size:76%; }
@@ -740,6 +749,8 @@ width:55%;
 .minHeight { height:100%; width:97%; margin-left:auto; margin-right:auto; background:#ffffff; padding-bottom:0; padding-top:0; }
 
 .miscButtons {margin-left:-4.5%;}
+
+.modalBoxBodyContent  strong {color:red;}
 
 .msg td { padding-top:3px; }
 
@@ -1289,3 +1300,5 @@ center a {text-decoration:none;display:inline-block; vertical-align:text-top;wid
  .mobileinfo {
     display:none;
  }
+ 
+ 

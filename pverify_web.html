@@ -46,11 +46,27 @@ Password:
 <!--{ifneedpatronverify}-->
 <div class="formEntryArea">
 <!--{barcodeprompt}-->
+<div id="barcodeInput">
 <!--{barcode}-->
-<span class="formLabelExample">
-<!--{barcodeexample}-->
-</span>
 </div>
+<div class="formLabelExample" id="barcodeExample">
+<!--{barcodeexample}-->
+</div>
+<a class="openmodalbox" href="javascript:void(0);">
+<img id="idHelp" src="/screens/id_help.gif">
+    <span class="modalboxContent">
+<h3>Examples:</h3>
+<p>0012345<strong>EC</strong> (East Central College)</p>
+<p>V00123450<strong>JC</strong> (Jefferson  College)</p>
+<p>0234567<strong>SC</strong> (St. Charles Community College)</p>
+<p>01234<strong>COP</strong> (St. Louis College of Pharmacy)</p>
+<p>A01234567<strong>ST</strong> (St. Louis Community College)</p>
+
+    </span>
+</a>
+</div>
+
+<div class="clear"></div>
 
 <!--{ifneedspin}-->
 
