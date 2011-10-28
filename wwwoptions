@@ -426,7 +426,7 @@ FEATURED_LIST=71,112,111,113,114,115,116,117,118,174,04,162,22,167|NEW TITLES AN
 
 # Content Linking and Other Resources
 # If your system uses SSL, use the https example, to avoid secure/nonsecure warning on Internet Explorer.
-BIBIMAGE=http://www.syndetics.com/index.aspx?isbn=%s/SC.GIF&client=archwayc|I
+BIBIMAGE=http://www.syndetics.com/index.aspx?isbn=%s/SC.GIF&client=archwayc|I|http://www.syndetics.com/index.aspx?isbn=%s/LC.GIF&client=archwayc
 BUT_ENCYCPD=/screens/encycpd.gif
 BUT_ENCYCPD=/screens/encycpd.gif
 BUT_FULL_TEXT=/screens/full_text.gif
