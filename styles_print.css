@@ -22,7 +22,7 @@ table.browseScreen td { width:18%; }
 
 #bibDisplayBody div[align="center"] { display:none; }
 
-#bibDisplayContent { display:block !important; }
+#bibDisplayContent { display:block !important; } 
 
 .bibDisplayContentMain, .resourceDisplayContentMain { margin-left:1em; width:78%; }
 
@@ -127,3 +127,5 @@ tr.patFuncHeaders { border-bottom:1px solid #888888; }
 .resourceDisplayContentMain { float:left; margin-left:1em; padding-left:4em; position:absolute; left:0; }
 
 .resourceDisplayBibs td, .resourceDisplayBibs th, .resourceLicenseHeader { font-family:Times New Roman,Times,Georgia,serif; font-size:10pt; }
+
+.topLogoSmall img, #scopeLogo img {height:60px;}
