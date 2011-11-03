@@ -11,15 +11,24 @@
 </div><!-- min-height -->
 <script src="http://plus.syndetics.com/widget.php?id=archwayc" type="text/javascript"></script>
 <script type="text/javascript">
-$(window).load(function () {
-setTimeout(
-  function() 
+    var syndeticsInterval = 0;
+    $(document).ready(function () {
+        if ( $("#syndeticsMessage").html("") )
+        {
+            syndeticsInterval = setInterval ( "syndeticsLink()", 250 );
+        }
+        else
+        {
+            setTimeout(function(){
+            clearInterval(interval);
+            }, 10000);
+        }
+    })
+  function syndeticsLink()
   {
 	if ($(".syn_title")[0])
 	  {
 	  $("#syndeticsMessage").html('<a href="#syndetics">Reviews Available Below</a>')
 	  }
-  }, 1000);
-});
+  }
 </script>
-<!-- end botlogo.html file -->
