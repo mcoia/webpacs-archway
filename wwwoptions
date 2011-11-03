@@ -310,7 +310,7 @@ ICON_SORTREQDATE=<div onmousedown="this.className='pressedState';" onmouseout="t
 MIN_PIN_LENGTH=6
 #MODIFY_PFLDS=z
 #MODIFY_PFLDS=ahtpzHx
-MY_WEBPAC=F,T
+MY_WEBPAC=F,2
 NEWPIN_MSG=Please enter a Personal Identification Number (PIN)
 PATRON_FIELDS=nat
 #Note that in the PATRON_MSG web option you should replace z with the field tag used on your system for messages.
@@ -422,7 +422,7 @@ TABLEPARAM_RSRV_BIBS=width="100%" border="0" cellpadding="0" cellspacing="0"
 # Featured Lists
 ICON_BUT_PREVSCRN=<span class="navButtonOneLine">Back</span>
 ICON_BUT_RET2FEAT=<span class="navButtonOneLine">Back</span>
-FEATURED_LIST=71,112,111,113,114,115,116,117,118,174,04,162,22,167|NEW TITLES AND LISTS||# TITLES
+FEATURED_LIST=71,112,111,113,114,115,116,117,118,174,04,162,22,167,76,161,181|NEW TITLES AND LISTS||# TITLES
 
 # Content Linking and Other Resources
 # If your system uses SSL, use the https example, to avoid secure/nonsecure warning on Internet Explorer.
