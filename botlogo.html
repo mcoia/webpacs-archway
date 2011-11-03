@@ -10,4 +10,16 @@
 </div><!-- fullPage -->
 </div><!-- min-height -->
 <script src="http://plus.syndetics.com/widget.php?id=archwayc" type="text/javascript"></script>
+<script type="text/javascript">
+$(window).load(function () {
+setTimeout(
+  function() 
+  {
+	if ($(".syn_title")[0])
+	  {
+	  $("#syndeticsMessage").html('<a href="#syndetics">Reviews Available Below</a>')
+	  }
+  }, 1000);
+});
+</script>
 <!-- end botlogo.html file -->
