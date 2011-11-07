@@ -96,6 +96,10 @@ h2.briefcitTitle { font-size:10pt; }
 
 .loggedInMessage { display:none; }
 
+#mobiusLogo { top:10px; }
+
+#mobiusLogo img {height:50px}
+
 #modalboxPreCacheContainer {display:none;}
 
 .pageNavColumn { display:none; }
