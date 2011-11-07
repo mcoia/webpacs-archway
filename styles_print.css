@@ -1,7 +1,7 @@
 a:link, a:visited {background:#FFF; color:#000; text-decoration:underline; font-weight:bold;}
 
 #bibDisplayBody a:link, #bibDisplayBody a:visited, #formLinks a:link, #formLinks a:visited {background:transparent; color:#000; text-decoration:underline; font-weight:bold;}
-  
+
 body { color:#000; background-color:#FFF; background-image:none; font-family:Times New Roman,Times,Georgia,serif; font-size:10pt; }
 
 img { border:0; }
@@ -96,9 +96,15 @@ h2.briefcitTitle { font-size:10pt; }
 
 .loggedInMessage { display:none; }
 
+#mobiusLogo { top:10px; }
+
+#mobiusLogo img {height:50px}
+
+#modalboxPreCacheContainer {display:none;}
+
 .pageNavColumn { display:none; }
 
-.pageContentColumn { width:100%; }
+.pageContentColumn { width:100%; float:none; margin-left:0; padding:0; }
 
 .patActionsLinks, .patTop, .patFuncArea { outline:none; }
 
