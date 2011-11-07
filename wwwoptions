@@ -55,7 +55,7 @@ ICON_CLEAR_FORM=<div onmousedown="this.className='pressedState';" onmouseout="th
 ICON_DELETE_SELECTED=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Delete Selected</span></span></div></div>
 ICON_SELECT_ALL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Save All</span></span></div></div>
 #RESOURCETABLE=valign="top"|cellpadding="0" cellspacing="0" border="0"||Resources
-INSERTTAG_INHEAD=<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4"><link rel="stylesheet" type="text/css" href="/screens/styles_print.css"><script type="text/javascript" src="/screens/bibdisplay.js"></script>
+INSERTTAG_INHEAD=<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4"><link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print"><script type="text/javascript" src="/screens/bibdisplay.js"></script>
 INSERTTAG_HTML=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html lang="en">
 RIGHT_CELL_WIDTH=18|25
 SSLPORT=80:443:archway.missouri.edu:archway.mobius.umsystem.edu|2082:444:archway.missouri.edu:archway.mobius.umsystem.edu
@@ -426,7 +426,7 @@ FEATURED_LIST=71,112,111,113,114,115,116,117,118,174,04,162,22,167,76,161,181|NE
 
 # Content Linking and Other Resources
 # If your system uses SSL, use the https example, to avoid secure/nonsecure warning on Internet Explorer.
-#BIBIMAGE=http://www.syndetics.com/index.aspx?isbn=%s/SC.GIF&client=archwayc|I|http://www.syndetics.com/index.aspx?isbn=%s/LC.GIF&client=archwayc
+BIBIMAGE=http://www.syndetics.com/index.aspx?isbn=%s/SC.GIF&client=archwayc|I|http://www.syndetics.com/index.aspx?isbn=%s/LC.GIF&client=archwayc
 BUT_ENCYCPD=/screens/encycpd.gif
 BUT_ENCYCPD=/screens/encycpd.gif
 BUT_FULL_TEXT=/screens/full_text.gif

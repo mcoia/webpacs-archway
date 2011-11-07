@@ -6,12 +6,6 @@ body { color:#000; background-color:#FFF; background-image:none; font-family:Tim
 
 img { border:0; }
 
-* {page-break-after:avoid;}
-
-* {page-break-before:avoid;}
-
-* {page-break-inside:avoid;}
-
 td { color:#000; background-color:#FFF; background-image:none; font-family:Times New Roman,Times,Georgia,serif; font-size:10pt; }
 
 table.browseScreen td { width:18%; }
@@ -106,7 +100,7 @@ h2.briefcitTitle { font-size:10pt; }
 
 .pageNavColumn { display:none; }
 
-.pageContentColumn { width:100%; }
+.pageContentColumn { width:100%; float:none; margin-left:0; padding:0; }
 
 .patActionsLinks, .patTop, .patFuncArea { outline:none; }
 
