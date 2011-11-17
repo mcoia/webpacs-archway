@@ -776,6 +776,7 @@ span.navButton, span.navButtonOneLine {
     width:65px;
     font-weight:normal;
     text-align:center;
+    cursor:pointer;
 }
 
 span.navButton {
