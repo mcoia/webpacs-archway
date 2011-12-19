@@ -29,7 +29,7 @@ if ($.getUrlVar('searchscope')) {
 }
 
 if ($.getUrlVar('searcharg') || scope) {
-  redirectUrl = mobileHost + '/search/searchtype=X&searcharg=' + searcharg + '&searchscope=' + scope; 
+  redirectUrl = mobileHost + '/search/?searchtype=X&searcharg=' + searcharg + '&searchscope=' + scope; 
 }
 
 if ($.getUrlVar('forcefull') == 1) {
