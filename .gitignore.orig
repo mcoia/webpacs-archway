@@ -1,0 +1,7 @@
+*.orig
+<<<<<<< HEAD
+*.safe
+bib_display_s27.html
+=======
+*.safe
+>>>>>>> 8626b6fb5242be68eb86fe627f8bf825d4d63146
