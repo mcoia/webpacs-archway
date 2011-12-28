@@ -575,10 +575,6 @@ div .confirmValue { padding-top:3px; }
 
 div .bibResourceSidebar { display:none; }
 
-/* .bibDisplayReviews { display:none; } */
-
-/* .bibDisplayPermLink { display:none; } */
-
 #bibDisplayBody { background:#FFFFFF; }
 
 .pageContent #bibDisplayBody { background:none; }
@@ -750,6 +746,8 @@ width:55%;
 
 .miscButtons {margin-left:-4.5%;}
 
+.mobiusLogo, .clusterLogo { position:absolute; right:10px; top:16px;}
+
 .modalBoxBodyContent  strong {color:red;}
 
 .msg td { padding-top:3px; }
@@ -871,9 +869,10 @@ width:19%;
 
 .patActionsLinks  a:link,.patActionsLinks a:visited  { clear:both; color:#2F5558; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; font-weight:bold; text-decoration:none; width:auto; }
 
+.patActionsLinks .button2 a:active,.patActionsLinks .button2 a:hover   { text-decoration:underline; } /* Prevents buttons on the My Account page from being underlined twice */
 .patActionsLinks,.patTop, .patFuncArea { border:1px solid #ECECEC; outline:5px solid #FFF; padding:5px;  }
 
-#patButFines a { background:#FFFFFF url('ico_payment.gif') no-repeat top left; margin-left:5px; padding-left:25px; line-height:1.8em; }
+#patButFines a { background:#FFFFFF url('ico_payment.png') no-repeat top left; margin-left:5px; padding-left:25px; line-height:1.8em; }
 
 #patButHolds a { background:#FFFFFF url('ico_redflag.gif') no-repeat top left; margin-left:5px; padding-left:25px; line-height:1.8em; }
 
@@ -881,7 +880,7 @@ width:19%;
 
 #patButChkouts a { background:#FFFFFF url('ico_books.gif') no-repeat top left; }
 
-#patButBookings a { background:#FFFFFF url('ico_checkbox.gif') no-repeat top left; margin-left:5px; padding-left:25px; line-height:1.8em; }
+#patButBookings a { background:#FFFFFF url('ico_checkbox.png') no-repeat top left; margin-left:5px; padding-left:25px; line-height:1.8em; }
 
 #patButFines a, #patButHolds a, #patButChkouts a, #patButBookings a { margin-top:3px; margin-left:0px; padding-left:28px; line-height:30px; }
 
@@ -891,7 +890,7 @@ width:19%;
 
 .patHelp { border-top:1px dotted #D3D3D3; margin-top:10px; }
 
-.patFloat { background:#FFFFFF url('tile_pat3.jpg') repeat-x top left; height:700px; }
+.patFloat { background:#FFFFFF url('tile_pat3.jpg') repeat-x top left; }
 
 .patFloat .button img { margin-top:3px; }
 
@@ -1148,7 +1147,9 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 .topLogoSmall img { border:0; margin:.5em;}
 
-.topLogoSmall a:link, .topLogoSmall a:visited { background:#FFFFFF; padding:0; }
+.topLogoImage {float:left; padding:20px 10px;}
+
+.topLogoImage, .mobiusLogo {width:250px;}
 
 .topLinks { float: right; height: auto; margin:0; padding:0; width: 50%; }
 
@@ -1159,6 +1160,10 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 #topLinksList li { list-style:none; padding:0; display:inline; }
 
 #topLinksList  { float:right; margin:0px; padding:0px; font-size:.9em; display:inline; }
+
+.topMyLibrary {
+    width:250px;
+}
 
 #topMyLibraryList { display:inline; line-height:2.4em; margin:0px 10px 0px 0px; padding:0px; }
 
