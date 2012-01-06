@@ -1280,6 +1280,8 @@ tr.highlight { background:#FFFFE4; }
 
 .wbnoresources { display:block; margin: 3px 0; }
 
+.yourEntryWouldBeHere a:link {text-decoration:none;}
+
 /*SMS Feature Styles*/
 
 #info, #sms {
