@@ -34,10 +34,10 @@ if ($.getUrlVar('searcharg') || scope) {
 
 
 if(window.location.href.indexOf("missouri") != -1 ){
-    $.cookie('oldDomain', 'missouri.edu');
+    $.cookie('oldDomain', 'missouri.edu', { domain: 'archway.searchmobius.org' });
     window.location = redirectUrl
 }else if(window.location.href.indexOf("umsystem") != -1 ){
-    $.cookie('oldDomain', 'mobius.umsystem.edu');
+    $.cookie('oldDomain', 'mobius.umsystem.edu', { domain: 'archway.searchmobius.org' });
     window.location = redirectUrl; 
 }else{}
 
