@@ -740,7 +740,7 @@ width:55%;
 
 .mainSearch .form1Part { float:none; margin: 36px 0; text-align:center; }
 
-.mainSearch .form1Part, .mainMenuContent { width:95%; margin-left:auto; margin-right:auto;  }
+.mainSearch .form1Part, .mainMenuContent { width:95%; margin-left:auto; margin-right:auto; }
 
 .minHeight { height:100%; width:97%; margin-left:auto; margin-right:auto; background:#ffffff; padding-bottom:0; padding-top:0; }
 
@@ -1139,15 +1139,13 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 .topLinks a { float:right; }
 
-.topLogo {position:relative; }
+.topLogo { position:relative; }
 
 .topLogoSmall {width:250px;}
 
 .topLogoSmall img { border:0; margin:.5em;}
-
-.topLogoImage {float:left; padding:20px 10px;}
-
-.topLogoImage, .mobiusLogo {width:250px;}
+}
+.topLogoSmall a:link, .topLogoSmall a:visited { background:#FFFFFF; padding:0; }
 
 .topLinks { float: right; height: auto; margin:0; padding:0; width: 50%; }
 
