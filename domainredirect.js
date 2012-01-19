@@ -1,45 +1,29 @@
-// Add methods to parse out the arguments from the URL we're on
-$.extend({
-  getUrlVars: function(){
-    var vars = [], hash;
-    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-    for(var i = 0; i < hashes.length; i++)
-    {
-      hash = hashes[i].split('=');
-      vars.push(hash[0]);
-      vars[hash[0]] = hash[1];
-    }
-    return vars;
-  },
-  getUrlVar: function(name){
-    return $.getUrlVars()[name];
-  }
-});
 
-var searchmobius = 'http://archway.searchmobius.org:2082'; // No trailing slash
-var redirectUrl = searchmobius;
-var scope;
-var scopeMatch = /~S(\d+)/.exec(window.location.href);
-var searcharg = $.getUrlVar('searcharg');
+var href = window.location.href
+var edu = "edu:2082"
+var domainLength = href.indexOf(edu) + 8
+var notDomain = href.substring(domainLength)
+var searchmobius = 'http://archway.searchmobius.org:2082'
 
-if ($.getUrlVar('searchscope')) {
-  scope = $.getUrlVar('searchscope');
-} else if (scopeMatch) {
-  scope = scopeMatch[1];
+if (notDomain == "/") {
+  var redirectUrl = searchmobius  + "/search~S0&redirected"  
+}else {
+  redirectUrl = searchmobius + notDomain + "&redirected"
 }
 
-if ($.getUrlVar('searcharg') || scope) {
-  redirectUrl = searchmobius + '/search.php?searcharg=' + searcharg + '&scope=' + scope; 
-}
-
-
-if(window.location.href.indexOf("missouri") != -1 ){
-    $.cookie('oldDomain', 'missouri.edu', { domain: 'archway.searchmobius.org' });
+if(href.indexOf("missouri.edu") != -1 ){
+    var oldDomain = "archway.missouri.edu"
     window.location = redirectUrl
-}else if(window.location.href.indexOf("umsystem") != -1 ){
-    $.cookie('oldDomain', 'mobius.umsystem.edu', { domain: 'archway.searchmobius.org' });
+}else if(href.indexOf("umsystem.edu") != -1 ){
+    var oldDomain = "archway.missouri.edu"
     window.location = redirectUrl; 
 }else{}
 
-alert( $.cookie('oldDomain') ) 
+if (href.indexOf("&redirected") != -1 ) {
+    var redirectMessage = "<p>You've been redirected from archway.mobius.umsystem.edu or archway.missouri.edu. Starting in June of 2012, those addresses will no longer work.</p><p>Please update your bookmarks to http://archway.searchmobius.org.</p>"
+
+    $(document).ready(function () {
+        $('#redirectMessage').html(redirectMessage);
+    });  
+}
 
