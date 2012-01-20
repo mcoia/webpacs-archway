@@ -64,7 +64,7 @@ STARTOVER=/search
 STATGROUP=login
 STYLESHEET=/screens/styles.css
 #SUPPRESS_OPTION=STARTOVER,ANOTHER,NEWSRCH
-TIMEOUT=900;URL=/search-----> 
+TIMEOUT=900;URL=/search
 TOPLOGO=@screens/toplogo.html
 TOPLOGO1=@screens/toplogo_s1.html
 TOPLOGO2=@screens/toplogo_s2.html
