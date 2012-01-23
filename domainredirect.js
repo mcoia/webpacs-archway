@@ -1,7 +1,7 @@
 
 var href = window.location.href
-var edu = "edu:2082"
-var domainLength = href.indexOf(edu) + 8
+var edu = ".edu:2082"
+var domainLength = href.indexOf(edu) + edu.length
 var notDomain = href.substring(domainLength)
 var searchmobius = 'http://archway.searchmobius.org:2082'
 
