@@ -7,6 +7,7 @@
 <div class="navigationRowRecord">
 <!--{navrow}-->
 <!--{innreach}-->
+<span id="encoreLink"></span>
 </div>
 <div id="bibDisplayContent">
 <div class="bibSearch">
@@ -166,3 +167,18 @@
 </div><!-- close bibDisplayBody -->
 <script src="http://plus.syndetics.com/widget.php?id=archwayc" type="text/javascript"></script>
 <!--{botlogo}-->
+
+
+<script>
+
+
+// Get record number eg b number, g number, p number
+var ref = document.getElementById("recordnum").getAttribute("href");
+var str = ref.indexOf("=")
+var recno = ref.substr(str+1,8);
+var encoreLink = '<a href="http://archwayencore.searchmobius.org/iii/encorestchar/record/C%7CR'+recno+'"><span class="navButton">Search Encore</span></a>';
+// Put link to Encore record on record page
+document.getElementById("encoreLink").innerHTML = encoreLink;
+
+
+</script>
