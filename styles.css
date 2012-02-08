@@ -744,6 +744,8 @@ width:55%;
 
 .minHeight { height:100%; width:97%; margin-left:auto; margin-right:auto; background:#ffffff; padding-bottom:0; padding-top:0; }
 
+.miscButtons { margin-bottom: 1em;}
+
 .mobiusLogo, .clusterLogo { position:absolute; right:10px; top:16px;}
 
 .modalBoxBodyContent  strong {color:red;}
@@ -759,7 +761,6 @@ width:55%;
 .mylistsSavePage .pageMainAreaHeader { font-size:1.3333em; font-weight:bold; }
 
 .mylistsSavePage .msg {color:#000000;}
-
 .mylistsSelect {display:none;}
 
 span.navButton, span.navButtonOneLine {
@@ -1158,7 +1159,8 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 #topLinksList  { float:right; margin:0px; padding:0px; font-size:.9em; display:inline; }
 
 .topMyLibrary {
-    width:250px;
+    float:left;
+    clear:both;
 }
 
 #topMyLibraryList { display:inline; line-height:2.4em; margin:0px 10px 0px 0px; padding:0px; }
