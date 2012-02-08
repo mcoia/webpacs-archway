@@ -1,9 +1,9 @@
 
 var href = window.location.href
-var edu = ".edu:2082"
+var edu = ".edu"
 var domainLength = href.indexOf(edu) + edu.length
 var notDomain = href.substring(domainLength)
-var searchmobius = 'http://archway.searchmobius.org:2082'
+var searchmobius = 'http://archway.searchmobius.org'
 
 if (notDomain == "/") {
   var redirectUrl = searchmobius  + "/search~S0&redirected"  
