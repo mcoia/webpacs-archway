@@ -366,6 +366,7 @@ PREF_SEARCHES_P182=10|N
 PREF_SEARCHES="0"|N
 PREFTEXT=Save as preferred search
 READING_HISTORY=optin|true|
+TOPLOGO_LOGGEDIN=T
 
 # Patron Ratings
 ICON_PATRATE=<span class="button"><img src="/screens/patrate.gif" alt=""><span class="buttonText">My Ratings</span></span>
