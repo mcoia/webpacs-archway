@@ -761,7 +761,6 @@ width:55%;
 .mylistsSavePage .pageMainAreaHeader { font-size:1.3333em; font-weight:bold; }
 
 .mylistsSavePage .msg {color:#000000;}
-
 .mylistsSelect {display:none;}
 
 span.navButton, span.navButtonOneLine {
@@ -1335,7 +1334,6 @@ center a {text-decoration:none;display:inline-block; vertical-align:text-top;wid
 .syn_body p {
     margin:0;
 }
-
 #redirectMessage {
     margin:1em;
     font-size:1.2em;

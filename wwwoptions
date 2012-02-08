@@ -89,7 +89,18 @@ STAFF_LOGGEDIN_MSG=<span class="loggedInMessage">You are logged into staff mode 
 
 # General and Phrase Searching
 ICON_BUT_ANOTHER=<span class="navButton">Another Search</span>
-ICON_BUT_NEWSRCH=<span class="navButtonOneLine">Start Over</span>
+ICON_BUT_NEWSRCH=Archway
+ICON_BUT_NEWSRCH1=East Central College
+ICON_BUT_NEWSRCH2=Jefferson College
+ICON_BUT_NEWSRCH3=St. Charles Community College
+ICON_BUT_NEWSRCH4=St. Louis Community College
+ICON_BUT_NEWSRCH5=STLCC Florissant Valley
+ICON_BUT_NEWSRCH6=STLCC Forest Park
+ICON_BUT_NEWSRCH7=STLCC Highland Park
+ICON_BUT_NEWSRCH8=STLCC Meramec
+ICON_BUT_NEWSRCH9=St. Louis College of Pharmacy
+ICON_BUT_NEWSRCH10=STLCC Archives
+ICON_BUT_NEWSRCH11=STLCC Wildwood
 ICON_BUT_WORDSRCH=<span class="navButton">Search as Words</span>
 DROP_DOWN=Xtadms
 FRAMEURL=0
@@ -298,7 +309,7 @@ ICON_BUT_PAT_SORTBYCHKOUT=<div onmousedown="this.className='pressedState';" onmo
 ICON_BUT_PAT_SORTBYDUE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Sort by Due Date</span></span></div></div>
 ICON_BUT_PAT_SUBMIT=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div>
 ICON_BUT_PSTARTOVER=<span class="button"><img src="/screens/ico_startover.png" alt=""><span class="buttonText">Start Over</span></span>
-ICON_BUT_RET2PREC=<span class="navButton">Return to My Record</span>
+ICON_BUT_RET2PREC=Return to My Record
 ICON_BUT_UPDATE_HOLDS=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Update List</span></span></div></div>
 CHANGE_HOLD_LOC=true
 #FREEZE_HOLDS=true
@@ -328,7 +339,6 @@ TABLEPARAM_PATFUNC=border="0"|border="0"|border="0"
 #TIMEOUT_POPUP=600
 
 # My Millennium
-ICON_BUT_LOGOUT=<span class="navButtonOneLine">Log Out</span>
 ICON_BUT_PAT_PSEARCH_REMOVE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Delete All Searches</span></span></div></div>
 BUT_PAT_PSEARCH_UPDATE=/screens/updatelist.gif" class="button
 ICON_BUT_PAT_PSEARCH_UPDATE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Update List</span></span></div></div>
@@ -356,7 +366,6 @@ PREF_SEARCHES_P182=10|N
 PREF_SEARCHES="0"|N
 PREFTEXT=Save as preferred search
 READING_HISTORY=optin|true|
-TOPLOGO_LOGGEDIN=F
 
 # Patron Ratings
 ICON_PATRATE=<span class="button"><img src="/screens/patrate.gif" alt=""><span class="buttonText">My Ratings</span></span>
