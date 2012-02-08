@@ -740,9 +740,11 @@ width:55%;
 
 .mainSearch .form1Part { float:none; margin: 36px 0; text-align:center; }
 
-.mainSearch .form1Part, .mainMenuContent { width:95%; margin-left:auto; margin-right:auto;  }
+.mainSearch .form1Part, .mainMenuContent { width:95%; margin-left:auto; margin-right:auto; }
 
 .minHeight { height:100%; width:97%; margin-left:auto; margin-right:auto; background:#ffffff; padding-bottom:0; padding-top:0; }
+
+.miscButtons { margin-bottom: 1em;}
 
 .mobiusLogo, .clusterLogo { position:absolute; right:10px; top:16px;}
 
@@ -759,7 +761,6 @@ width:55%;
 .mylistsSavePage .pageMainAreaHeader { font-size:1.3333em; font-weight:bold; }
 
 .mylistsSavePage .msg {color:#000000;}
-
 .mylistsSelect {display:none;}
 
 span.navButton, span.navButtonOneLine {
@@ -1139,15 +1140,13 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 .topLinks a { float:right; }
 
-.topLogo {position:relative; }
+.topLogo { position:relative; }
 
 .topLogoSmall {width:250px;}
 
 .topLogoSmall img { border:0; margin:.5em;}
-
-.topLogoImage {float:left; padding:20px 10px;}
-
-.topLogoImage, .mobiusLogo {width:250px;}
+}
+.topLogoSmall a:link, .topLogoSmall a:visited { background:#FFFFFF; padding:0; }
 
 .topLinks { float: right; height: auto; margin:0; padding:0; width: 50%; }
 
@@ -1160,7 +1159,8 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 #topLinksList  { float:right; margin:0px; padding:0px; font-size:.9em; display:inline; }
 
 .topMyLibrary {
-    width:250px;
+    float:left;
+    clear:both;
 }
 
 #topMyLibraryList { display:inline; line-height:2.4em; margin:0px 10px 0px 0px; padding:0px; }
