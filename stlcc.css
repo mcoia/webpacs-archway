@@ -1,20 +1,12 @@
-.topLogoSmall{
-    width:250px;
-    position:absolute;
-    right:10px;
-    top:0;
+.topLogoImage {
+    padding:20px 10px;
 }
 
-#scopeLogo {
-    position: relative;
-    right:0;
-    top:0;
+.clusterLogo{
+    position: absolute;
+    right:.5em;
+    top:.5em;
 }
-    
-#scopeLogo img {
-    border:none;
-    margin-top:20px;
-    margin-left:20px;
-}
+
 
 
