@@ -1,20 +1,17 @@
 <!-- begin toplogo.html file -->
 <!-- Rel 2009B Example Set -->
 <!-- Updated: 06 Oct 2010 -->
-<link rel="stylesheet" type="text/css" href="/screens/stlcc.css" />
-<link rel="stylesheet" type="text/css" href="/screens/styles_s6.css" />
 <script type="text/javascript" src="/screens/jquery-1.7.min.js"></script>
 <script type="text/javascript" src="/screens/jquery.cookie.js"></script>
 <script type="text/javascript" src="/screens/domainredirect.js"></script>
 <script type="text/javascript" src="/screens/mobileredirect_airpac.js"></script>
 <script src="/screens/menu-collapsed.js" type="text/javascript"></script>
+<script type="text/javascript" src='/screens/sms.js'> </script>
 <link type="text/css" rel="stylesheet" href="/screens/jquery.modalbox.css" />
 <script type="text/javascript" src="/screens/jquery.modalbox-1.2.1-min.js"></script>
-<script type="text/javascript" src='/screens/sms.js'> </script>
-<script>
+<script type="text/javascript">
 $(document).ready(function () {
-      $('#b option:not([value^="l"])').hide(); //Hides the out-of-scope locations
-      $('#b option[value=""]').show(); //Shows the any location
+	$("span:contains(WebPAC PRO)").hide(); //Hide the iii footer
 });
 </script>
 <script type="text/javascript">
@@ -35,7 +32,8 @@ $(document).ready(function () {
 if (document.body){document.body.className = "bodybg";}
 </script>
 
-<script type="text/javascript" src='/screens/sms.js'> </script>
+<link rel="stylesheet" type="text/css" href="/screens/stlcc.css" />
+<link rel="stylesheet" type="text/css" href="/screens/styles_s6.css" />
 
 <div class="minHeight">
 <div class="fullPage">
@@ -47,11 +45,11 @@ if (document.body){document.body.className = "bodybg";}
 
 </div>
 
-<div id="scopeLogo">
+<div class="topLogoImage">
 <a href="http://stlcc.edu/libraries/" tabindex="10"><img src="/screens/stlcc.png" alt="St. Louis Community College"></a>
 </div>
 
-<div class="topLogoSmall">
+<div class="clusterLogo">
 <a href="/" tabindex="10"><img src="/screens/archway.png" alt="Catalog Home Page"></a>
 </div>
 

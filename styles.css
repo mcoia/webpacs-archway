@@ -1076,12 +1076,6 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
     top:30px; 
 }
 
-#mobiusLogo {
-    position:absolute;
-    right:15px;
-    top:45px; 
-}
-
 #searcharg { }
 
 .searchNav { background: #0D7781; margin:0; position:relative; }
@@ -1142,11 +1136,9 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 .topLogo { position:relative; }
 
-.topLogoSmall {width:250px;}
+.topLogoImage { padding:.5em;}
 
-.topLogoSmall img { border:0; margin:.5em;}
-}
-.topLogoSmall a:link, .topLogoSmall a:visited { background:#FFFFFF; padding:0; }
+.topLogoImage, .mobiusLogo {width:250px;}
 
 .topLinks { float: right; height: auto; margin:0; padding:0; width: 50%; }
 
@@ -1337,7 +1329,7 @@ center a {text-decoration:none;display:inline-block; vertical-align:text-top;wid
 }
 
 #redirectMessage {
-    margin:1em;
+    margin-left:1em;
     font-size:1.2em;
     color:#6c0000;
 }
