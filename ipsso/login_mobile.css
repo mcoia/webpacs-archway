@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* IPSSO Login CSS Mobile */
+
+body { background:#e8e4e4; font-family:Verdana,Arial,Helvetica,sans-serif; font-style:normal; font-weight: normal; color:#686868; margin:0; }
+
+a:link { color:#014184; }
+
+a:active, a:visited, a:hover { color:#7C14B8; }
+
+.clearfloats { clear:both; }
+
+.errors { background:#FFCC66; border:1px solid #CC3300; color:#CC3300; font-weight:bold; margin:0 0.8em 1em; padding:0.5em; }
+
+.loginArea { padding-top:.5em; font-size:.85em; }
+
+.loginArea fieldset { border:none; }
+
+.loginField { font-size:1.25em; margin:2px 0px 10px 0; padding:2px; text-align:left; width:220px; }
+
+fieldset .barcodeAltChoice { margin:1.2em 0; padding:0; }
+
+fieldset .newpin { margin-top:1em; padding:0 }
+
+.formButtons div { display:inline; }
+
+.loginActionScreenOnly, .loginActionSeparator, .loginActionText { display:none; }
+
+.loginAction { margin:0 0 10px 0; }
+
+.loginAction a { background:url("arrow.gif") 95% center no-repeat #ececec; border-top:1px solid #ffffff; color:#f7931e; display:block; font-weight:bold; height:25px; padding:10px 0 0 10px; text-decoration:none; }
+
+.loginArea form { margin:.8em auto 0 auto; text-align:left; }
+
+.loginArea label { display:block; }
+
+.loginArea legend { color:#000000; padding:0; font-size:1.2em; }
+
+.barcodeAltChoice legend, .newpin legend { font-size:1em; margin-bottom:.5em; font-style:normal; }
+
+div #login_ldap { border-bottom:1px solid #686868; margin-bottom:1em; }
+
+#login_ldap .loginSubmit { float:right; position:relative; top:-3em; }
+
+#login .loginSubmit { float:right; position:relative; top:-3em; }
+
+.loginTop { background:#FFFFFF; text-align:center; }
+
+.loginTopLogo { margin: 0 auto 1em; padding-bottom:1em; }
+
+.loginTopLogo img { border:none; }
+
+
+/* sprite button */
+.formButtons a { display:none; }
+
+/* Overrides to prevent possible conflict with styles.css */
+
+body > div { background:none; padding-bottom:0; padding-top:0; }
