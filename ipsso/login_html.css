@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* IPSSO Login CSS */
+
+body { font-size:85%; }
+
+div #login { width:48%; }
+
+.formButtons { text-align:center; padding-top:.8em; }
+
+.formButtons a { display:inline; text-decoration:none; }
+
+.loginActions { margin-top:2em; text-align:center; font-size:.85em; }
+
+.loginActions a { margin:0 0.3em 0 0.5em }
+
+.loginActionScreenOnly, .loginActionSeparator, .loginActionText { display:inline; }
+
+.loginActionSeparator { border-left:1px solid #484844; }
+
+.loginAction { background:none; margin:0; }
+
+.loginAction a { background:none; color:#014184; display:inline; height:auto; padding:0px; text-decoration:underline; border-top:none; }
+
+.loginArea { text-align:center; }
+
+.loginArea fieldset, .loginActions { font-weight:bold; }
+
+/*	
+.loginArea fieldset .loginField { height:2.2em; width:18em; border:none; padding:0 0 0 0.5em; background: transparent url("field_bg.gif") no-repeat fixed; margin:0px; font-size:1.15em}
+	
+.loginArea fieldset > div > input.loginField { background: transparent url("field_bg.gif") no-repeat; }
+*/
+
+
+.loginField { width:13em; margin:5px 2px 2px 5px; padding:1px; border:solid 0 #fff; background: transparent; font-size:1.6em; }
+
+.loginFieldBg { background:url("field_bg.gif") no-repeat; margin:2px 0; }
+
+.loginArea label { margin-top:0.5em; }
+
+fieldset .barcodeAltChoice { margin:2em 0; }
+
+.loginArea legend { font-style: italic; padding:0; }
+
+#ie legend { margin-left:-6px; }
+
+.loginArea1Col form { width:18em; }
+
+.loginTopLogo { margin: 7em auto 1em; padding-bottom:1.8em; }
+
+
+/* sprite button */
+.buttonSpriteDiv { cursor:pointer; display:inline; width:auto;}
+
+.buttonSpriteSpan1 { background: transparent url('/screens/buttonspritecap.gif') no-repeat scroll top right; color:#121212; display:inline-block; font:normal 12px; height:29px; margin-bottom:4px; outline:none; padding-right:8px; text-decoration:none; width:auto; margin-right:0px; }
+
+.buttonSpriteSpan2 { background:transparent url('/screens/buttonsprite.gif') no-repeat; display:inline-block; line-height:16px; outline:none; padding:2px 6px 7px 15px; text-decoration:none; }
+
+.pressedState .buttonSpriteSpan1 { background-position:bottom right; color:#d3d3d3; outline:none; }
+
+.pressedState .buttonSpriteSpan1 .buttonSpriteSpan2  { background-position:bottom left; outline:none; }
+
+.loginSubmit { display:none; }
