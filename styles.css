@@ -1273,7 +1273,7 @@ tr.highlight { background:#FFFFE4; }
 
 /*SMS Feature Styles*/
 
-#info, #sms {
+#info, #sms, #email {
        border:1px solid #36647b;
        position:absolute;
        top:250;
@@ -1285,14 +1285,14 @@ tr.highlight { background:#FFFFE4; }
        background:#efefcf;
 }
 
-#sms .eg {
+#sms .eg, #email .eg {
        font-style:italic;
        font-size:80%;
 }
 
 #info {top:500}
 
-#sms {font-size:70%}
+#sms, #email {font-size:70%}
 
 center a {text-decoration:none;display:inline-block; vertical-align:text-top;width:auto;font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif;}
 
