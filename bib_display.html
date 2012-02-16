@@ -96,6 +96,7 @@
         }
        } catch (e) {
          document.getElementById('smsfeatures').style.visibility='hidden';
+         document.getElementById('emailfeatures').style.visibility='hidden';
        }
 
     </script>
@@ -104,6 +105,22 @@
     <!-- just a placeholder for the sms form -->
     <div id='sms' style="visibility:hidden;display:none">
     </div>
+    
+<a href="#here" name=emailbutton id=emailbutton onClick="showemail();return false;">
+<div id="emailfeatures" class="resourceButton">
+
+    <span class="button">
+    <img src="/screens/ico_phone.gif">
+        <span class="buttonText">Email item location</span>
+    </span>
+</div>
+</a>
+
+       
+    <!-- just a placeholder for the email form -->
+    <div id='email' style="visibility:hidden;display:none">
+    </div>
+
 
 </div>
 </div>
