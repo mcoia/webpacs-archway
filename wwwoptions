@@ -566,5 +566,5 @@ LOCKSCOPE=no
 
 # Login Options
 
-IPSSO_USEHTML=F
+IPSSO_USEHTML=T
 
