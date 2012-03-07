@@ -28,19 +28,8 @@ if ($.getUrlVar('searchscope')) {
   scope = scopeMatch[1];
 }
 
-// if a search argument is included, redirect to mobile search page
-// otherwise send to front page. MobileCat search.php expects a searcharg
-// or it will complain in big red text.
-if (searcharg) {
-  redirectUrl = mobileHost + '/search.php?searcharg=' + searcharg; 
-  if (scope) {
-    redirectUrl = redirectUrl + '&scope=' + scope; 
-  }
-} else {
-  redirectUrl = mobileHost + '/index.php';
-  if (scope) {
-    redirectUrl = redirectUrl + '?scope=' + scope;
-  }
+if ($.getUrlVar('searcharg') || scope) {
+  redirectUrl = mobileHost + '/search.php?searcharg=' + searcharg + '&scope=' + scope; 
 }
 
 // if a search argument is included, redirect to mobile search page
