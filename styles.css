@@ -746,7 +746,11 @@ width:55%;
 
 .miscButtons { margin-bottom: 1em;}
 
-.mobiusLogo, .clusterLogo { position:absolute; right:10px; top:33px;}
+.mobiusLogo, .clusterLogo, .scopeLogo { position:absolute; right:10px; }
+
+.mobiusLogo, .clusterLogo { top: 33px; }
+
+.scopeLogo { top: 10px; }
 
 .modalBoxBodyContent  strong {color:red;}
 
@@ -1138,7 +1142,7 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 .topLogoImage { padding:.5em;}
 
-.topLogoImage, .mobiusLogo {width:250px;}
+.topLogoImage, .mobiusLogo, .clusterLogo {width:250px;}
 
 .topLinks { float: right; height: auto; margin:0; padding:0; width: 50%; }
 
