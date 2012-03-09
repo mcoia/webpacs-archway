@@ -145,6 +145,16 @@ a:hover  { color: #420A63; }
 
 #accessibleForm .advancedSearch fieldset fieldset { border:none; padding:0; text-align:left; margin:0 0 6px 0; }
 
+#alertMessage {
+    margin-left:1em;
+    font-size:1.2em;
+    color:#6c0000;
+}
+
+#alertMessage a {
+    font-weight:bold;
+}
+
 .availLimMessage { font-style:normal; }
 
 #barcodeInput {float:left; width:20em;}
@@ -1138,6 +1148,10 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 .topLinks a { float:right; }
 
 .topLogo { position:relative; }
+
+.topLogo img { border:0; display:block; margin-left:auto; margin-right:auto }
+
+.topLogoImage, .mobiusLogo, .clusterLogo {width:250px;}
 
 .topLogoImage { padding:.5em;}
 
