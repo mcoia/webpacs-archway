@@ -1,5 +1,5 @@
 .leftLogo {
-    width: 190px;
+    width: 250px;
     padding: 5px;
 }
 
@@ -8,8 +8,5 @@
     position: absolute;
     width: 250px;
     right: 10px;
-    top: 6px;
-}
-.patFuncArea {
-    width: 90%
-}
+    top: 24px;
+}

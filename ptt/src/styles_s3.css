@@ -1,0 +1,17 @@
+[%- scope = 'stephens' -%]
+[%- PROCESS scopes -%]
+[%- PROCESS styles -%]
+
+body { font-size:95%; }
+
+.briefcitDetail, .briefcitAuthDetail {
+    width: 80%;
+}
+
+.briefcitJacket {
+    width:0px;
+}
+
+#rightCol {
+    font-size:16px;
+}

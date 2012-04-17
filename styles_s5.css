@@ -1,10 +1,12 @@
-
-
-.pageNavColumn {
-    border-color:#2360A4;
+.leftLogo {
+    width: 150px;
+    padding: 5px;
 }
 
-div#searchNavMenu {
-    background-color: #2360A4;
-}
 
+.rightLogo {
+    position: absolute;
+    width: 250px;
+    right: 10px;
+    top: 24px;
+}

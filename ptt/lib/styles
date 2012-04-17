@@ -1,0 +1,21 @@
+[%- PROCESS default -%]
+.leftLogo {
+    width: [% $scope.leftLogoWidth %];
+    padding: [% $scope.leftLogoPadding %];
+}
+
+[% IF $scope.middleLogo -%]
+.middleLogo {
+    position: absolute;
+    width: [% $scope.middleLogoWidth %];
+    left: [% $scope.middleLogoLeft %];
+    top: [% $scope.middleLogoTop %];
+}
+[% END -%]
+
+.rightLogo {
+    position: absolute;
+    width: [% $scope.rightLogoWidth %];
+    right: [% $scope.rightLogoRight %];
+    top: [% $scope.rightLogoTop %];
+}

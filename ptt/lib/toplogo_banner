@@ -1,0 +1,44 @@
+<div class="linkBanner">
+[% IF $scope.loggedinLeftBanner -%]
+<div class="linkBannerLeft">
+<ul>
+[% PROCESS bannerItem FOREACH $scope.leftBanner1 -%]
+[% IF loggedin -%]
+[% PROCESS bannerToken FOREACH $scope.loggedinLeftBanner -%]
+[% ELSE -%]
+[% PROCESS bannerItem FOREACH $scope.notLoggedinLeftBanner -%]
+[% END -%]
+[% PROCESS bannerItem FOREACH $scope.leftBanner2 -%]
+[% PROCESS bannerItem FOREACH $scope.moreLeftBanner -%]
+</ul>
+</div>
+[% END -%]
+[% IF $scope.loggedinRightBanner -%]
+<div class="linkBannerRight">
+<ul>
+[% PROCESS bannerItem FOREACH $scope.rightBanner1 -%]
+[% IF loggedin -%]
+[% PROCESS bannerToken FOREACH $scope.loggedinRightBanner -%]
+[% ELSE -%]
+[% PROCESS bannerItem FOREACH $scope.notLoggedinRightBanner -%]
+[% END -%]
+[% PROCESS bannerItem FOREACH $scope.rightBanner2 -%]
+[% PROCESS bannerItem FOREACH $scope.moreRightBanner -%]
+</ul>
+</div>
+[% END -%]
+[% BLOCK bannerItem -%]
+    <li><a href="[% link %]">[% text %]</a></li>
+[% END -%]
+[% BLOCK bannerToken -%]
+    <li>
+<!--{[% token %]}-->
+    </li>
+[% END -%]
+
+<div class="clear"></div>
+
+</div>
+
+</div><!--linkBanner-->
+<div class="clear"></div>

@@ -1,0 +1,11 @@
+[%- PROCESS default -%]
+[% PROCESS toplogo_scripts_and_css %]
+<div class="minHeight">
+<div class="fullPage">
+<div id="skipNav"><a href="#content" tabindex="1">Skip to content</a></div>
+[% PROCESS toplogo_above_banner %]
+[% PROCESS toplogo_banner %]
+[% PROCESS toplogo_right_column %]
+<div class="pageContentColumn"><!-- content container -->
+<a name="content" id="content"></a>
+<!--end toplogo.html-->

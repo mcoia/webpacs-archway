@@ -1,0 +1,21 @@
+.leftLogo {
+    width: 250px;
+    padding: 5px;
+}
+
+
+.rightLogo {
+    position: absolute;
+    width: 250px;
+    right: 10px;
+    top: 8px;
+}
+a.bibDisplayContentMain, .resourceDisplayContentMain {
+    margin-left:2em;
+    margin-right:.5em;
+    width:75%;
+}
+
+.bibDisplayJacket {
+    width:8em;
+}

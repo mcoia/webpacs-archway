@@ -1,0 +1,248 @@
+[%- lincoln = {
+
+	#GENERAL
+	
+                institution = 'Lincoln University'
+                scopeNumber = 1
+	    
+	#STYLES
+	
+                leftLogoWidth = '109px'
+
+	#TOPLOGO
+
+	#toplogo_scripts_css
+	
+                hideLocations = 1
+                locationInitial = 'l'
+	    
+	#toplogo_banner
+
+                moreLeftBanner = [
+                    {
+                        link = 'search/j'
+                        text = 'Course Reserves'
+                    }
+                    ]
+	    
+	#toplogo_above_banner
+	
+                logo = 'lincoln.png'
+                middleLogo = 1
+    }
+-%]
+[%- columbia = {
+
+	#GENERAL
+	
+                institution = 'Columbia College'
+                scopeNumber = 2
+	    
+	#STYLES
+	
+                rightLogoTop = '8px'
+	    
+	#TOPLOGO
+
+	#toplogo_scripts_css
+	
+                locationInitial = 'c'
+                linkQR = 1
+                scopeScripts = [
+                        {
+                                script = '856links'
+                        }
+                        ]
+	    
+	#toplogo_above_banner
+	
+                logo = 'cclogo2011.jpg'
+	
+	#toplogo_right_column
+
+                moreRightColumn = [
+                    {
+                        link = 'search/j'
+                        text = 'Course Reserves'
+                    }
+                    {
+                        link = 'search/v'
+                        text = 'Videos'
+                    }
+                    ]
+    }
+-%]
+[%- stephens = {
+
+	#GENERAL
+	
+                institution = 'Stephens College'
+                scopeNumber = 3
+	    
+	#STYLES
+
+                leftLogoPadding = '27px 5px'
+	    
+	#TOPLOGO
+
+	#toplogo_scripts_css
+	
+                location_initial = 's'
+	   
+	#toplogo_above_banner
+	
+                logo = 'stephens.png'
+                middleLogo = 1
+	    
+	#toplogo_right_column
+
+                moreRightColumn = [
+                    {
+                        link = 'search/j'
+                        text = 'Course Reserves'
+                    }
+                    ]
+    }
+-%]
+[%- westminster = {
+
+	#GENERAL
+	
+                institution = 'Westminster College'
+                scopeNumber = 4
+	    
+	#STYLES
+	
+                leftLogoPadding = '12px 4px'
+	    
+	#TOPLOGO
+
+	#toplogo_scripts_css
+	
+                hideLocations = 1
+                locationInitial = '2'
+	
+	#toplogo_above_banner
+	    
+                logo = 'westminster_library.jpg'
+                logoLink = 'http://www.westminster-mo.edu/academics/resources/library/Pages/default.aspx'
+                middleLogo = 1
+	    
+	#toplogo_banner
+	
+                loggedinLeftBanner = [
+                    {
+                        token = 'startover'
+                    }
+                    {
+                        token = 'patronrecord'
+                    }
+                    {
+                        token = 'logout'
+                    }
+                    ]
+            
+                notLoggedinLeftBanner = [
+                    {
+                        link = 'search'
+                        text = 'New Search'
+                    }
+                    {
+                        link = 'patroninfo'
+                        text = 'My Library Account'
+                    }
+                    ]
+	
+                leftBanner = [
+    
+                    {
+                        link = 'search/j'
+                        text = 'Course Reserves'
+                    }
+                    {
+                        link = 'http://www.westminster-mo.edu/academics/resources/library/Pages/default.aspx'
+                        text = 'Reeves Library'
+                    }
+                    {
+                        link = 'http://searchmobius.org'
+                        text = 'MOBIUS'
+                    }
+                    {
+                        link = 'search/b'
+                        text = 'Help'
+                    }
+                    ]
+    }
+-%]
+[%- williamwoods = {
+
+	#GENERAL
+	
+                institution = 'William Woods'
+                scopeNumber = 5
+	    
+	#STYLES
+	
+                leftLogoWidth = '150px'
+	    
+	#TOPLOGO
+
+	#toplogo_scripts_css
+	
+                locationInitial = 'w'
+	    
+	#toplogo_above_banner
+	
+                logo = 'WW_logo_small.gif'
+    }
+-%]
+[%- missouristate = {
+
+	#GENERAL
+	
+                institution = 'Missouri State Library'
+                scopeNumber = 6
+	    
+	#STYLES
+	
+                leftLogoWidth = '190px'
+    
+                rightLogoTop = '6px'
+
+	#TOPLOGO
+
+	#toplogo_scripts_css
+	
+                hideLocations = 1
+                locationInitial = 'm'
+	    
+	#toplogo_above_banner
+	
+                logo = 'libLogoCat2small.gif'
+    }
+-%]
+[%- modot = {
+
+	#GENERAL
+	
+                institution = 'MoDOT'
+                scopeNumber = 7
+	    
+	#STYLES
+	
+                leftLogoWidth = '72px'
+    
+                rightLogoTop = '6px'
+	    
+	#TOPLOGO
+
+	#toplogo_scripts_css
+	
+                hideLocations = 1
+                locationInitial = 'm'
+	
+	#toplogo_above_banner
+	
+                logo = 'MoDOT_logo_sm.gif'
+    }
+-%]

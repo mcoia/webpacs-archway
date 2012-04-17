@@ -1,0 +1,28 @@
+
+<div class="rightColumn">
+<div id="searchOptions">
+
+<h1>Search Options</h1>
+
+<ul>
+[% PROCESS rightColumnItem FOREACH $scope.rightColumn -%]
+[% PROCESS rightColumnItem FOREACH $scope.moreRightColumn -%]
+</ul>
+		[% BLOCK numberItem -%]
+                <li>
+		<a href="/[% link %]">[% text %]</a>
+		</li>
+                [% END -%]
+[% BLOCK rightColumnItem -%]
+    <li>
+    <a href="/[% link %]">[% text %]</a>
+    [% IF text == 'Numbers' -%]
+	<ul>
+	[% PROCESS numberItem FOREACH $scope.numberRightColumn %]
+	</ul>
+    [% END -%]
+    </li>
+[% END -%]
+
+</div><!--searchOptions-->
+</div><!--rightColumn-->

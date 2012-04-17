@@ -1,0 +1,163 @@
+[%- DEFAULT
+
+#GENERAL
+
+    $scope.institution = 'Archway Catalog'
+    $scope.scopeNumber = 0
+    
+#STYLES
+
+    $scope.leftLogoWidth = '250px'
+    $scope.leftLogoPadding = '5px'
+    
+    $scope.middleLogoWidth = '250px'
+    $scope.middleLogoLeft = '36%'
+    $scope.middleLogoTop = '5px'
+    
+    $scope.rightLogoWidth = '250px'
+    $scope.rightLogoRight = '10px'
+    $scope.rightLogoTop = '24px'
+    
+#TOPLOGO
+
+#toplogo_scripts_css
+
+    $scope.changingExamples = 1
+    $scope.hideLocations = 0
+    $scope.locationInitial = 'z'
+    $scope.theScripts = [
+        {
+            script = 'jquery.cookie'
+        }
+        {
+            script = 'domainredirect'
+        }
+        {
+            script = 'mobileredirect'
+        }
+        {
+            script = 'menu-collapsed'
+        }
+        {
+            script = 'sms'
+        }
+        {
+            script = 'jquery.modalbox-1.2.1-min.js'
+        }
+        ]
+    $scope.theStyles = [
+        {
+            stylesheet = 'jquery.modalbox'
+        }
+        ]
+
+#toplogo_above_banner
+
+    $scope.logo = 'archway.png'
+    $scope.logoLink = '/search/'
+    $scope.middleLogo = 0
+
+#toplogo_banner
+
+    $scope.rightBanner1 = [
+        {
+            link = 'http://searchmobius.org'
+            text = 'MOBIUS'
+        }
+        ]
+        
+    $scope.notLoggedinRightBanner = [
+        {
+            link = '/'
+            text = 'Archway'
+        }
+        {
+            link = '/patroninfo'
+            text = 'My Library Account'
+        }
+        ]
+        
+    $scope.loggedinRightBanner = [
+        {
+            token = 'startover'
+        }
+        {
+            token = 'patronrecord'
+        }
+        {
+            token = 'logout'
+        }
+        ]
+        
+    $scope.rightBanner2 = [
+        {
+            link = '/search/b'
+            text = 'Help'
+        }
+        ]
+    
+#toplogo_right_column
+
+    $scope.rightColumn = [
+        {
+            link = 'search/X'
+            text = 'Advanced Search'
+        }
+        {
+            link = 'search/a'
+            text = 'Author'
+        }
+        {
+            link = 'search/t'
+            text = 'Title'
+        }
+        {
+            link = 'search/s'
+            text = 'Journals, Magazines, Newspapers'
+        }
+        {
+            link = '#'
+            text = 'Numbers'
+        }
+        {
+            link = 'search/d'
+            text = 'Subject (LC)'
+        }
+        {
+            link = 'search/m'
+            text = 'Children\'s Subject'
+        }
+        {
+            link = 'search/q'
+            text = 'Author and Title'
+        }
+        ]
+        
+    $scope.numberRightColumn = [
+        {
+            link = 'search/c'
+            text = 'Library of Congress (LC) Call Number'
+        }
+        {
+            link = 'search/e'
+            text = 'Dewey Call Number'
+        }
+        {
+            link = 'search/f'
+            text = 'Other Call Number'
+        }
+        {
+            link = 'search/g'
+            text = 'Government Document Call Number'
+        }
+        {
+            link = 'search/i'
+            text = 'ISBN, ISSN, Music, Etc., Number'
+        }
+        {
+            link = 'search/o'
+            text = 'OCLC Number'
+        }
+        ]
+        
+-%]

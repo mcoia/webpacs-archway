@@ -1,0 +1,7 @@
+[%- scope = 'westminster' -%]
+[%- PROCESS scopes -%]
+[%- PROCESS styles -%]
+
+.tipsTable {
+    margin-right:20px;
+}
