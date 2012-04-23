@@ -2,21 +2,17 @@
 
 #GENERAL
 
-    $scope.institution = 'Archway Catalog'
+    $scope.institution = 'Archway'
     $scope.scopeNumber = 0
     
 #STYLES
 
     $scope.leftLogoWidth = '250px'
-    $scope.leftLogoPadding = '5px'
-    
-    $scope.middleLogoWidth = '250px'
-    $scope.middleLogoLeft = '36%'
-    $scope.middleLogoTop = '5px'
+    $scope.leftLogoPadding = '.5em'
     
     $scope.rightLogoWidth = '250px'
     $scope.rightLogoRight = '10px'
-    $scope.rightLogoTop = '24px'
+    $scope.rightLogoTop = '33px'
     
 #TOPLOGO
 
@@ -53,9 +49,13 @@
 
 #toplogo_above_banner
 
-    $scope.logo = 'archway.png'
-    $scope.logoLink = '/search/'
+    $scope.leftLogo = 'archway.png'
+    $scope.leftLogoLink = '/search/'
+    $scope.leftLogoText = 'Archway Catalog'
     $scope.middleLogo = 0
+    $scope.rightLogo = 'mobius.gif'
+    $scope.rightLogoLink = 'http://searchmobius.org'
+    $scope.rightLogoText = 'MOBIUS'
 
 #toplogo_banner
 
@@ -100,62 +100,73 @@
 
     $scope.rightColumn = [
         {
-            link = 'search/X'
+            link = '/search/X'
             text = 'Advanced Search'
         }
         {
-            link = 'search/a'
-            text = 'Author'
+            link = '/search/Y'
+            text = 'Keyword'
         }
         {
-            link = 'search/t'
+            link = '/search/t'
             text = 'Title'
         }
         {
-            link = 'search/s'
+            link = '/search/a'
+            text = 'Author'
+        }
+        {
+            link = '/search/d'
+            text = 'Subject (LC)'
+        }
+            {
+            link = '/search/m'
+            text = 'Subject (Children\'s)'
+        }
+        {
+            link = '/search/s'
             text = 'Journals, Magazines, Newspapers'
         }
         {
             link = '#'
-            text = 'Numbers'
+            text = 'Numerical Search'
         }
         {
-            link = 'search/d'
-            text = 'Subject (LC)'
+            link = '/search/b'
+            text = 'Course Reserves'
         }
+        ]
+        
+    $scope.moreRightColumn = [
         {
-            link = 'search/m'
-            text = 'Children\'s Subject'
-        }
-        {
-            link = 'search/q'
-            text = 'Author and Title'
+            link = '/ftlists'
+            text = 'Featured Lists'
         }
         ]
         
     $scope.numberRightColumn = [
         {
-            link = 'search/c'
+            link = '/search/c'
             text = 'Library of Congress (LC) Call Number'
         }
         {
-            link = 'search/e'
+            link = '/search/e'
             text = 'Dewey Call Number'
         }
         {
-            link = 'search/f'
+            link = '/search/f'
             text = 'Other Call Number'
         }
         {
-            link = 'search/g'
+            link = '/search/g'
             text = 'Government Document Call Number'
         }
         {
-            link = 'search/i'
+            link = '/search/i'
             text = 'ISBN, ISSN, Music, Etc., Number'
         }
         {
-            link = 'search/o'
+            link = '/search/o'
             text = 'OCLC Number'
         }
         ]

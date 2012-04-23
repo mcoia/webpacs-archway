@@ -1,16 +1,16 @@
 <div class="topLogo">
 <div class="leftLogo">
-<a href="[% $scope.logoLink %]" tabindex="10"><img src="/screens/[% $scope.logo %]" alt="[% $scope.institution %] Catalog"></a>
+<a href="[% $scope.leftLogoLink %]"><img src="/screens/[% $scope.leftLogo %]" alt="[% $scope.leftLogoText %]"></a>
 </div>
 
 [%- IF $scope.middleLogo -%]
 <div class="middleLogo">
-<a href="/" tabindex="10"><img src="/screens/arthur.png" alt="Arthur Catalog"></a>
+<a href="[% $scope.middleLogoLink %]"><img src="/screens/[% $scope.middleLogo %]" alt="[% $scope.middleLogoText %]"></a>
 </div>
 [%- END -%]
 
 <div class="rightLogo">
-<a href="http://searchmobius.org"><img src="/screens/mobius.gif" alt="MOBIUS Catalog"></a>
+<a href="[% $scope.rightLogoLink %]"><img src="/screens/[% $scope.rightLogo %]" alt="[% $scope.rightLogoText %]"></a>
 </div>
 
 <div id="alertMessage"></div>

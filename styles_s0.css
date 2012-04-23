@@ -1,6 +1,6 @@
 .leftLogo {
     width: 250px;
-    padding: 5px;
+    padding: .5em;
 }
 
 
@@ -8,5 +8,5 @@
     position: absolute;
     width: 250px;
     right: 10px;
-    top: 24px;
+    top: 33px;
 }

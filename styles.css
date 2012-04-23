@@ -719,6 +719,29 @@ div .bibResourceSidebar { display:none; }
 
 .libinfoRight li {  }
 
+
+.linkBanner {
+    background:#0D7781;
+    margin:0;
+    position:relative;
+    padding:.5em 0;
+    clear:both;
+    float:right;
+    width:100%;
+}
+
+.linkBanner a {color: #ffffff; font-weight:bold; text-decoration:none;}
+
+.linkBanner .linkBannerLeft {float: left;}
+
+.linkBanner .linkBannerRight {float: right;}
+
+.linkBanner .linkBannerLeft ul li, .linkBanner .linkBannerRight ul li {display:inline; margin-left: 0; margin-right:2em;}
+
+.linkBanner .linkBannerLeft ul li:last-child, .linkBanner .linkBannerRight ul li:last-child {margin-right:0;}
+
+.linkBanner ul {list-style-type:none; margin: 0; padding: 0 1.2em;}
+
 .loggedInMessage { color:#999999; font-size:.8em; font-style:normal; float:right; margin:1px 5px 0 0; }
 
 .loggedInMoreInfo { display:none; position:absolute; top:-5000px; right:-5000px; }
@@ -755,10 +778,6 @@ width:55%;
 .minHeight { height:100%; width:97%; margin-left:auto; margin-right:auto; background:#ffffff; padding-bottom:0; padding-top:0; }
 
 .miscButtons { margin-bottom: 1em;}
-
-.mobiusLogo, .clusterLogo, .scopeLogo { position:absolute; right:10px; }
-
-.mobiusLogo, .clusterLogo { top: 33px; }
 
 .scopeLogo { top: 10px; }
 
@@ -810,18 +829,6 @@ span.navButtonYellow {
 }
 
 
-
-.navHeader {
-border-bottom:1px dashed #5E5D5D;
-color:#5E5D5D;
-font-size:small;
-font-weight:bold;
-letter-spacing:1px;
-margin-bottom:0;
-margin-top:5px;
-padding:2px;
-}
-
 .navigationRow a, .navigationRowRecord a, .miscButtons a {display:inline-block;vertical-align:text-top; font-family:Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif; text-decoration:none; width:auto; }
 
 .navigationRow a, .navigationRowRecord a, .miscButtons a {padding:0;}
@@ -859,15 +866,6 @@ width:71%;
 .pageContentInnerBarePage { padding:12px 20px;}
 
 .pat br { display:inline; line-height:1px; }
-
-.pageNavColumn {
-background-color:#F3F3F3;
-border:3px ridge #0D7781;
-float:right;
-margin:2% 1.75%;
-padding:0.5%;
-width:19%;
-}
 
 #content { background:#F2F2F2; }
 
@@ -1029,23 +1027,10 @@ td.progInfoLabel { color:#767C70; font-weight:bold; padding-right:25px; text-ali
 
 .resourcePager { width:10em; margin-left:auto; }
 
-#rightCol {
-font-size:15px;
-margin:0 20px;
-padding:0;
-}
-
-#rightCol li {
-list-style-type:none;
-padding:4px 0;
-text-indent:-14px;
-}
-
-#rightCol li a {
-color:#444444;
-margin:0 0 0 3px;
-padding:0;
-text-decoration:none;
+.rightColumn {
+float:right;
+margin:2% 1.75%;
+width:20.5%;
 }
 
 table.resourceResource { margin:15px; width:95%; }
@@ -1092,21 +1077,40 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 
 #searcharg { }
 
-.searchNav { background: #0D7781; margin:0; position:relative; }
+#searchOptions {
+    background-color:#F3F3F3;
+    border:3px ridge #0D7781;
+    padding:0.5em;
+}
 
-.searchNav a {color: #ffffff; font-weight:bold; text-decoration:none;}
+#searchOptions h1 {
+    border-bottom:1px dashed #5E5D5D;
+    color:#5E5D5D;
+    font-size:small;
+    font-weight:bold;
+    letter-spacing:1px;
+    margin:5px 0 0;
+    padding:2px;
+}
 
-.searchNav .navLeft {float: left;}
+#searchOptions ul {
+    font-size:15px;
+    margin:0 20px;
+    padding:0;
+}
 
-.searchNav. .navRight {float: right;}
+#searchOptions ul li {
+    list-style-type:none;
+    padding:4px 0;
+    text-indent:-14px;
+}
 
-.searchNav .navLeft ul li {margin-left: 0; margin-right:2em;}
-
-.searchNav ul {list-style-type:none; margin: 0; padding: 0 1.2em;}
-
-.searchNav ul li {display: inline; margin-left:2em;}
-
-#searchNavMenu { margin:0; text-align:right; padding:.5em 0;}
+#searchOptions ul li a {
+    color:#444444;
+    margin:0 0 0 3px;
+    padding:0;
+    text-decoration:none;
+}
 
 .searchNavBut { vertical-align:bottom; margin:3px 10px 3px 5px; }
 
@@ -1151,10 +1155,6 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 .topLogo { position:relative; }
 
 .topLogo img { border:0; display:block; margin-left:auto; margin-right:auto }
-
-.topLogoImage { padding:.5em;}
-
-.topLogoImage, .mobiusLogo, .clusterLogo {width:250px;}
 
 .topLinks { float: right; height: auto; margin:0; padding:0; width: 50%; }
 
@@ -1217,8 +1217,6 @@ div.rssChannelEntries { border:none; background:#FFFFFF; }
 #toplogoMoreNav li:hover ul, #toplogoMoreNav li.over ul { visibility:visible; display:block; }
 
 #topMyLibraryHeader { float:left; }
-
-div#searchNavMenu { clear:both; float:right; background:#0D7781; width:100%; }
 
 /*Special treatment for IE6, using the JS-activated "li.over"*/
 #toplogoMoreNav li.over ul { margin:0; }

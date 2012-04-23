@@ -32,8 +32,8 @@ Free for non-commercial use
 */
 
 function initMenu() {
-  $('#rightCol ul').hide();
-  $('#rightCol li a').click(
+  $('#searchOptions ul ul').hide();
+  $('#searchOptions ul li a').click(
     function() {
         $(this).next().slideToggle('normal');	
       }

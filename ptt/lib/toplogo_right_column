@@ -8,17 +8,12 @@
 [% PROCESS rightColumnItem FOREACH $scope.rightColumn -%]
 [% PROCESS rightColumnItem FOREACH $scope.moreRightColumn -%]
 </ul>
-		[% BLOCK numberItem -%]
-                <li>
-		<a href="/[% link %]">[% text %]</a>
-		</li>
-                [% END -%]
 [% BLOCK rightColumnItem -%]
     <li>
-    <a href="/[% link %]">[% text %]</a>
-    [% IF text == 'Numbers' -%]
+    <a href="[% link %]">[% text %]</a>
+    [% IF link == '#' -%]
 	<ul>
-	[% PROCESS numberItem FOREACH $scope.numberRightColumn %]
+	[% PROCESS rightColumnItem FOREACH $scope.numberRightColumn %]
 	</ul>
     [% END -%]
     </li>
