@@ -1,248 +1,167 @@
-[%- lincoln = {
-
-	#GENERAL
-	
-                institution = 'Lincoln University'
-                scopeNumber = 1
-	    
-	#STYLES
-	
-                leftLogoWidth = '109px'
-
+[%- unscoped = {
+		
 	#TOPLOGO
-
-	#toplogo_scripts_css
-	
-                hideLocations = 1
-                locationInitial = 'l'
-	    
-	#toplogo_banner
-
-                moreLeftBanner = [
-                    {
-                        link = 'search/j'
-                        text = 'Course Reserves'
-                    }
-                    ]
-	    
+		
 	#toplogo_above_banner
 	
-                logo = 'lincoln.png'
-                middleLogo = 1
+		rightLogo = 'mobius.gif'
+		rightLogoLink = 'http://searchmobius.org'
+		rightLogoText = 'MOBIUS'
     }
 -%]
-[%- columbia = {
+
+[%- eastcentral = {
 
 	#GENERAL
 	
-                institution = 'Columbia College'
+	        institution = 'East Central College'
+		scopeNumber = 1	
+		    
+	#STYLES
+
+		rightLogoWidth = '454px'
+		rightLogoTop = '20px'
+		
+	#TOPLOGO
+		
+	#toplogo_above_banner
+	
+		rightLogo = 'eastcentral.png'
+		rightLogoText = 'East Central College'
+    }
+-%]
+[%- jeffersoncollege = {
+
+	#GENERAL
+	
+                institution = 'Jefferson Colege'
                 scopeNumber = 2
-	    
+		    
 	#STYLES
-	
-                rightLogoTop = '8px'
-	    
-	#TOPLOGO
 
-	#toplogo_scripts_css
+		rightLogoWidth = '262px'
+		
+	#TOPLOGO
 	
-                locationInitial = 'c'
-                linkQR = 1
-                scopeScripts = [
-                        {
-                                script = '856links'
-                        }
-                        ]
-	    
 	#toplogo_above_banner
 	
-                logo = 'cclogo2011.jpg'
-	
-	#toplogo_right_column
-
-                moreRightColumn = [
-                    {
-                        link = 'search/j'
-                        text = 'Course Reserves'
-                    }
-                    {
-                        link = 'search/v'
-                        text = 'Videos'
-                    }
-                    ]
+		rightLogo = 'jefferson.png'
+		rightLogoText = 'Jefferson College Library'
     }
+
 -%]
-[%- stephens = {
+[%- stcharles = {
 
 	#GENERAL
 	
-                institution = 'Stephens College'
+                institution = 'St. Charles Community College'
                 scopeNumber = 3
-	    
+		    
 	#STYLES
 
-                leftLogoPadding = '27px 5px'
-	    
+		rightLogoWidth = '239px'
+		rightLogoTop = '17px'
+		
 	#TOPLOGO
-
-	#toplogo_scripts_css
 	
-                location_initial = 's'
-	   
 	#toplogo_above_banner
 	
-                logo = 'stephens.png'
-                middleLogo = 1
-	    
-	#toplogo_right_column
-
-                moreRightColumn = [
-                    {
-                        link = 'search/j'
-                        text = 'Course Reserves'
-                    }
-                    ]
+		rightLogo = 'stcharles.png'
+		rightLogoText = 'St. Charles Community College'
     }
 -%]
-[%- westminster = {
+[%- stlcc = {
 
 	#GENERAL
 	
-                institution = 'Westminster College'
+                institution = 'St. Charles Community College'
                 scopeNumber = 4
-	    
-	#STYLES
-	
-                leftLogoPadding = '12px 4px'
-	    
+		
+	#STYLES	
+
+		leftLogoPadding = '20px 10px'
+    
+		rightLogoWidth = '245px'
+		rightLogoRight = '0.5em'
+		rightLogoTop = '0.5em'
+		
 	#TOPLOGO
 
-	#toplogo_scripts_css
-	
-                hideLocations = 1
-                locationInitial = '2'
-	
 	#toplogo_above_banner
-	    
-                logo = 'westminster_library.jpg'
-                logoLink = 'http://www.westminster-mo.edu/academics/resources/library/Pages/default.aspx'
-                middleLogo = 1
-	    
-	#toplogo_banner
 	
-                loggedinLeftBanner = [
-                    {
-                        token = 'startover'
-                    }
-                    {
-                        token = 'patronrecord'
-                    }
-                    {
-                        token = 'logout'
-                    }
-                    ]
-            
-                notLoggedinLeftBanner = [
-                    {
-                        link = 'search'
-                        text = 'New Search'
-                    }
-                    {
-                        link = 'patroninfo'
-                        text = 'My Library Account'
-                    }
-                    ]
-	
-                leftBanner = [
-    
-                    {
-                        link = 'search/j'
-                        text = 'Course Reserves'
-                    }
-                    {
-                        link = 'http://www.westminster-mo.edu/academics/resources/library/Pages/default.aspx'
-                        text = 'Reeves Library'
-                    }
-                    {
-                        link = 'http://searchmobius.org'
-                        text = 'MOBIUS'
-                    }
-                    {
-                        link = 'search/b'
-                        text = 'Help'
-                    }
-                    ]
+		leftLogo = 'stlcc.png'
+		leftLogoLink = 'http://stlcc.edu/libraries/'
+		leftLogoText = 'St. Louis Community College'
+		rightLogo = 'archway.png'
+		rightLogoLink = '/'
+		rightLogoText = 'Archway Catalog'
     }
 -%]
-[%- williamwoods = {
+[%- stlcc-florissantvalley = {
 
 	#GENERAL
 	
-                institution = 'William Woods'
+                institution = 'STLCC Florissant Valley'
                 scopeNumber = 5
-	    
-	#STYLES
-	
-                leftLogoWidth = '150px'
-	    
-	#TOPLOGO
-
-	#toplogo_scripts_css
-	
-                locationInitial = 'w'
-	    
-	#toplogo_above_banner
-	
-                logo = 'WW_logo_small.gif'
     }
 -%]
-[%- missouristate = {
+[%- stlcc-forestpark = {
 
 	#GENERAL
 	
-                institution = 'Missouri State Library'
+                institution = 'STLCC Forest Park'
                 scopeNumber = 6
-	    
-	#STYLES
-	
-                leftLogoWidth = '190px'
-    
-                rightLogoTop = '6px'
-
-	#TOPLOGO
-
-	#toplogo_scripts_css
-	
-                hideLocations = 1
-                locationInitial = 'm'
-	    
-	#toplogo_above_banner
-	
-                logo = 'libLogoCat2small.gif'
     }
 -%]
-[%- modot = {
+[%- stlcc-highlandpark = {
 
 	#GENERAL
 	
-                institution = 'MoDOT'
+                institution = 'STLCC Highland Park'
                 scopeNumber = 7
-	    
-	#STYLES
-	
-                leftLogoWidth = '72px'
-    
-                rightLogoTop = '6px'
-	    
-	#TOPLOGO
+    }
+-%]
+[%- stlcc-meramec = {
 
-	#toplogo_scripts_css
+	#GENERAL
 	
-                hideLocations = 1
-                locationInitial = 'm'
+                institution = 'STLCC Meramec'
+                scopeNumber = 8
+    }
+-%]
+[%- stlcop = {
+
+	#GENERAL
+	
+                institution = 'St. Louis College of Pharmacy'
+                scopeNumber = 9
+		    
+	#STYLES
+
+		rightLogoWidth = '392px'
+		rightLogoTop = '18px'
+		
+	#TOPLOGO
 	
 	#toplogo_above_banner
 	
-                logo = 'MoDOT_logo_sm.gif'
+		rightLogo = 'stlcop.jpg'
+		rightLogoText = 'St. Louis College of Pharmacy'
+    }
+-%]
+[%- stlcc-archives = {
+
+	#GENERAL
+	
+                institution = 'STLCC Archives'
+                scopeNumber = 10
+    }
+-%]
+[%- stlcc-wildwood = {
+
+	#GENERAL
+	
+                institution = 'STLCC Wildwood'
+                scopeNumber = 11
     }
 -%]
