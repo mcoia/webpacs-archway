@@ -1,1 +1,3 @@
 [%- PROCESS styles -%]
+[%- PROCESS scopes -%]
+[%- PROCESS unscoped -%]

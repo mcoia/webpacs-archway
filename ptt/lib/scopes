@@ -1,15 +1,25 @@
 [%- unscoped = {
+
+	#STYLES
+	
+		leftLogoPadding = '.5em'
+	    
+		rightLogoWidth = '250px'
+		rightLogoRight = '10px'
+		rightLogoTop = '33px'
 		
 	#TOPLOGO
 		
 	#toplogo_above_banner
-	
+
+		leftLogo = 'archway.png'
+		leftLogoLink = '/search/'
+		leftLogoText = 'Archway Catalog'
 		rightLogo = 'mobius.gif'
 		rightLogoLink = 'http://searchmobius.org'
 		rightLogoText = 'MOBIUS'
     }
 -%]
-
 [%- eastcentral = {
 
 	#GENERAL
@@ -26,6 +36,9 @@
 		
 	#toplogo_above_banner
 	
+		leftLogo = 'archway.png'
+		leftLogoLink = '/search/'
+		leftLogoText = 'Archway Catalog'
 		rightLogo = 'eastcentral.png'
 		rightLogoText = 'East Central College'
     }
@@ -45,6 +58,9 @@
 	
 	#toplogo_above_banner
 	
+		leftLogo = 'archway.png'
+		leftLogoLink = '/search/'
+		leftLogoText = 'Archway Catalog'
 		rightLogo = 'jefferson.png'
 		rightLogoText = 'Jefferson College Library'
     }
@@ -66,6 +82,9 @@
 	
 	#toplogo_above_banner
 	
+		leftLogo = 'archway.png'
+		leftLogoLink = '/search/'
+		leftLogoText = 'Archway Catalog'
 		rightLogo = 'stcharles.png'
 		rightLogoText = 'St. Charles Community College'
     }
@@ -76,28 +95,9 @@
 	
                 institution = 'St. Charles Community College'
                 scopeNumber = 4
-		
-	#STYLES	
-
-		leftLogoPadding = '20px 10px'
-    
-		rightLogoWidth = '245px'
-		rightLogoRight = '0.5em'
-		rightLogoTop = '0.5em'
-		
-	#TOPLOGO
-
-	#toplogo_above_banner
-	
-		leftLogo = 'stlcc.png'
-		leftLogoLink = 'http://stlcc.edu/libraries/'
-		leftLogoText = 'St. Louis Community College'
-		rightLogo = 'archway.png'
-		rightLogoLink = '/'
-		rightLogoText = 'Archway Catalog'
     }
 -%]
-[%- stlcc-florissantvalley = {
+[%- stlccflorissantvalley = {
 
 	#GENERAL
 	
@@ -105,7 +105,7 @@
                 scopeNumber = 5
     }
 -%]
-[%- stlcc-forestpark = {
+[%- stlccforestpark = {
 
 	#GENERAL
 	
@@ -113,7 +113,7 @@
                 scopeNumber = 6
     }
 -%]
-[%- stlcc-highlandpark = {
+[%- stlcchighlandpark = {
 
 	#GENERAL
 	
@@ -121,7 +121,7 @@
                 scopeNumber = 7
     }
 -%]
-[%- stlcc-meramec = {
+[%- stlccmeramec = {
 
 	#GENERAL
 	
@@ -138,6 +138,9 @@
 		    
 	#STYLES
 
+		leftLogo = 'archway.png'
+		leftLogoLink = '/search/'
+		leftLogoText = 'Archway Catalog'
 		rightLogoWidth = '392px'
 		rightLogoTop = '18px'
 		
@@ -149,7 +152,7 @@
 		rightLogoText = 'St. Louis College of Pharmacy'
     }
 -%]
-[%- stlcc-archives = {
+[%- stlccarchives = {
 
 	#GENERAL
 	
@@ -157,7 +160,7 @@
                 scopeNumber = 10
     }
 -%]
-[%- stlcc-wildwood = {
+[%- stlccwildwood = {
 
 	#GENERAL
 	

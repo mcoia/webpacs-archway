@@ -1,7 +1,0 @@
-[%- scope = 'modot' -%]
-[%- PROCESS scopes -%]
-[%- PROCESS styles -%]
-
-.patFuncArea {
-    width: 90%
-}

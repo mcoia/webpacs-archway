@@ -1,31 +1,12 @@
 .leftLogo {
     width: 250px;
-    padding: 27px 5px;
+    padding: 20px 10px;
 }
 
-.middleLogo {
-    position: absolute;
-    width: ;
-    left: ;
-    top: ;
-}
 
 .rightLogo {
     position: absolute;
-    width: 250px;
-    right: 10px;
-    top: 33px;
-}
-body { font-size:95%; }
-
-.briefcitDetail, .briefcitAuthDetail {
-    width: 80%;
-}
-
-.briefcitJacket {
-    width:0px;
-}
-
-#rightCol {
-    font-size:16px;
+    width: 239px;
+    right: 0.5em;
+    top: 17px;
 }

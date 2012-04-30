@@ -1,13 +1,19 @@
-
-
-.pageNavColumn {
-    border-color:#46166A;
+.leftLogo {
+    width: 250px;
+    padding: 20px 10px;
 }
 
-div#searchNavMenu {
-    background-color: #46166A;
-}
 
-.scopeLogo {
-    top:18px; 
-}
+.rightLogo {
+    position: absolute;
+    width: 245px;
+    right: 0.5em;
+    top: 0.5em;
+}
+.linkBanner {
+    background-color: #46166A;
+}
+
+#searchOptions {
+    border-color:#46166A;
+}

@@ -1,18 +1,12 @@
 .leftLogo {
-    width: 109px;
-    padding: .5em;
+    width: 250px;
+    padding: 20px 10px;
 }
 
-.middleLogo {
-    position: absolute;
-    width: ;
-    left: ;
-    top: ;
-}
 
 .rightLogo {
     position: absolute;
-    width: 250px;
-    right: 10px;
-    top: 33px;
+    width: 454px;
+    right: 0.5em;
+    top: 20px;
 }

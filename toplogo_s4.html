@@ -12,8 +12,6 @@ $(document).ready(function () {
     	$("#exampleText").load("screens/" + this.value + ".inc");
 	});
 	//Changes the search examples
-	$('#b option:not([value^="2"])').hide(); //Hides the out-of-scope locations
-	$('#b option[value=""]').show(); //Shows the any location for the scopes
 });
 </script>
 
@@ -29,25 +27,17 @@ if (document.body){document.body.className = "bodybg";}
 <div id="skipNav"><a href="#content" tabindex="1">Skip to content</a></div>
 <div class="topLogo">
 <div class="leftLogo">
-<a href="/search/"><img src="/screens/archway.png" alt="Archway Catalog"></a>
+<a href="http://stlcc.edu/libraries/"><img src="/screens/stlcc.png" alt="St. Louis Community College"></a>
 </div>
-<div class="middleLogo">
-<a href=""><img src="/screens/1" alt=""></a>
-</div>
+
 <div class="rightLogo">
-<a href="http://searchmobius.org"><img src="/screens/mobius.gif" alt="MOBIUS"></a>
+<a href="/"><img src="/screens/archway.png" alt="Archway Catalog"></a>
 </div>
 
 <div id="alertMessage"></div>
 
 </div><!--topLogo-->
 <div class="linkBanner">
-<div class="linkBannerLeft">
-<ul>
-    <li><a href="search">New Search</a></li>
-    <li><a href="patroninfo">My Library Account</a></li>
-</ul>
-</div>
 <div class="linkBannerRight">
 <ul>
     <li><a href="http://searchmobius.org">MOBIUS</a></li>

@@ -1,14 +1,14 @@
 .leftLogo {
     width: 250px;
-    padding: .5em;
+    padding: 20px 10px;
 }
 
 
 .rightLogo {
     position: absolute;
-    width: 250px;
-    right: 10px;
-    top: 8px;
+    width: 245px;
+    right: 0.5em;
+    top: 0.5em;
 }
 a.bibDisplayContentMain, .resourceDisplayContentMain {
     margin-left:2em;

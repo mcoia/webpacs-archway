@@ -12,8 +12,6 @@ $(document).ready(function () {
     	$("#exampleText").load("screens/" + this.value + ".inc");
 	});
 	//Changes the search examples
-	$('#b option:not([value^="l"])').hide(); //Hides the out-of-scope locations
-	$('#b option[value=""]').show(); //Shows the any location for the scopes
 });
 </script>
 
@@ -31,11 +29,9 @@ if (document.body){document.body.className = "bodybg";}
 <div class="leftLogo">
 <a href="/search/"><img src="/screens/archway.png" alt="Archway Catalog"></a>
 </div>
-<div class="middleLogo">
-<a href=""><img src="/screens/1" alt=""></a>
-</div>
+
 <div class="rightLogo">
-<a href="http://searchmobius.org"><img src="/screens/mobius.gif" alt="MOBIUS"></a>
+<a href="/"><img src="/screens/eastcentral.png" alt="East Central College"></a>
 </div>
 
 <div id="alertMessage"></div>

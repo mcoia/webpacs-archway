@@ -1,20 +1,14 @@
 .leftLogo {
     width: 250px;
-    padding: 12px 4px;
+    padding: 20px 10px;
 }
 
-.middleLogo {
-    position: absolute;
-    width: ;
-    left: ;
-    top: ;
-}
 
 .rightLogo {
     position: absolute;
-    width: 250px;
-    right: 10px;
-    top: 33px;
+    width: 245px;
+    right: 0.5em;
+    top: 0.5em;
 }
 .tipsTable {
     margin-right:20px;
