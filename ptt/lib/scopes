@@ -1,25 +1,3 @@
-[%- unscoped = {
-
-	#STYLES
-	
-		leftLogoPadding = '.5em'
-	    
-		rightLogoWidth = '250px'
-		rightLogoRight = '10px'
-		rightLogoTop = '33px'
-		
-	#TOPLOGO
-		
-	#toplogo_above_banner
-
-		leftLogo = 'archway.png'
-		leftLogoLink = '/search/'
-		leftLogoText = 'Archway Catalog'
-		rightLogo = 'mobius.gif'
-		rightLogoLink = 'http://searchmobius.org'
-		rightLogoText = 'MOBIUS'
-    }
--%]
 [%- eastcentral = {
 
 	#GENERAL
@@ -36,9 +14,6 @@
 		
 	#toplogo_above_banner
 	
-		leftLogo = 'archway.png'
-		leftLogoLink = '/search/'
-		leftLogoText = 'Archway Catalog'
 		rightLogo = 'eastcentral.png'
 		rightLogoText = 'East Central College'
     }
@@ -53,14 +28,12 @@
 	#STYLES
 
 		rightLogoWidth = '262px'
+		rightLogoTop = '20px'
 		
 	#TOPLOGO
 	
 	#toplogo_above_banner
-	
-		leftLogo = 'archway.png'
-		leftLogoLink = '/search/'
-		leftLogoText = 'Archway Catalog'
+
 		rightLogo = 'jefferson.png'
 		rightLogoText = 'Jefferson College Library'
     }
@@ -76,15 +49,12 @@
 	#STYLES
 
 		rightLogoWidth = '239px'
-		rightLogoTop = '17px'
+		rightLogoTop = '19px'
 		
 	#TOPLOGO
 	
 	#toplogo_above_banner
-	
-		leftLogo = 'archway.png'
-		leftLogoLink = '/search/'
-		leftLogoText = 'Archway Catalog'
+
 		rightLogo = 'stcharles.png'
 		rightLogoText = 'St. Charles Community College'
     }
@@ -93,8 +63,29 @@
 
 	#GENERAL
 	
-                institution = 'St. Charles Community College'
-                scopeNumber = 4
+                institution = 'St. Louis Community College'
+                scopeNumber = '_stlcc'
+		
+	#STYLES
+	
+		leftLogoWidth = '250px'
+		leftLogoPadding = '26px 10px'
+	    
+		rightLogoWidth = '245px'
+		rightLogoRight = '15px'
+		rightLogoTop = '10px'
+    
+	#TOPLOGO
+	
+	#toplogo_above_banner
+	
+		leftLogo = 'stlcc.png'
+		leftLogoLink = 'http://stlcc.edu/libraries/'
+		leftLogoText = 'St. Louis Community College'
+	
+		rightLogo = 'archway.png'
+		rightLogoLink = '/'
+		rightLogoText = 'Archway Catalog'
     }
 -%]
 [%- stlccflorissantvalley = {
@@ -102,7 +93,19 @@
 	#GENERAL
 	
                 institution = 'STLCC Florissant Valley'
-                scopeNumber = 5
+                scopeNumber = '_stlcc'
+		
+	#TOPLOGO
+	
+	#toplogo_above_banner
+	
+		leftLogo = 'stlcc.png'
+		leftLogoLink = 'http://stlcc.edu/libraries/'
+		leftLogoText = 'St. Louis Community College'
+	
+		rightLogo = 'archway.png'
+		rightLogoLink = '/'
+		rightLogoText = 'Archway Catalog'
     }
 -%]
 [%- stlccforestpark = {
@@ -110,7 +113,19 @@
 	#GENERAL
 	
                 institution = 'STLCC Forest Park'
-                scopeNumber = 6
+                scopeNumber = '_stlcc'
+		
+	#TOPLOGO
+	
+	#toplogo_above_banner
+	
+		leftLogo = 'stlcc.png'
+		leftLogoLink = 'http://stlcc.edu/libraries/'
+		leftLogoText = 'St. Louis Community College'
+	
+		rightLogo = 'archway.png'
+		rightLogoLink = '/'
+		rightLogoText = 'Archway Catalog'
     }
 -%]
 [%- stlcchighlandpark = {
@@ -118,7 +133,19 @@
 	#GENERAL
 	
                 institution = 'STLCC Highland Park'
-                scopeNumber = 7
+                scopeNumber = '_stlcc'
+		
+	#TOPLOGO
+	
+	#toplogo_above_banner
+	
+		leftLogo = 'stlcc.png'
+		leftLogoLink = 'http://stlcc.edu/libraries/'
+		leftLogoText = 'St. Louis Community College'
+	
+		rightLogo = 'archway.png'
+		rightLogoLink = '/'
+		rightLogoText = 'Archway Catalog'
     }
 -%]
 [%- stlccmeramec = {
@@ -126,7 +153,19 @@
 	#GENERAL
 	
                 institution = 'STLCC Meramec'
-                scopeNumber = 8
+                scopeNumber = '_stlcc'
+		
+	#TOPLOGO
+	
+	#toplogo_above_banner
+	
+		leftLogo = 'stlcc.png'
+		leftLogoLink = 'http://stlcc.edu/libraries/'
+		leftLogoText = 'St. Louis Community College'
+	
+		rightLogo = 'archway.png'
+		rightLogoLink = '/'
+		rightLogoText = 'Archway Catalog'
     }
 -%]
 [%- stlcop = {
@@ -138,9 +177,6 @@
 		    
 	#STYLES
 
-		leftLogo = 'archway.png'
-		leftLogoLink = '/search/'
-		leftLogoText = 'Archway Catalog'
 		rightLogoWidth = '392px'
 		rightLogoTop = '18px'
 		
@@ -157,7 +193,19 @@
 	#GENERAL
 	
                 institution = 'STLCC Archives'
-                scopeNumber = 10
+                scopeNumber = '_stlcc'
+		
+	#TOPLOGO
+	
+	#toplogo_above_banner
+	
+		leftLogo = 'stlcc.png'
+		leftLogoLink = 'http://stlcc.edu/libraries/'
+		leftLogoText = 'St. Louis Community College'
+	
+		rightLogo = 'archway.png'
+		rightLogoLink = '/'
+		rightLogoText = 'Archway Catalog'
     }
 -%]
 [%- stlccwildwood = {
@@ -165,6 +213,18 @@
 	#GENERAL
 	
                 institution = 'STLCC Wildwood'
-                scopeNumber = 11
+                scopeNumber = '_stlcc'
+		
+	#TOPLOGO
+	
+	#toplogo_above_banner
+	
+		leftLogo = 'stlcc.png'
+		leftLogoLink = 'http://stlcc.edu/libraries/'
+		leftLogoText = 'St. Louis Community College'
+	
+		rightLogo = 'archway.png'
+		rightLogoLink = '/'
+		rightLogoText = 'Archway Catalog'
     }
 -%]

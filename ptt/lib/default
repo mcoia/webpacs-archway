@@ -7,12 +7,12 @@
     
 #STYLES
 
-    $scope.leftLogoWidth = '250px'
-    $scope.leftLogoPadding = '20px 10px'
+    $scope.leftLogoWidth = '245px'
+    $scope.leftLogoPadding = '10px'
     
-    $scope.rightLogoWidth = '245px'
-    $scope.rightLogoRight = '0.5em'
-    $scope.rightLogoTop = '0.5em'
+    $scope.rightLogoWidth = '250px'
+    $scope.rightLogoRight = '10px'
+    $scope.rightLogoTop = '35px'
     
 #TOPLOGO
 
@@ -49,13 +49,13 @@
 
 #toplogo_above_banner
 
-    $scope.leftLogo = 'stlcc.png'
-    $scope.leftLogoLink = 'http://stlcc.edu/libraries/'
-    $scope.leftLogoText = 'St. Louis Community College'
+    $scope.leftLogo = 'archway.png'
+    $scope.leftLogoLink = '/search/'
+    $scope.leftLogoText = 'Archway Catalog'
     $scope.middleLogo = 0
-    $scope.rightLogo = 'archway.png'
-    $scope.rightLogoLink = '/'
-    $scope.rightLogoText = 'Archway Catalog'
+    $scope.rightLogo = 'mobius.gif'
+    $scope.rightLogoLink = 'http://searchmobius.org'
+    $scope.rightLogoText = 'MOBIUS'
 
 #toplogo_banner
 

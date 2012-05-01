@@ -1,12 +1,12 @@
-.topLogoImage {
-    padding:20px 10px;
+.leftLogo {
+    width: 250px;
+    padding: 30px 10px;
 }
 
-.clusterLogo{
+
+.rightLogo {
     position: absolute;
-    right:.5em;
-    top:.5em;
-}
-
-
-
+    width: 245px;
+    right: 15px;
+    top: 12px;
+}
