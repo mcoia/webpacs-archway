@@ -1,0 +1,11 @@
+[%- scope = 'stlcop' -%]
+[%- PROCESS scopes -%]
+[%- PROCESS styles -%]
+
+.linkBanner {
+    background-color:#46166A;
+}
+
+#searchOptions {
+    border-color:#46166A;
+}
