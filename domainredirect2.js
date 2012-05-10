@@ -43,7 +43,7 @@ if (scope == undefined || scope == 0){
 
 if (href.indexOf("&redirected") != -1 ) {
     
-    var redirectMessage = "<p>You've been redirected from archway.mobius.umsystem.edu or archway.missouri.edu. Starting on May 12, 2012, those addresses will no longer work.</p><p>Please update your bookmarks to <a href='" + newURL + "'>" + newURL + "</a>.</p>"
+    var redirectMessage = "<p>You've been redirected from archway.mobius.umsystem.edu or archway.missouri.edu. Starting on July 1, 2012, those addresses will no longer work.</p><p>Please update your bookmarks to <a href='" + newURL + "'>" + newURL + "</a>.</p>"
 
     $(document).ready(function () {
         $('#alertMessage').html(redirectMessage);
