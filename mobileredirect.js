@@ -16,7 +16,7 @@ $.extend({
   }
 });
 
-var mobileHost = 'https://m.archway.searchmobius.org'; // No trailing slash
+var mobileHost = 'https://m-archway.searchmobius.org'; // No trailing slash
 var redirectUrl;
 var scope;
 var scopeMatch = /~S(\d+)/.exec(window.location.href);
