@@ -182,6 +182,7 @@ IMAGE_MATTYPE2=/screens/media_ebook.gif
 IMAGE_MATTYPE3=/screens/media_efilm.gif
 IMAGE_MATTYPE4=/screens/media_eaudiobook.gif
 IMAGE_MATTYPE5=/screens/media_cdrom.gif
+IMAGE_MATTYPE6=/screens/media_bluray.gif
 INDEX_EXT=cefg
 MEDIA=2
 NO_COPIES=Currently no copies available
