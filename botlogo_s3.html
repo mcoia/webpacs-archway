@@ -32,7 +32,7 @@ if (!document.getElementById("recordnum")) {} else{
 var ref = document.getElementById("recordnum").getAttribute("href");
 var str = ref.indexOf("=")
 var recno = ref.substr(str+1,8);
-var encoreLink = '<a href="http://archwayencore.searchmobius.org/iii/encorestchar/record/C%7CR'+recno+'"><span class="navButton">Search Encore</span></a>';
+var encoreLink = '<a href="http://stchas.searchmobius.org/iii/encore/record/C__R'+recno+'__Orightresult__X5?lang=eng&suite=stchar"><span class="navButton">Search Encore</span></a>';
 // Put link to Encore record on record page
 document.getElementById("encoreLink").innerHTML = encoreLink;
 }
