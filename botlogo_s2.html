@@ -31,6 +31,16 @@
   }
 </script>
 
+<script type="text/javascript">
+  try {
+     if (window.parent.location.href === undefined) {
+        $('.chat-widget').hide()
+     } else {
+     }
+  } catch (err) {
+        $('.chat-widget').hide()
+  }
+</script> 
 
   <script type="text/javascript">
   (function() {

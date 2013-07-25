@@ -20,6 +20,14 @@ $(document).ready(function () {
 	var selectAny = $('#b option[value=""]')
 	$('#b option:not([value^="j"])').detach(); 
 	selectAny.prependTo("#b")
+
+  var selectAny = $('#b option[value=""]')
+  $('#b option:not([value^="r"])').detach(); 
+  selectAny.prependTo("#b")
+  //Hides the out-of-scope locations
+  if ( $('.rightColumn ').css('display') == 'none' ) {
+    $('#sideChat').html('') 
+  }
 });
 </script>
 
@@ -121,9 +129,9 @@ if (document.body){document.body.className = "bodybg";}
 <ul class="leftCol">
 <li><a href="/search/r">Course Search</a></li>
 <li><a href="/search/p">Instructor Search</a></li>
--->
 
 </ul>
+-->
 
 </div>
 <div class="rightColumn">
