@@ -3,6 +3,9 @@
 }
 
 .rightColumn {
-    margin: 2% 0 2% 1.75%;
+    float: right;
+    margin: 2% 1.75%;
+    padding-bottom: 10px;
+    width: 192px;
 }
 
