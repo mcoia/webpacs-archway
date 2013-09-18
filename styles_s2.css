@@ -2,10 +2,19 @@
     width:89.25%;
 }
 
-.rightColumn {
-    float: right;
-    margin: 2% 1.75%;
+
+.sidebarJco {
+	float: right;
+	margin: 2% 0 2% 1.75%;
     padding-bottom: 10px;
-    width: 192px;
+    width:19%;
+    padding:0.5%;
 }
+
+.pageNavColumnJ {
+background-color:#F3F3F3;
+border:3px ridge #0D7781;
+margin:2% 1.75%;
+}
+
 
