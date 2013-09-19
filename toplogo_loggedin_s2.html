@@ -21,6 +21,10 @@ $(document).ready(function () {
 	$('#b option:not([value^="h"])').detach(); 
 	selectAny.prependTo("#b")
 	//Hides the out-of-scope locations
+    
+  if ( $('.rightColumn ').css('display') == 'none' ) {
+    $('#sideChat').html('') 
+  }
 });
 </script>
 
