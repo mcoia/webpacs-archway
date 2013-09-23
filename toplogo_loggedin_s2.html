@@ -21,6 +21,10 @@ $(document).ready(function () {
 	$('#b option:not([value^="h"])').detach(); 
 	selectAny.prependTo("#b")
 	//Hides the out-of-scope locations
+    
+  if ( $('.rightColumn ').css('display') == 'none' ) {
+    $('#sideChat').html('') 
+  }
 });
 </script>
 
@@ -81,7 +85,8 @@ if (document.body){document.body.className = "bodybg";}
 
 
 <div class="clear"></div>
-<div class="pageNavColumn"><!-- nav menu column-->
+<div class="sidebarJco">
+<div class="pageNavColumnJ"><!-- nav menu column-->
 
 <h1 class="navHeader">Search Options</h1>
 <ul id="rightCol">
@@ -130,9 +135,17 @@ if (document.body){document.body.className = "bodybg";}
 <ul class="leftCol">
 <li><a href="/search/r">Course Search</a></li>
 <li><a href="/search/p">Instructor Search</a></li>
--->
+</ul>-->
 
-</ul>
+</div>
+
+<div class="rightColumn">
+<div class="chat-widget" id="sideChat">
+  <div class="needs-js">
+    JavaScript disabled or chat unavailable.
+  </div>
+</div>
+</div>
 </div><!--Styling div-->
 
 
