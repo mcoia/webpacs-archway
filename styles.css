@@ -895,7 +895,7 @@ width:19%;
 
 #patButBookings a { background:#FFFFFF url('ico_checkbox.png') no-repeat top left; margin-left:5px; padding-left:25px; line-height:1.8em; }
 
-#patButFines a, #patButHolds a, #patButChkouts a, #patButBookings a { margin-top:3px; margin-left:0px; padding-left:28px; line-height:30px; }
+#patButFines a, #patButHolds a, #patButChkouts a, #patButBookings a, #patEncore a { margin-top:3px; margin-left:0px; padding-left:28px; line-height:30px; }
 
 #patButFines, #patButHolds, #patButChkouts, #patButBookings { }
 
