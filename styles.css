@@ -212,6 +212,7 @@ a:hover  { color: #420A63; }
 background-repeat: no-repeat; 
 background-position: 5.5% center; 
 padding-left: 51px;
+padding-bottom:1px;
 text-align: left;}
 
 .bibMedia  { margin-left:auto; margin-right:auto; }
