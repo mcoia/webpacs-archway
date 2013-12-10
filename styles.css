@@ -42,7 +42,7 @@ a img {border:none;}
 
 body { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif; font-size:85%; font-style:normal; font-weight: normal; height:100%; text-align:center; width:100%; margin-top:0px; background:#FFFFFF }
 
-body.bodybg { none 2% 0% repeat-x #FFFFFF; color: #444444; }
+/* body.bodybg { background:url(background.gif) 2% 0% repeat-x #4D4D4D; color: #444444; } */
 
 /* Generated popup body */
 body > font { background:#FFFFFF; font-size:1.3em; line-height:2em; margin-left:3px; }
