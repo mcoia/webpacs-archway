@@ -134,6 +134,7 @@ a:hover  { color: #420A63; }
 .formRequired { color:#990000;font-weight:bold;font-size:1.3em;position:relative;top:5px; }
 .formsTogether { width:95%; }
 .formsTogether .form1Part { width:96%; }
+.schoolExample {color:red; font-weight:bold;}
 
 .additionalCopies { margin: 20px 6px; }
 
