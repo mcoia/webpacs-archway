@@ -31,49 +31,6 @@ obj.submit();
 /* ]]> */
 </script>
 
-<script type="text/javascript">
-
-
-function processLimit()
-//version1 : January 22, 2003 -->
-{
-
-var limitWorkString = "";
-for (var i = 0; i < limitName.length; i++)
-{
-if (limitName[i] == "Da" || limitName[i] == "Db") {limitWorkString += "&" + limitName[i] + "=" + limitValue[i]; continue;}
-//The following statement processes all selection list form elements. --> 
-if (limitValue[i] != 0) {limitWorkString += "&" + limitName[i] + "=" + limitValue[i];}
-}
-
-<!-- check for "format limits" -->
-if( document.search.formata.checked ) {
-limitWorkString += "&m=a";
-}
-if( document.search.format2.checked ) {
-limitWorkString += "&m=2";
-}
-if( document.search.formatg.checked ) {
-limitWorkString += "&m=g";
-}
-if( document.search.format6.checked ) {
-limitWorkString += "&m=6";
-}
-if( document.search.formaty.checked ) {
-limitWorkString += "&m=y";
-}
-if( document.search.format3.checked ) {
-limitWorkString += "&m=3";
-}
-if( document.search.formatj.checked ) {
-limitWorkString += "&m=j";
-}
-if( document.search.formati.checked ) {
-limitWorkString += "&m=i";
-}
-
-
-</script>
 </head>
 <body>
 <!--{toplogo}-->
@@ -123,45 +80,6 @@ limitWorkString += "&m=i";
 </span>
 
 </div>
-<tr class="limitBox">
-
-<td>
-<label for="formata"><input type="checkbox" name="formata" id="formata" value="1" /> Book<br /></label>
-
-<label for="format2"><input type="checkbox" name="format2" id="format2" value="1" /> eBook<br /></label>
-
-<label for="formatg"><input type="checkbox" name="formatg" id="formatg" value="1" /> DVD<br /></label>
-
-<label for="format6"><input type="checkbox" name="format6" id="format6" value="1" /> Blu-ray<br /></label>
-
-<label for="formaty"><input type="checkbox" name="formaty" id="formaty" value="1" /> Video Cassette<br /></label>
-
-<label for="format3"><input type="checkbox" name="format3" id="format3" value="1" /> Streaming Video<br /></label>
-
-<label for="formatj"><input type="checkbox" name="formatj" id="formatj" value="1" /> Audio - Music<br /></label>
-
-<label for="formati"><input type="checkbox" name="formati" id="formati" value="1" /> Book on CD<br /></label>
-
-</td>
-
-<td>&nbsp;</td>
-
-</tr>
-
-
-
-
-<tr>
-<td colspan="3">&nbsp;</td>
-
-<tr>
-
-<td colspan="2">&nbsp;</td>
-
-<td align="left">&nbsp;&nbsp;&nbsp;&nbsp;
-<input type="submit" value="Search" name="submit" /></td>
-
-</tr>
 </div><!-- formEntryArea -->
 <!--</fieldset> optional-->
 </form>
