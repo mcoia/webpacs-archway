@@ -19,7 +19,18 @@ function iiiSearchValidate() {
 	}
   return true;
 }
-
+    //Switching the Keyword/Title menu when the radio button is changed
+        $('input.searchtype[value=X]').attr('checked', true);
+        $('.innerQuickSearch').hide();
+        $('.X .innerQuickSearch').show();
+	$('input.searchtype').click(function(){
+            $('.innerQuickSearch').hide();
+            $('.' + this.value + ' .innerQuickSearch').show();
+            $('input.searchtype[value=' + this.value + ']').attr('checked', 'checked');
+	});
+	$('#moreLink').click(function(){
+             $('#optionalLimits').toggle();
+	});
 function iiiDoSubmit_1()
 {
 //getFormHandleForm() is in common.js
@@ -97,12 +108,11 @@ obj.submit();
 		</ul>
 	</div>
 </div>
-
 <form method="get" target="_blank" action="http://archway.searchmobius.org/search/X?"enctype="multipart/form-data">
 	
 
 	
-	<input type="text" name="SEARCH" id="search" placeholder="Search">
+	<input type="text" name="SEARCH" id="search">
 
 
 	<select id="searchscope" name="searchscope">
@@ -138,12 +148,17 @@ obj.submit();
 
 	<label for="formati"><input type="checkbox" name="m" id="m" value="i" /> Book on CD<br /></label>
 
-	<input type="submit" value="Submit">
+	<span class="formButtonArea">
+
+  <!--{submit}-->
+
+<input type="hidden" id="iiiFormHandle_1"/>
+<a href="#" onclick="iiiDoSubmit_1();"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div></a>
+
+<input type="submit" class="submitHidden">
+
+</span>
 </form>
-
-
-</div>
-
 
 </div><!--pageContentInner -->
 

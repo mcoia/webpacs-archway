@@ -99,7 +99,7 @@ obj.submit();
 	
 
 	
-	<input type="text" name="SEARCH" id="search" placeholder="Search">
+	<input type="text" name="SEARCH" id="search">
 
 
 	<select id="searchscope" name="searchscope">
@@ -135,7 +135,16 @@ obj.submit();
 
 	<label for="formati"><input type="checkbox" name="m" id="m" value="i" /> Book on CD<br /></label>
 
-	<input type="submit" value="Submit">
+	<span class="formButtonArea">
+
+  <!--{submit}-->
+
+<input type="hidden" id="iiiFormHandle_1"/>
+<a href="#" onclick="iiiDoSubmit_1();"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div></a>
+
+<input type="submit" class="submitHidden">
+
+</span>
 </form>
 
 
