@@ -614,7 +614,7 @@ div .bibResourceSidebar { display:none; }
 .popupForm h2 { margin: 7px 0 2px; }
 
 .limitBox {
-    background-color: #D7E3FF;
+    padding: 10px;
 }
 
 .fields td {
