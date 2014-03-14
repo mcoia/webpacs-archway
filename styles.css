@@ -613,6 +613,14 @@ div .bibResourceSidebar { display:none; }
 
 .popupForm h2 { margin: 7px 0 2px; }
 
+.limitBox {
+    background-color: #D7E3FF;
+}
+
+.fields td {
+    padding: 2px;
+}
+
 .formButtonArea { margin:3px 0 0 15px; }
 
 .formButtonArea a { text-decoration:none; }
