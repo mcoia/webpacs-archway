@@ -7,98 +7,36 @@
 <meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
 <link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print">
 <!--<link rel="stylesheet" type="text/css" href="/screens/stylesmain.css" > Un-comment to offer a larger logo on mainmenu.-->
-<script type="text/javascript">/* <![CDATA[ */
-function iiiSearchValidate() {
-	try{
-	  if (document.getElementById('search').searcharg.value==null||document.getElementById('search').searcharg.value=="") {
-		return false;
-		}
-	}
-	catch(err) {
-	}
-  return true;
-}
-
-function iiiDoSubmit_1()
-{
-//getFormHandleForm() is in common.js
-var obj = getFormHandleForm(1);
-if(iiiSearchValidate()){
-obj.submit();
-}
-}
-/* ]]> */
-</script>
 </head>
 <body>
 <!--{toplogo}-->
 
+<div class="pageContentColumn"><!-- content container -->
 
 <div class="pageContentInner mainSearch">
 
-<h1 class="accessibleAddInfo">Search</h1>
+  <div id="tabs">
+    <ul id="tabList">
+      <li id="Y"><a>Keyword</a></li>
+      <li id="t"><a>Title</a></li>
+      <li id="a"><a>Author</a></li>
+      <li id="d"><a>Subject</a></li>
+    </ul>
 
-<div id="accessibleForm" class="form1Part">
-<div class="browseSearchtool">
-<form action="/search/" method="get" name="search" id="search" onSubmit="return iiiSearchValidate();">
+    <div id="tab-1" class="tabContent">
+ 
 
-
-<input type="hidden" id="iiiFormHandle_1">
-
-<!-- Optional legend:
-<fieldset>
-<legend>Type the search term you want to find.</legend>-->
-<div class="formEntryArea">
-<div class="inlineBlock">
-<label for="searchtype" class="accessibleAddInfo">Search type</label>
-<select name="searchtype" id="searchtype">
-<option value="X" selected="selected">Keyword</option>
+<div class="innerTab">
+<div class="innerTabForm Y">
+<select name="searchtype" class="searchtype">
+<option selected="selected" value="X">Keyword</option>
 <option value="t">Title</option>
 <option value="a">Author</option>
 <option value="d">Subject (LC)</option>
 <option value="m">Subject (Children's)</option>
 <option value="s">Journals, Magazines, Newspapers</option>
 </select>
-<!--{nosort}-->
-<label for="searcharg" class="accessibleAddInfo">Search term</label>
-<input maxlength="75" name="searcharg" size="20" >
-</div>
-<div class="inlineBlock">
-<label for="scope" class="accessibleAddInfo">Location</label>
-<!--{scope}-->
-<span class="formButtonArea">
-
-  <!--{submit}-->
-
-<input type="hidden" id="iiiFormHandle_1"/>
-<a href="#" onclick="iiiDoSubmit_1();"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div></a>
-
-<input type="submit" class="submitHidden">
-
-</span>
-</div>
-</div><!-- formEntryArea -->
-<!--</fieldset> optional-->
-</form>
-</div><!-- browseSearchtool -->
-</div><!-- form1Part -->
-
-<div id="exampleText">
-	<div class="mainMenuSrchText">Type the search term you want to find. Examples:
-		<ul class="unpadded">
-			<li>Italian cooking</li>
-			<li>The Appeal</li>
-
-			<li>tax and legislat*</li>
-			<li>(lunar or solar) and eclipse</li>
-		</ul>
-	</div>
-</div>
-
 <form method="get" target="_blank" action="http://archway.searchmobius.org/search/X?"enctype="multipart/form-data">
-	
-
-	
 	<input type="text" name="SEARCH" id="search">
 
 
@@ -135,25 +73,55 @@ obj.submit();
 
 	<label for="formati"><input type="checkbox" name="m" id="m" value="i" /> Book on CD<br /></label>
 
-	<span class="formButtonArea">
+	<input type="submit" value="Submit">
+</form>
+</div>
+<div class="innerTabForm otherIndexes">
+<form action="/search/" method="get" name="search" id="search">
 
-  <!--{submit}-->
+<label for="searchtype" class="accessibleAddInfo">Search type</label>
+<select name="searchtype" class="searchtype">
+<option value="X">Keyword</option>
+<option value="t">Title</option>
+<option value="a">Author</option>
+<option value="d">Subject (LC)</option>
+<option value="m">Subject (Children's)</option>
+<option value="s">Journals, Magazines, Newspapers</option>
+</select>
+<!--{nosort}-->
+<input maxlength="75" name="searcharg" size="28" >
+<input type="hidden" name="searchscope" value="4">
+<span class="nowrap formButtonArea">
 
-<input type="hidden" id="iiiFormHandle_1"/>
-<a href="#" onclick="iiiDoSubmit_1();"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div></a>
-
-<input type="submit" class="submitHidden">
+<input value="Search" type="submit">
 
 </span>
+
 </form>
+</div>
+<div id="exampleText">
+
+<p>Search for a word or words. For example:</p>
+
+<ul>
+<li>nanotechnology</li>
+<li>"public relations" and "team-based approach"</li>
+<li>(university or college) and students</li>
+<li>classroom and discipline</li>
+<li>biotechnology and "pest management"</li>
+</ul>
+
+</div>
 
 
 </div>
 
+</div>
+
+</div>
+
 </div><!--pageContentInner -->
-
-<div style="clear:both"></div>
-
+</div><!--pageContentColumn-->
 <!--{botlogo}-->
 <script type="text/javascript"><!--//--><![CDATA[//><!--
 try { document.forms[0].searcharg.focus(); }
