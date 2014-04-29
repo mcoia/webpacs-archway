@@ -1,7 +1,6 @@
 .topLogoImage {
     padding:20px 10px;
 }
-
 .clusterLogo{
     position: absolute;
     right:.5em;
@@ -23,8 +22,7 @@ span.AskButton  {
     width: 106px;
 }
 .rightColumn {
-    float: right;
-    margin: 1em 5em;
+    float: left;
     padding-bottom: 10px;
     width: 192px;
 }
