@@ -62,4 +62,17 @@ $(document).ready(function () {
 	  $('.Y.innerTabForm').hide();
 	}
     front_tabs();
+     $("select").change(function(){
+            $( "select option:selected").each(function(){
+                if($(this).attr("value")=="X"){
+                    $(".form").hide();
+                    $(".keyword").show();
+                }
+                if($(this).attr("value")=="t"){
+                    $(".form").hide();
+                    $(".title").show();
+                }
+
+            });
+        }).change();
 });
