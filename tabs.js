@@ -52,6 +52,14 @@ function front_tabs(){
 }
 
 $(document).ready(function () {
-
+    var tabId = $('.searchtype').val();
+    $("#tabList #" + tabId).css("background-color", "#DFE6D4");
+  if (tabId == "X"){
+    $('.X.innerTabForm').show();
+    $('.otherIndexes.innerTabForm').hide();
+  }else{
+    $('.otherIndexes.innerTabForm').show();
+    $('.X.innerTabForm').hide();
+  }
     front_tabs();
 });
