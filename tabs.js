@@ -20,12 +20,12 @@ function change_tab(tabId) {
 	$("#tabList li").css("background-color", "#F1F4EB");
 	$("#tabList #" + tabId).css("background-color", "#DFE6D4");
 	$("#exampleText").load("/screens/" + tabId + ".inc");
-	if (tabId == "Y"){
-	  $('.Y.innerTabForm').show();
+	if (tabId == "X"){
+	  $('.X.innerTabForm').show();
 	  $('.otherIndexes.innerTabForm').hide();
 	}else{
 	  $('.otherIndexes.innerTabForm').show();
-	  $('.Y.innerTabForm').hide();
+	  $('.X.innerTabForm').hide();
 	}
 	$
 }
@@ -52,27 +52,6 @@ function front_tabs(){
 }
 
 $(document).ready(function () {
-    var tabId = $('.searchtype').val();
-    $("#tabList #" + tabId).css("background-color", "#DFE6D4");
-	if (tabId == "Y"){
-	  $('.Y.innerTabForm').show();
-	  $('.otherIndexes.innerTabForm').hide();
-	}else{
-	  $('.otherIndexes.innerTabForm').show();
-	  $('.Y.innerTabForm').hide();
-	}
-    front_tabs();
-     $("select").change(function(){
-            $( "select option:selected").each(function(){
-                if($(this).attr("value")=="X"){
-                    $(".form").hide();
-                    $(".keyword").show();
-                }
-                if($(this).attr("value")=="t"){
-                    $(".form").hide();
-                    $(".title").show();
-                }
 
-            });
-        }).change();
+    front_tabs();
 });
