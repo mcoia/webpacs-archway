@@ -13,9 +13,11 @@
 <!--{toplogo}-->
 
 
-<div class="pageContentColumn"><!-- content container -->
 
 <div class="pageContentInner mainSearch">
+
+<h1 class="accessibleAddInfo">Search</h1>
+
 <div id="accessibleForm" class="form1Part">
 <div class="browseSearchtool">    
 
@@ -24,6 +26,7 @@
 
 <div class="innerTab">
 <div class="innerTabForm X">
+    <div class="inlineBlock">
 <select name="searchtype" class="searchtype">
 <option value="X" selected="selected">Keyword
 <option value="t">Title
@@ -33,8 +36,9 @@
 <option value="s">Journals, Magazines, Newspapers
 </select>
 <form method="get" action="http://archway.searchmobius.org/search/X?"enctype="multipart/form-data">
-    <input type="text" name="SEARCH" id="search">
-
+</div><!-- inlineBlock -->       
+<input type="text" name="SEARCH" id="search">
+<div class="inlineBlock">
     <select id="searchscope" name="searchscope">
         <option value="1"> East Central College</option>
         <option value="2"> Jefferson College</option>
@@ -49,10 +53,12 @@
         <option value="9"> St. Louis College of Pharmacy</option>
         <option selected="selected" value="12"> View Entire Collection</option>
     </select>
+</div><!-- inlineBlock -->
     <input type="hidden" name="SORT" value="D">
 <div class="frontLimits">
 <table>
 <tr class="limitBox">
+    <p>Check one or more formats, or leave all unchecked for no limit.</p>
     <td>
     <label for="formata"><input type="checkbox" name="m" id="m" value="a" /> Book<br /></label>
     <label for="format2"><input type="checkbox" name="m" id="m" value="2" /> eBook<br /></label>
@@ -84,7 +90,8 @@
 <option value="s">Journals, Magazines, Newspapers
 </select>
 <!--{nosort}-->
-<input maxlength="75" name="searcharg" size="28" >
+<label for="searcharg" class="accessibleAddInfo">Search term</label>
+<input maxlength="75" name="searcharg" size="20" >
 <select id="searchscope" name="searchscope">
         <option value="1"> East Central College</option>
         <option value="2"> Jefferson College</option>
@@ -133,7 +140,6 @@ Type the search term you want to find. Examples:
 
 
 </div><!--pageContentInner -->
-</div><!--pageContentColumn-->
 <!--{botlogo}-->
 <script type="text/javascript"><!--//--><![CDATA[//><!--
 try { document.forms[0].searcharg.focus(); }
