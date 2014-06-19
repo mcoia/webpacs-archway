@@ -23,6 +23,7 @@
 
 <div class="innerTab">
 <div class="innerTabForm X">
+    <div class="inlineBlock">
 <select name="searchtype" class="searchtype">
 <option value="X" selected="selected">Keyword
 <option value="t">Title
@@ -32,8 +33,9 @@
 <option value="s">Journals, Magazines, Newspapers
 </select>
 <form method="get" action="http://archway.searchmobius.org/search/X?"enctype="multipart/form-data">
-    <input type="text" name="SEARCH" id="search">
-
+</div><!-- inlineBlock -->       
+<input type="text" name="SEARCH" id="search">
+<div class="inlineBlock">
     <select id="searchscope" name="searchscope">
         <option value="1"> East Central College</option>
         <option value="2"> Jefferson College</option>
@@ -48,6 +50,7 @@
         <option value="9"> St. Louis College of Pharmacy</option>
         <option selected="selected" value="12"> View Entire Collection</option>
     </select>
+</div><!-- inlineBlock -->
     <input type="hidden" name="SORT" value="D">
 <div class="frontLimits">
 <table>
