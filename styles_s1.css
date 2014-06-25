@@ -27,3 +27,14 @@
 .mainMenuSrchText {
 	margin-top: 1em;
 }
+
+.browseSearchtool td {
+    border: medium none;
+    padding: 5px;
+    text-align: left;
+}
+
+.frontLimits {
+    margin: auto;
+    width: 28%;
+}
