@@ -6,17 +6,16 @@
 <title>Archway Library Catalog</title>
 <meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
 <link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print">
-<link rel="stylesheet" type="text/css" href="/screens/styles_nocolumn.css">
 <!--<link rel="stylesheet" type="text/css" href="/screens/stylesmain.css" > Un-comment to offer a larger logo on mainmenu.-->
 <script type="text/javascript">/* <![CDATA[ */
 function iiiSearchValidate() {
-    try{
-      if (document.getElementById('search').searcharg.value==null||document.getElementById('search').searcharg.value=="") {
-        return false;
-        }
-    }
-    catch(err) {
-    }
+	try{
+	  if (document.getElementById('search').searcharg.value==null||document.getElementById('search').searcharg.value=="") {
+		return false;
+		}
+	}
+	catch(err) {
+	}
   return true;
 }
 
@@ -84,24 +83,17 @@ obj.submit();
 </div><!-- browseSearchtool -->
 </div><!-- form1Part -->
 
-<div class="chat-widget" id="frontChat">
-    <div class="needs-js">
-      JavaScript disabled or chat unavailable.
-    </div>
-</div>
-
 <div id="exampleText">
-    <div class="mainMenuSrchText">Type the search term you want to find. Examples:
-        <ul class="unpadded">
-            <li>Italian cooking</li>
-            <li>The Appeal</li>
+	<div class="mainMenuSrchText">Type the search term you want to find. Examples:
+		<ul class="unpadded">
+			<li>Italian cooking</li>
+			<li>The Appeal</li>
 
-            <li>tax and legislat*</li>
-            <li>(lunar or solar) and eclipse</li>
-        </ul>
-    </div>
+			<li>tax and legislat*</li>
+			<li>(lunar or solar) and eclipse</li>
+		</ul>
+	</div>
 </div>
-
 
 
 </div><!--pageContentInner -->
@@ -109,8 +101,6 @@ obj.submit();
 <div style="clear:both"></div>
 
 <!--{botlogo}-->
-
-
 <script type="text/javascript"><!--//--><![CDATA[//><!--
 try { document.forms[0].searcharg.focus(); }
 catch(err) {}
