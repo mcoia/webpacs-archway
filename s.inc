@@ -7,7 +7,7 @@ Type as much or as little of the journal, magazine, or newspaper title as you wa
 </ul>
 <hr />
 
-This search engine will find magazines, journals and newspapers which the libraries own. To find individual periodical articles, use periodical indexes or databases such as EBSCO, Gail, etc.
+This search engine will find magazines, journals and newspapers which the libraries own. To find individual periodical articles, use periodical indexes or databases such as EBSCO, Gale, etc.
 
 
 </div>
