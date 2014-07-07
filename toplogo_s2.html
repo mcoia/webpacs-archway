@@ -18,17 +18,10 @@ $(document).ready(function () {
     	$("#exampleText").load("/screens/" + this.value + ".inc");
 	});
 	//Changes the search examples
-<<<<<<< HEAD
 	
 	var selectAny = $('#b option[value=""]')
 	$('#b option:not([value^="j"])').detach(); 
 	selectAny.prependTo("#b")
-=======
-  
-  var selectAny = $('#b option[value=""]')
-  $('#b option:not([value^="j"])').detach(); 
-  selectAny.prependTo("#b")
->>>>>>> origin/front_page_limits_41389
 
   //Hides the out-of-scope locations
   if ( $('.rightColumn ').css('display') == 'none' ) {
