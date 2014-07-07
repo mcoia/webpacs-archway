@@ -40,6 +40,7 @@
 AVAILLIM=<span class="availLimMessage">Limit search to available items</span>|<span class="availLimMessage">Search results limited to available items</span>
 AVAILLIM_STATS=-,o
 BOTLOGO=@screens/botlogo.html
+BOTLOGO1=@screens/botlogo_s1.html
 BOTLOGO2=@screens/botlogo_s2.html
 BOTLOGO3=@screens/botlogo_s3.html
 ICON_BUT_CANCEL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel</span></span></div></div>
@@ -437,7 +438,7 @@ TABLEPARAM_RSRV_BIBS=width="100%" border="0" cellpadding="0" cellspacing="0"
 # Featured Lists
 ICON_BUT_PREVSCRN=<span class="navButtonOneLine">Back</span>
 ICON_BUT_RET2FEAT=<span class="navButtonOneLine">Back</span>
-FEATURED_LIST=71,174,04,162,22,167,30,76,161,181|NEW TITLES AND LISTS||# TITLES
+FEATURED_LIST=71,174,04,162,22,167,30,76,161,181,87|NEW TITLES AND LISTS||# TITLES
 
 # Content Linking and Other Resources
 # If your system uses SSL, use the https example, to avoid secure/nonsecure warning on Internet Explorer.
@@ -570,4 +571,3 @@ LOCKSCOPE=no
 # Login Options
 
 IPSSO_USEHTML=T
-
