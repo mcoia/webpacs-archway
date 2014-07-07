@@ -7,27 +7,17 @@
 <script type="text/javascript" src="/screens/domainredirect2.js"></script>
 <script type="text/javascript" src="/screens/mobileredirect.js"></script>
 <script type="text/javascript" src="/screens/856links.js"></script>
-<script type="text/javascript" src="/screens/tabs.js"></script>
 <script src="/screens/menu-collapsed.js" type="text/javascript"></script>
 <script src="/screens/tabs.js"></script>
 <script type="text/javascript" src='/screens/sms.js'> </script>
 <script type="text/javascript">
 $(document).ready(function () {
-<<<<<<< HEAD
   $("span:contains(WebPAC PRO)").hide(); //Hide the iii footer
 
   $('#searchtype').change(function(){
       $("#exampleText").load("/screens/" + this.value + ".inc");
   });
   //Changes the search examples
-=======
-	$("span:contains(WebPAC PRO)").hide(); //Hide the iii footer
-
-	$('#searchtype').change(function(){
-    	$("#exampleText").load("/screens/" + this.value + ".inc");
-	});
-	//Changes the search examples
->>>>>>> origin/front_page_limits_41389
   
   var selectAny = $('#b option[value=""]')
   $('#b option:not([value^="e"])').detach(); 
