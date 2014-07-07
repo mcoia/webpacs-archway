@@ -18,10 +18,15 @@ $(document).ready(function () {
 	});
 	//Changes the search examples
 	
-	var selectAny = $('#b option[value=""]')
-	$('#b option:not([value^="e"])').detach(); 
-	selectAny.prependTo("#b")
-	//Hides the out-of-scope locations
+  
+  var selectAny = $('#b option[value=""]')
+  $('#b option:not([value^="e"])').detach(); 
+  selectAny.prependTo("#b")
+
+  //Hides the out-of-scope locations 
+  if ( $('.rightColumn ').css('display') == 'none' ) {
+    $('#sideChat').html('') 
+}
 });
 </script>
 
