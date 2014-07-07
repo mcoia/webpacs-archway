@@ -23,13 +23,10 @@ $(document).ready(function () {
   $('#b option:not([value^="e"])').detach(); 
   selectAny.prependTo("#b")
 
-  var selectAny = $('#b option[value=""]')
-  $('#b option:not([value^="r"])').detach(); 
-  selectAny.prependTo("#b")
-  //Hides the out-of-scope locations
+  //Hides the out-of-scope locations 
   if ( $('.rightColumn ').css('display') == 'none' ) {
     $('#sideChat').html('') 
-  }
+}
 });
 </script>
 
