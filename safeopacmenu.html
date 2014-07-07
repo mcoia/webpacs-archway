@@ -1,0 +1,140 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- Rel 2009B Example Set -->
+<!-- Updated: 09 June 2010 -->
+<head>
+<title>Archway Library Catalog</title>
+<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
+<link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print">
+<!--<link rel="stylesheet" type="text/css" href="/screens/stylesmain.css" > Un-comment to offer a larger logo on mainmenu.-->
+</head>
+<body>
+<!--{toplogo}-->
+
+
+<div class="pageContentColumn"><!-- content container -->
+
+<div class="pageContentInner mainSearch">
+
+  <div id="tabs">
+
+    <div id="tab-1" class="tabContent">
+<div id="accessibleForm" class="form1Part"> 
+<div class="browseSearchtool">
+<div class="innerTab">
+<div class="innerTabForm Y">
+<select name="searchtype" class="searchtype">
+<option selected="selected" value="X">Keyword</option>
+<option value="t">Title</option>
+<option value="a">Author</option>
+<option value="d">Subject (LC)</option>
+<option value="m">Subject (Children's)</option>
+<option value="s">Journals, Magazines, Newspapers</option>
+</select>
+<form method="get" action="http://archway.searchmobius.org/search/X?"enctype="multipart/form-data">
+	<input type="text" name="SEARCH" id="search">
+
+	<select id="searchscope" name="searchscope">
+		<option value="1"> East Central College</option>
+		<option value="2"> Jefferson College</option>
+		<option value="3"> St. Charles Community College</option>
+		<option value="4"> St. Louis Community College</option>
+		<option value="6"> STLCC Forest Park</option>
+		<option value="5"> STLCC Florissant Valley</option>
+		<option value="8"> STLCC Meramec</option>
+		<option value="11"> STLCC Wildwood</option>
+		<option value="10"> STLCC Archives</option>
+		<option value="7"> STLCC Highland Park</option>
+		<option value="9"> St. Louis College of Pharmacy</option>
+		<option selected="selected" value="12"> View Entire Collection</option>
+	</select>
+	<input type="hidden" name="SORT" value="D">
+<table>
+<tr class="limitBox">
+	<td>
+	<label for="formata"><input type="checkbox" name="m" id="m" value="a" /> Book<br /></label>
+	<label for="format2"><input type="checkbox" name="m" id="m" value="2" /> eBook<br /></label>
+	<label for="formatg"><input type="checkbox" name="m" id="m" value="g" /> DVD<br /></label>
+	<label for="format6"><input type="checkbox" name="m" id="m" value="6" /> Blu-ray<br /></label>
+	</td>
+	<td>
+	<label for="formaty"><input type="checkbox" name="m" id="m" value="y" /> Video Cassette<br /></label>
+	<label for="format3"><input type="checkbox" name="m" id="m" value="3" /> Streaming Video<br /></label>
+	<label for="formatj"><input type="checkbox" name="m" id="m" value="j" /> Audio - Music<br /></label>
+	<label for="formati"><input type="checkbox" name="m" id="m" value="i" /> Book on CD<br /></label>
+	</td>
+</tr>
+</table>
+	<input type="submit" value="Submit">
+</form>
+</div>
+
+<div class="innerTabForm otherIndexes">
+<form action="/search/" method="get" name="search" id="search">
+
+<label for="searchtype" class="accessibleAddInfo">Search type</label>
+<select name="searchtype" class="searchtype">
+<option value="Y">Keyword</option>
+<option value="t">Title</option>
+<option value="a">Author</option>
+<option value="d">Subject (LC)</option>
+<option value="m">Subject (Children's)</option>
+<option value="s">Journals, Magazines, Newspapers</option>
+</select>
+<!--{nosort}-->
+<input maxlength="75" name="searcharg" size="28" >
+<label class="accessibleAddInfo" for="scope">Location</label>
+<label style="display:none;" for="searchscope">Search Scope</label>
+<select id="searchscope" name="searchscope">
+<option value="1"> East Central College</option>
+<option value="2"> Jefferson College</option>
+<option value="3"> St. Charles Community College</option>
+<option value="4"> St. Louis Community College</option>
+<option value="6"> STLCC Forest Park</option>
+<option value="5"> STLCC Florissant Valley</option>
+<option value="8"> STLCC Meramec</option>
+<option value="11"> STLCC Wildwood</option>
+<option value="10"> STLCC Archives</option>
+<option value="7"> STLCC Highland Park</option>
+<option value="9"> St. Louis College of Pharmacy</option>
+<option selected="selected" value="12"> View Entire Collection</option>
+</select>
+<span class="nowrap formButtonArea">
+
+<input value="Search" type="submit">
+
+</span>
+
+</form>
+</div>
+</div>
+</div>
+<div id="exampleText">
+<div class="mainMenuSrchText">
+Type the search term you want to find. Examples:
+<ul class="unpadded">
+<li>Italian cooking</li>
+<li>The Appeal</li>
+<li>tax and legislat*</li>
+<li>(lunar or solar) and eclipse</li>
+</ul>
+</div>
+</div>
+
+
+
+</div>
+
+</div>
+
+</div>
+
+</div><!--pageContentInner -->
+</div><!--pageContentColumn-->
+<!--{botlogo}-->
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+try { document.forms[0].searcharg.focus(); }
+catch(err) {}
+//--><!]]></script>
+</body>
+</html>
