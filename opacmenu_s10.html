@@ -5,13 +5,33 @@
 <head>
 <title>Archway Library Catalog</title>
 <meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
-
 <link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print">
 <!--<link rel="stylesheet" type="text/css" href="/screens/stylesmain.css" > Un-comment to offer a larger logo on mainmenu.-->
+<script type="text/javascript">/* <![CDATA[ */
+function iiiSearchValidate() {
+	try{
+	  if (document.getElementById('search').searcharg.value==null||document.getElementById('search').searcharg.value=="") {
+		return false;
+		}
+	}
+	catch(err) {
+	}
+  return true;
+}
+
+function iiiDoSubmit_1()
+{
+//getFormHandleForm() is in common.js
+var obj = getFormHandleForm(1);
+if(iiiSearchValidate()){
+obj.submit();
+}
+}
+/* ]]> */
+</script>
 </head>
 <body>
 <!--{toplogo}-->
-
 
 
 <div class="pageContentInner mainSearch">
@@ -48,10 +68,10 @@
         <option value="5"> STLCC Florissant Valley</option>
         <option value="8"> STLCC Meramec</option>
         <option value="11"> STLCC Wildwood</option>
-        <option value="10"> STLCC Archives</option>
+        <option selected="selected" value="10"> STLCC Archives</option>
         <option value="7"> STLCC Highland Park</option>
         <option value="9"> St. Louis College of Pharmacy</option>
-        <option selected="selected" value="12"> View Entire Collection</option>
+        <option value="12"> View Entire Collection</option>
     </select>
 </div><!-- inlineBlock -->
     <input type="hidden" name="SORT" value="D">
@@ -101,10 +121,10 @@
         <option value="5"> STLCC Florissant Valley</option>
         <option value="8"> STLCC Meramec</option>
         <option value="11"> STLCC Wildwood</option>
-        <option value="10"> STLCC Archives</option>
+        <option selected="selected" value="10"> STLCC Archives</option>
         <option value="7"> STLCC Highland Park</option>
         <option value="9"> St. Louis College of Pharmacy</option>
-        <option selected="selected" value="12"> View Entire Collection</option>
+        <option value="12"> View Entire Collection</option>
 <span class="nowrap formButtonArea">
 
 <input value="Submit" type="submit">

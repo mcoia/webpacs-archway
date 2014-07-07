@@ -447,7 +447,7 @@ table.browseResourceTable { border:0; }
 
 .browseScreen td { vertical-align:top; }
 
-.browseSearchtool  td { border:none; }
+.browseSearchtool  td { border:none; text-align: left; padding: 5px;}
 
 .browseSearchtool { background:url('tile_search.jpg') repeat-x bottom left; border-color:#D3D3D3; border-style:solid; border-width:0 0 1px 0; font-size:.9em; padding:0; }
 
@@ -613,6 +613,16 @@ div .bibResourceSidebar { display:none; }
 .popupForm .formButtonArea { clear:both; }
 
 .popupForm h2 { margin: 7px 0 2px; }
+
+.limitBox {
+    padding: 10px;
+}
+
+.frontLimits {width:32%; margin: auto}
+
+.fields td {
+    padding: 2px;
+}
 
 .formButtonArea { margin:3px 0 0 15px; }
 
