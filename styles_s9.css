@@ -11,3 +11,8 @@ div#searchNavMenu {
 .scopeLogo {
     top:18px; 
 }
+
+.stlcopBox {
+    margin: auto;
+    width: 22%;
+}
