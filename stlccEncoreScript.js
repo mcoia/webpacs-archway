@@ -1,13 +1,6 @@
-$(document).ready(function () {
-encoreStccHideLinks();
-});
-function encoreStccHideLinks(){
-    if($("a:contains('stlcc')").length){
-    $('.addtlInfoItem').addClass('stlcc');
-    hideOtherSchools();
+window.onload = init;
+function init(){
+var a = document.getElementById("eight56LinkComponent");
+a.classList.add("otherclass");
 }
-}
-function hideOtherSchools(){
-	$(".addtlInfoItem").hide();
-	}    
-    
+
