@@ -1,0 +1,21 @@
+.searchResult .bibHoldingsWrapperEn .itemTable th {
+    font-weight: bold;
+    padding: 5px;
+    text-align: left;
+}
+
+.searchResult .bibHoldingsWrapperEn .itemTable td {
+    padding: 5px;
+}
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, a, img, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, tbody, tfoot, thead, tr, th, td {
+    border: 0 none;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+.searchResult .popUpContentWrapperEn {
+    max-height: 200px;
+    max-width: 500px;
+    overflow: auto;
+}
