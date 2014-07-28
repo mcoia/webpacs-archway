@@ -14,9 +14,9 @@ jQuery(document).ready(function(){
 });
 
 jQuery(function() {
-    jQuery("div[id*='ItemsContainer-']").each(function() {
+    jQuery("div[id^='ItemsContainer-']").each(function() {
         if (this.id.match(/\d+$/)) {
-            alert(jQuery("div[id*='allitems-']").attr("id").match(/\d+$/));
+            alert(jQuery("div[id^='allitems-']").attr("id").match(/\d+$/));
         }
     });
 });
