@@ -13,3 +13,11 @@ jQuery(document).ready(function(){
 //alert(jQuery("div[id*='allitems-']").attr("id").match(/\d+$/));
 });
 
+jQuery(function() {
+    jQuery("div[id*='ItemsContainer-']").each(function() {
+        if (this.id.match(/\d+$/)) {
+            alert(jQuery("div[id*='allitems-']").attr("id").match(/\d+$/));
+        }
+    });
+});
+//this.id.match(new RegExp('general_(.*)_' + product, 'i'))
