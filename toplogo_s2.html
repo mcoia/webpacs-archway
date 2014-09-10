@@ -27,6 +27,13 @@ $(document).ready(function () {
   if ( $('.rightColumn ').css('display') == 'none' ) {
     $('#sideChat').html('') 
   }
+
+      //hides out of scope featured lists
+  var pathnameFtList = window.location.href.slice(window.location.href.indexOf('/') + 1).split('/')[3];
+  if(pathnameFtList.indexOf('ftlist') > -1){
+    $('.browseEntry:not(:contains("JC"))').addClass('hideMe');
+    $(".hideMe").hide();
+  }
 });
 </script>
 
@@ -104,7 +111,7 @@ if (document.body){document.body.className = "bodybg";}
   </ul>
 </li>
 <li><a href="/search/b">Course Reserves</a></li>
-<li><a href="/ftlists">Featured Lists</a></li>
+<li><a href="/search~S2/ftlists">Featured Lists</a></li>
 
 
 
