@@ -156,50 +156,50 @@ if (document.body){document.body.className = "bodybg";}
 
 
 <div class="pageContentColumn"><!-- content container -->
-	<a name="content" id="content"></a>
-	<!--end toplogo.html-->
-	<br />
-	<div class="pageContentInner"> 
-		<h1 class="pageHeader">Login</h1>
-
-		<form id="fm1">
-			<!-- Message from client webapp to be displayed on the CAS login screen -->
-		  	<div id="clientmessage">
-			<!--display any errors-->
-		  	</div> <!-- end clientmessage -->
-			   
-			<!--display login form-->
-			<div id="login">
-			  <fieldset>
-			    <legend>Please enter the following information:</legend>
-			      
-			        <label for="name"><span id="nameprompt">Your Name</span></label>
-		          For example: Jane Smith</span>
-		            <div class="loginFieldBg">
-		              <input id="name" name="name" type="text" value="" size="40" maxlength="40" tabindex="15" class="loginField">
-			        </div>
-			      
-		            <fieldset class="barcodeAltChoice">
-		                    
-		              <label for="code"><span id="codeprompt">Your College ID # plus your College Code</span></label>
-		              <div class="loginFieldBg">
-		          	      <input id="code" name="code" type="password" value="" size="40" maxlength="40" tabindex="20" class="loginField"><span class="formLabelExample">
-		                  <p>For Example:</p>
-		                  <p>0012345<span class="schoolExample">EC</span> (East Central College)</p>
-		                  <p>V00123450<span class="schoolExample">JC</span> (Jefferson  College)</p>
-		                  <p>0234567<span class="schoolExample">SC</span> (St. Charles Community College)</p>
-		                  <p>01234<span class="schoolExample">COP</span> (St. Louis College of Pharmacy)</p>
-		                  <p>A01234567<span class="schoolExample">ST</span> (St. Louis Community College)</p>
-		                  </span>
-				          </div>
-		 <!--           
-		              <label for="user_name">Or: Your login/user name</label>
-		              <div class="loginFieldBg">
-		                  <input id="user_name" name="username" type="text" value="" size="20" maxlength="25" tabindex="25" class="loginField">
-			          </div>
-		            
-		            </fieldset>
-		-->
+<a name="content" id="content"></a>
+<!--end toplogo.html-->
+<br />
+<div class="pageContentInner">
+<h1 class="pageHeader">Login</h1>
+<div class="form1Part formLogin" id="accessibleForm">
+<form id="fm1">
+	<!-- Message from client webapp to be displayed on the CAS login screen -->
+  	<div id="clientmessage">
+	<!--display any errors-->
+  	</div> <!-- end clientmessage -->
+	   
+	<!--display login form-->
+	<div id="login">
+	  <fieldset>
+	    <legend>Please enter the following information:</legend>
+	      <div class="loginFieldBg">
+	        <div class="formEntryArea">
+            <label for="name"><span id="nameprompt">Your Name</span></label><input name="name" id="name" value="" size="40" maxlength="40"><span class="formLabelExample">For example: Jane Smith</span>
+	        </div>
+	      </div>
+            
+              <div class="loginFieldBg">
+                <div class="formEntryArea">      
+                 <label for="code"><span id="codeprompt">Your College ID # plus your College Code</span></label>
+                   <input id="code" name="code" type="password" value="" size="40" maxlength="40" tabindex="20" class="loginField">
+                   <span class="formLabelExample">
+                  <p>For Example:</p>
+                  <p>0012345<span class="schoolExample">EC</span> (East Central College)</p>
+                  <p>V00123450<span class="schoolExample">JC</span> (Jefferson  College)</p>
+                  <p>0234567<span class="schoolExample">SC</span> (St. Charles Community College)</p>
+                  <p>01234<span class="schoolExample">COP</span> (St. Louis College of Pharmacy)</p>
+                  <p>A01234567<span class="schoolExample">ST</span> (St. Louis Community College)</p>
+                  </span>
+                </div>
+		          </div>
+ <!--           
+              <label for="user_name">Or: Your login/user name</label>
+              <div class="loginFieldBg">
+                  <input id="user_name" name="username" type="text" value="" size="20" maxlength="25" tabindex="25" class="loginField">
+	          </div>
+            
+            </fieldset>
+-->
 
 		<!--
 		            
@@ -229,23 +229,23 @@ if (document.body){document.body.className = "bodybg";}
 		            </fieldset>
 		-->
 
-		<!--xif-->
-		        <!-- This button is hidden unless using mobile devices. Even if hidden it enables Enter key to submit. -->
-		        <input type="submit" name="Log In" class="loginSubmit">
-
-			  </fieldset>
-			</div>  <!-- end login -->
-		    <div class="clearfloats"></div>
-		    <div class="formButtons">
-		    	<a href="#" onclick="document.forms['fm1'].submit();"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div></a>
-		  	</div>
-		</form>
-		<!--Enable form focus-->
-		<script type="text/javascript"><!--//--><![CDATA[//><!--
-		//Hide the main PIN entry if the new pin section is active.
-		try { if ( document.getElementById("ipssonewpin") ) {
-			document.getElementById("ipssopinentry").style.display="none"; } }
-		catch(err) {}
+<!--xif-->
+        <!-- This button is hidden unless using mobile devices. Even if hidden it enables Enter key to submit. -->
+        
+<div class="clearfloats"></div>
+    <div class="formButtonArea">
+      <a href="#" onclick="document.forms['fm1'].submit();"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div></a>
+    </div>
+	  </fieldset>
+	</div>  <!-- end login -->
+    
+</form>
+<!--Enable form focus-->
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+//Hide the main PIN entry if the new pin section is active.
+try { if ( document.getElementById("ipssonewpin") ) {
+	document.getElementById("ipssopinentry").style.display="none"; } }
+catch(err) {}
 
 		//Look for the first field in the external patron part of the form. This field will get cursor focus.
 		var ipssoFirstField;
@@ -268,11 +268,11 @@ if (document.body){document.body.className = "bodybg";}
 		 document.forms[0].submit();
 		}
 
-		//--><!]]></script>
-		</div><!-- end loginArea -->
+//--><!]]></script>
+</div>
 
-	</div><!-- pageContentInner -->
-</div><!-- content container -->
+</div><!-- pageContentInner -->
+
 <br />
 <!-- begin botlogo.html file -->
 <!-- Rel 2009B Example Set -->

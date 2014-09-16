@@ -182,27 +182,26 @@ if (document.body){document.body.className = "bodybg";}
 <h1 class="pageHeader">Login</h1>
 <div class="form1Part formLogin" id="accessibleForm">
 <form id="fm1">
-	<!-- Message from client webapp to be displayed on the CAS login screen -->
-  	<div id="clientmessage">
-	<!--display any errors-->
-  	</div> <!-- end clientmessage -->
-	   
-	<!--display login form-->
-	<div id="login">
-	  <fieldset>
-	    <legend>Please enter the following information:</legend>
-	      
-	        <label for="name"><span id="nameprompt">Your Name</span></label>
-          For example: Jane Smith</span>
-            <div class="loginFieldBg">
-              <input id="name" name="name" type="text" value="" size="40" maxlength="40" tabindex="15" class="loginField">
-	        </div>
-	      
-            <fieldset class="barcodeAltChoice">
-                    
-              <label for="code"><span id="codeprompt">Your College ID # plus your College Code</span></label>
+  <!-- Message from client webapp to be displayed on the CAS login screen -->
+    <div id="clientmessage">
+  <!--display any errors-->
+    </div> <!-- end clientmessage -->
+     
+  <!--display login form-->
+  <div id="login">
+    <fieldset>
+      <legend>Please enter the following information:</legend>
+        <div class="loginFieldBg">
+          <div class="formEntryArea">
+            <label for="name"><span id="nameprompt">Your Name</span></label><input name="name" id="name" value="" size="40" maxlength="40"><span class="formLabelExample">For example: Jane Smith</span>
+          </div>
+        </div>
+            
               <div class="loginFieldBg">
-          	      <input id="code" name="code" type="password" value="" size="40" maxlength="40" tabindex="20" class="loginField"><span class="formLabelExample">
+                <div class="formEntryArea">      
+                 <label for="code"><span id="codeprompt">Your College ID # plus your College Code</span></label>
+                   <input id="code" name="code" type="password" value="" size="40" maxlength="40" tabindex="20" class="loginField">
+                   <span class="formLabelExample">
                   <p>For Example:</p>
                   <p>0012345<span class="schoolExample">EC</span> (East Central College)</p>
                   <p>V00123450<span class="schoolExample">JC</span> (Jefferson  College)</p>
@@ -210,35 +209,36 @@ if (document.body){document.body.className = "bodybg";}
                   <p>01234<span class="schoolExample">COP</span> (St. Louis College of Pharmacy)</p>
                   <p>A01234567<span class="schoolExample">ST</span> (St. Louis Community College)</p>
                   </span>
-		          </div>
+                </div>
+              </div>
  <!--           
               <label for="user_name">Or: Your login/user name</label>
               <div class="loginFieldBg">
                   <input id="user_name" name="username" type="text" value="" size="20" maxlength="25" tabindex="25" class="loginField">
-	          </div>
+            </div>
             
             </fieldset>
 -->
 
 <!--
             
-			<div id="ipssopinentry">
+      <div id="ipssopinentry">
             <label for="pin">PIN</label>
             <div class="loginFieldBg">
               <input id="pin" name="pin" type="password" value="" size="20" maxlength="40" tabindex="30" class="loginField">
-	        </div>
-			</div>
+          </div>
+      </div>
 -->
             
 <!--ifneedspin-->
 
 <!--
-			<fieldset class="newpin" id="ipssonewpin">
+      <fieldset class="newpin" id="ipssonewpin">
             <legend>Please enter a new PIN</legend>
                 <label for="pin1">New PIN</label>
                 <div class="loginFieldBg">
                   <input id="pin1" name="pin1" type="password" value="" size="20" maxlength="40" tabindex="35" class="loginField">
-	            </div>
+              </div>
                     
                 <label for="pin2">Retype new PIN</label>
                 <div class="loginFieldBg">
@@ -250,20 +250,20 @@ if (document.body){document.body.className = "bodybg";}
 
 <!--xif-->
         <!-- This button is hidden unless using mobile devices. Even if hidden it enables Enter key to submit. -->
-        <input type="submit" name="Log In" class="loginSubmit">
-
-	  </fieldset>
-	</div>  <!-- end login -->
-    <div class="clearfloats"></div>
-    <div class="formButtons">
-    	<a href="#" onclick="document.forms['fm1'].submit();"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div></a>
-  	</div>
+        
+<div class="clearfloats"></div>
+    <div class="formButtonArea">
+      <a href="#" onclick="document.forms['fm1'].submit();"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div></a>
+    </div>
+    </fieldset>
+  </div>  <!-- end login -->
+    
 </form>
 <!--Enable form focus-->
 <script type="text/javascript"><!--//--><![CDATA[//><!--
 //Hide the main PIN entry if the new pin section is active.
 try { if ( document.getElementById("ipssonewpin") ) {
-	document.getElementById("ipssopinentry").style.display="none"; } }
+  document.getElementById("ipssopinentry").style.display="none"; } }
 catch(err) {}
 
 //Look for the first field in the external patron part of the form. This field will get cursor focus.
@@ -315,10 +315,10 @@ if (keycode==13)
   function syndeticsLink()
   {
     if ( $("#syndeticsMessage").html('') ){
-	if ($(".syn_title")[0])
-	  {
-	  $("#syndeticsMessage").html('<a href="#syndetics">Reviews Available Below</a>')
-	  }
+  if ($(".syn_title")[0])
+    {
+    $("#syndeticsMessage").html('<a href="#syndetics">Reviews Available Below</a>')
+    }
     }
     setTimeout(function(){
     clearInterval(syndeticsInterval);
