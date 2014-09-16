@@ -20,7 +20,7 @@ startTimeout(900000, "/search");
 
 <meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4"><link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print"><script type="text/javascript" src="/screens/bibdisplay.js"></script>
 </head>
-<body bgcolor="#FFFFFF" onLoad='if (document.forms.length > 0) { for (var i=0; i<document.forms[0].elements.length; i++) { if (document.forms[0].elements[i].type == "text") { document.forms[0].elements[i].focus(); document.forms[0].elements[i].select(); return; } } }'>
+<body id="cas">
 <!-- begin toplogo.html file -->
 <!-- Rel 2009B Example Set -->
 <!-- Updated: 06 Oct 2010 -->
@@ -36,222 +36,297 @@ startTimeout(900000, "/search");
 $(document).ready(function () {
 	$("span:contains(WebPAC PRO)").hide(); //Hide the iii footer
 
-		$('#searchtype').change(function(){
-		$("#exampleText").load("/screens/" + this.value + ".inc");
-		});
-		//Changes the search examples
-							
-		//var selectAny = $('#b option[value=""]')
-		//$('#b option:not([value^="z"])').detach(); 
-		//selectAny.prependTo("#b")
-		//Hides the out-of-scope locations
-		});
-		</script>
+	$('#searchtype').change(function(){
+    	$("#exampleText").load("/screens/" + this.value + ".inc");
+	});
+	//Changes the search examples
+	
+	//var selectAny = $('#b option[value=""]')
+	//$('#b option:not([value^="z"])').detach(); 
+	//selectAny.prependTo("#b")
+	//Hides the out-of-scope locations
+});
+</script>
 
-		<script type="text/javascript">
-		if (document.body){document.body.className = "bodybg";}
-		</script>
+<script type="text/javascript">
+if (document.body){document.body.className = "bodybg";}
+</script>
 
-		<link rel="stylesheet" type="text/css" href="/screens/styles_s0.css" / >
-		<link type="text/css" rel="stylesheet" href="/screens/jquery.modalbox.css" />
-		<script type="text/javascript" src="/screens/jquery.modalbox-1.5.0-min.js"></script>
+<link rel="stylesheet" type="text/css" href="/screens/styles_s0.css" / >
+<link type="text/css" rel="stylesheet" href="/screens/jquery.modalbox.css" />
+<script type="text/javascript" src="/screens/jquery.modalbox-1.5.0-min.js"></script>
 
-		<div class="minHeight">
-		<div class="fullPage">
+<div class="minHeight">
+<div class="fullPage">
 
-		<div id="skipNav"><a href="#content" tabindex="1">Skip to content</a></div>
-		<div class="topLogo">
+<div id="skipNav"><a href="#content" tabindex="1">Skip to content</a></div>
+<div class="topLogo">
 
-		<div class="topLogoImage">
-		<a href="/search/" tabindex="10"><img src="/screens/archway.png" alt="Catalog Home Page"></a>
-		</div>
+<div class="topLogoImage">
+<a href="/search/" tabindex="10"><img src="/screens/archway.png" alt="Catalog Home Page"></a>
+</div>
 
-		<div class="mobiusLogo">
-		<a href="http://searchmobius.org"><img src="/screens/mobius.png" alt="MOBIUS Catalog"></a>
-		</div>
+<div class="mobiusLogo">
+<a href="http://searchmobius.org"><img src="/screens/mobius.png" alt="MOBIUS Catalog"></a>
+</div>
 
-		<div id="alertMessage"></div>
+<div id="alertMessage"></div>
 
-		</div><!--topLogo-->
+</div><!--topLogo-->
 
-		<div class="topNavClear"></div>
-
-
-		<div class="searchNav">
-
-		<div id="searchNavMenu">
-
-		<div class="navRight">
-		<ul>
-		<li><a href="http://searchmobius.org/">MOBIUS</a></li>
-											<li><a href="/">Archway</a></li>
-											<li><a href="/patroninfo" tabindex="120">My Library Account</a></li>
-											<li><a href="/help" tabindex="115">Help</a></li>
-											</ul>	
-									
-											</div>
-
-											<div class="clear"></div>
-
-											</div>
-
-											</div><!--searchNav-->
+<div class="topNavClear"></div>
 
 
-											<div class="clear"></div>
+<div class="searchNav">
 
-											<div class="pageNavColumn"><!-- nav menu column-->
+<div id="searchNavMenu">
 
-											<h1 class="navHeader">Search Options</h1>
-											<ul id="rightCol">
-											<li><a href="/search/X">Advanced Search</a></li>
-											<li><a href="/search/Y">Keyword</a></li>
-											<li><a href="/search/t">Title</a></li>
-											<li><a href="/search/a">Author</a></li>
+<div class="navRight">
+<ul>
+<li><a href="http://searchmobius.org/">MOBIUS</a></li>
+<li><a href="/">Archway</a></li>
+<li><a href="/patroninfo" tabindex="120">My Library Account</a></li>
+<li><a href="/help" tabindex="115">Help</a></li>
+</ul>	
 
-											<li><a href="/search/d">Subject (LC)</a></li>
-											<li><a href="/search/m">Subject (Children's)</a></li>
-											<li><a href="/search/s">Journals, Magazines, Newspapers</a></li>
-											<li><a href="#">Numerical Search</a>
-											  <ul>
-											         <li><a href="/search/c">Library of Congress (LC) Call Number</a></li>
-													        <li><a href="/search/e">Dewey Call Number</a></li>
-															       <li><a href="/search/f">Other Call Number</a></li>
-																          <li><a href="/search/g">Government Document Call Number</a></li>
-																		         <li><a href="/search/i">ISBN, ISSN, Music, Etc., Number</a></li>
-																				        <li><a href="/search/o">OCLC Number</a></li>
-																						       
-																							     </ul>
-																								 </li>
-																								 <li><a href="/search/b">Course Reserves</a></li>
-																								 <li><a href="/ftlists">Featured Lists</a></li>
+</div>
+
+<div class="clear"></div>
+
+</div>
+
+</div><!--searchNav-->
 
 
+<div class="clear"></div>
 
+<div class="pageNavColumn"><!-- nav menu column-->
 
-																								 </ul>
+<h1 class="navHeader">Search Options</h1>
+<ul id="rightCol">
+	<li><a href="/search/X">Advanced Search</a></li>
+	<li><a href="/search/Y">Keyword</a></li>
+	<li><a href="/search/t">Title</a></li>
+	<li><a href="/search/a">Author</a></li>
+
+	<li><a href="/search/d">Subject (LC)</a></li>
+	<li><a href="/search/m">Subject (Children's)</a></li>
+	<li><a href="/search/s">Journals, Magazines, Newspapers</a></li>
+	<li><a href="#">Numerical Search</a>
+	  <ul>
+	       <li><a href="/search/c">Library of Congress (LC) Call Number</a></li>
+	       <li><a href="/search/e">Dewey Call Number</a></li>
+	       <li><a href="/search/f">Other Call Number</a></li>
+	       <li><a href="/search/g">Government Document Call Number</a></li>
+	       <li><a href="/search/i">ISBN, ISSN, Music, Etc., Number</a></li>
+	       <li><a href="/search/o">OCLC Number</a></li>
+	       
+	  </ul>
+	</li>
+	<li><a href="/search/b">Course Reserves</a></li>
+	<li><a href="/ftlists">Featured Lists</a></li>
 
 
 
-																								 <!--
-																								 <li><a href="/feeds">Feeds</a></li>
-																								 <li><a href="/screens/rpro.html">Research Pro</a></li>
-																								 <li><a href="/iii/calendar">Programs Calendar</a></li>
-																								 <li><a href="/">KidsOnline</a></li>
-																								 <li><a href="/ftlist">Featured item lists</a></li>
-																								 <li><a href="/screens/resources_index.html">Other resources</a></li>
-																								 -->
 
-																								 <!--
-																								 </ul>
-
-																								 <h1 class="navHeader">Course Reserves</h1>
-																								 <ul class="leftCol">
-																								 <li><a href="/search/r">Course Search</a></li>
-																								 <li><a href="/search/p">Instructor Search</a></li>
-																								 -->
-
-																								 </ul>
-																								 </div><!--Styling div-->
+</ul>
 
 
-																								 <div class="pageContentColumn"><!-- content container -->
-																								 <a name="content" id="content"></a>
-																								 <!--end toplogo.html-->
-																								 <br />
-																								 <div class="pageContentInner">
-																								 <h1 class="pageHeader">Login</h1>
-																								 <div class="form1Part formLogin" id="accessibleForm">
-																								 <form name="patform" target="_self" method="POST" action="/patroninfo">
-																								 <fieldset>
-																								 <legend>
-																								 Please enter the following information:</legend>
+
+<!--
+<li><a href="/feeds">Feeds</a></li>
+<li><a href="/screens/rpro.html">Research Pro</a></li>
+<li><a href="/iii/calendar">Programs Calendar</a></li>
+<li><a href="/">KidsOnline</a></li>
+<li><a href="/ftlist">Featured item lists</a></li>
+<li><a href="/screens/resources_index.html">Other resources</a></li>
+-->
+
+<!--
+</ul>
+
+<h1 class="navHeader">Course Reserves</h1>
+<ul class="leftCol">
+<li><a href="/search/r">Course Search</a></li>
+<li><a href="/search/p">Instructor Search</a></li>
+-->
+
+</ul>
+</div><!--Styling div--><!-- nav menu column-->
 
 
-																								 <div class="formEntryArea">
-																								 <label for="name"><span id="nameprompt">Your Name</span></label><input name="name" id="name" value="" size="40" maxlength="40"><span class="formLabelExample">
-																								 For example: Jane Smith</span>
-																								 </div>
+<div class="pageContentColumn"><!-- content container -->
+	<a name="content" id="content"></a>
+	<!--end toplogo.html-->
+	<br />
+	<div class="pageContentInner"> 
+		<h1 class="pageHeader">Login</h1>
 
-																								 <div class="formEntryArea">
-																								 <label for="code"><span id="codeprompt">Your College ID # plus your College Code</span></label><input name="code" id="code" type="PASSWORD" value="" size="40" maxlength="40"><span class="formLabelExample">
-																								 <p>For Example:</p>
-																								 <p>0012345<span class="schoolExample">EC</span> (East Central College)</p>
-																								 <p>V00123450<span class="schoolExample">JC</span> (Jefferson  College)</p>
-																								 <p>0234567<span class="schoolExample">SC</span> (St. Charles Community College)</p>
-																								 <p>01234<span class="schoolExample">COP</span> (St. Louis College of Pharmacy)</p>
-																								 <p>A01234567<span class="schoolExample">ST</span> (St. Louis Community College)</p>
-																								 </span>
-																								 </div>
+		<form id="fm1">
+			<!-- Message from client webapp to be displayed on the CAS login screen -->
+		  	<div id="clientmessage">
+			<!--display any errors-->
+		  	</div> <!-- end clientmessage -->
+			   
+			<!--display login form-->
+			<div id="login">
+			  <fieldset>
+			    <legend>Please enter the following information:</legend>
+			      
+			        <label for="name"><span id="nameprompt">Your Name</span></label>
+		          For example: Jane Smith</span>
+		            <div class="loginFieldBg">
+		              <input id="name" name="name" type="text" value="" size="40" maxlength="40" tabindex="15" class="loginField">
+			        </div>
+			      
+		            <fieldset class="barcodeAltChoice">
+		                    
+		              <label for="code"><span id="codeprompt">Your College ID # plus your College Code</span></label>
+		              <div class="loginFieldBg">
+		          	      <input id="code" name="code" type="password" value="" size="40" maxlength="40" tabindex="20" class="loginField"><span class="formLabelExample">
+		                  <p>For Example:</p>
+		                  <p>0012345<span class="schoolExample">EC</span> (East Central College)</p>
+		                  <p>V00123450<span class="schoolExample">JC</span> (Jefferson  College)</p>
+		                  <p>0234567<span class="schoolExample">SC</span> (St. Charles Community College)</p>
+		                  <p>01234<span class="schoolExample">COP</span> (St. Louis College of Pharmacy)</p>
+		                  <p>A01234567<span class="schoolExample">ST</span> (St. Louis Community College)</p>
+		                  </span>
+				          </div>
+		 <!--           
+		              <label for="user_name">Or: Your login/user name</label>
+		              <div class="loginFieldBg">
+		                  <input id="user_name" name="username" type="text" value="" size="20" maxlength="25" tabindex="25" class="loginField">
+			          </div>
+		            
+		            </fieldset>
+		-->
+
+		<!--
+		            
+					<div id="ipssopinentry">
+		            <label for="pin">PIN</label>
+		            <div class="loginFieldBg">
+		              <input id="pin" name="pin" type="password" value="" size="20" maxlength="40" tabindex="30" class="loginField">
+			        </div>
+					</div>
+		-->
+		            
+		<!--ifneedspin-->
+
+		<!--
+					<fieldset class="newpin" id="ipssonewpin">
+		            <legend>Please enter a new PIN</legend>
+		                <label for="pin1">New PIN</label>
+		                <div class="loginFieldBg">
+		                  <input id="pin1" name="pin1" type="password" value="" size="20" maxlength="40" tabindex="35" class="loginField">
+			            </div>
+		                    
+		                <label for="pin2">Retype new PIN</label>
+		                <div class="loginFieldBg">
+		                  <input id="pin2" name="pin2" type="password" value="" size="20" maxlength="40" tabindex="40" class="loginField">
+		                </div>
+
+		            </fieldset>
+		-->
+
+		<!--xif-->
+		        <!-- This button is hidden unless using mobile devices. Even if hidden it enables Enter key to submit. -->
+		        <input type="submit" name="Log In" class="loginSubmit">
+
+			  </fieldset>
+			</div>  <!-- end login -->
+		    <div class="clearfloats"></div>
+		    <div class="formButtons">
+		    	<a href="#" onclick="document.forms['fm1'].submit();"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div></a>
+		  	</div>
+		</form>
+		<!--Enable form focus-->
+		<script type="text/javascript"><!--//--><![CDATA[//><!--
+		//Hide the main PIN entry if the new pin section is active.
+		try { if ( document.getElementById("ipssonewpin") ) {
+			document.getElementById("ipssopinentry").style.display="none"; } }
+		catch(err) {}
+
+		//Look for the first field in the external patron part of the form. This field will get cursor focus.
+		var ipssoFirstField;
+		try { ipssoFirstField = document.forms[0].extpatid; }
+		catch(err) {
+		}
+		//If we still don't have a field, look for the name field in the library account part.
+		if ( ipssoFirstField==undefined ) { ipssoFirstField = document.forms[0].name; }
+		//Set focus. Ignore errors.
+		try { ipssoFirstField.focus(); }
+		catch(err) {}
+
+		document.onkeydown = enterSubmit
+
+		function enterSubmit(e) {
+		var keycode;
+		if (window.event) keycode = window.event.keyCode;
+		else if (e) keycode = e.which;
+		if (keycode==13)
+		 document.forms[0].submit();
+		}
+
+		//--><!]]></script>
+		</div><!-- end loginArea -->
+
+	</div><!-- pageContentInner -->
+</div><!-- content container -->
+<br />
+<!-- begin botlogo.html file -->
+<!-- Rel 2009B Example Set -->
+<!-- Updated: Sept 2009 -->
+</div><!-- pageContent  -->
+<div style="clear:both"></div>
+	<div id="botlogo">
+	<p><strong>Archway</strong> includes the collections of the following Eastern Missouri college libraries:</p>
+	<p><a href="http://www.eastcentral.edu/library/">East Central College</a> | <a href="http://www.jeffco.edu/library/">Jefferson College</a> | <a href="http://www.stchas.edu/library/">St. Charles Community College</a> | <a href="http://www.stlcop.edu/library/">St. Louis College of Pharmacy</a> | <a href="http://www.stlcc.edu/Libraries/">St. Louis Community College</a></p>
+	</div>
+</div><!-- fullPage -->
+</div><!-- min-height -->
+<script type="text/javascript">
+    $(document).ready(function () {
+            syndeticsInterval = setInterval ( "syndeticsLink()", 250 );
+        }) 
+  function syndeticsLink()
+  {
+    if ( $("#syndeticsMessage").html('') ){
+	if ($(".syn_title")[0])
+	  {
+	  $("#syndeticsMessage").html('<a href="#syndetics">Reviews Available Below</a>')
+	  }
+    }
+    setTimeout(function(){
+    clearInterval(syndeticsInterval);
+    }, 10000);
+  }
+</script>
+<link rel="shortcut icon" type="ximage/icon" href="/screens/favicon.ico" />
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16416080-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
 
 
-																								 <div class="clear"></div>
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+try { document.forms[0].elements[1].focus(); }
+catch(err) {}
+//--><!]]></script>
 
-
-																								     <!--{ifalternate_id}-->
-																									     <!--{user_name}-->
-																										     <!--{xif}-->
-
-																											 <div class="formButtonArea">
-																											 <div  class="formButtonArea"><input type='hidden' name='pat_submit' value='xxx'/>
-																											 <a href="#" onClick="javascript:patform.submit()"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div></a></div>
-																											 <input type="submit" class="submitHidden">
-																											 </div>
-																											 </fieldset>
-																											 </form>
-																											 </div>
-
-																											 </div><!-- pageContentInner -->
-
-																											 <br />
-																											 <!-- begin botlogo.html file -->
-																											 <!-- Rel 2009B Example Set -->
-																											 <!-- Updated: Sept 2009 -->
-																											 </div><!-- pageContent  -->
-																											 <div style="clear:both"></div>
-																											 <div id="botlogo">
-																											 <p><strong>Archway</strong> includes the collections of the following Eastern Missouri college libraries:</p>
-																											 <p><a href="http://www.eastcentral.edu/library/">East Central College</a> | <a href="http://www.jeffco.edu/library/">Jefferson College</a> | <a href="http://www.stchas.edu/library/">St. Charles Community College</a> | <a href="http://www.stlcop.edu/library/">St. Louis College of Pharmacy</a> | <a href="http://www.stlcc.edu/Libraries/">St. Louis Community College</a></p>
-																											 </div>
-																											 </div><!-- fullPage -->
-																											 </div><!-- min-height -->
-																											 <script type="text/javascript">
-																											     $(document).ready(function () {
-																												             syndeticsInterval = setInterval ( "syndeticsLink()", 250 );
-																															         }) 
-																																	   function syndeticsLink()
-																																	     {
-																																		     if ( $("#syndeticsMessage").html('') ){
-																																			 	if ($(".syn_title")[0])
-																																					  {
-																																					  	  $("#syndeticsMessage").html('<a href="#syndetics">Reviews Available Below</a>')
-																																						  	  }
-																																							      }
-																																								      setTimeout(function(){
-																																									      clearInterval(syndeticsInterval);
-																																										      }, 10000);
-																																											    }
-																																												</script>
-																																												<link rel="shortcut icon" type="ximage/icon" href="/screens/favicon.ico" />
-
-																																												<script type="text/javascript">
-
-																																												  var _gaq = _gaq || [];
-																																												    _gaq.push(['_setAccount', 'UA-16416080-1']);
-																																													  _gaq.push(['_trackPageview']);
-
-																																													    (function() {
-																																														    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-																																															    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-																																																    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-																																																	  })();
-
-																																																	  </script>
-
-
-																																																	  <script type="text/javascript"><!--//--><![CDATA[//><!--
-																																																	  try { document.forms[0].elements[1].focus(); }
-																																																	  catch(err) {}
-																																																	  //--><!]]></script>
-																																																	  <!--this is customized <screens/pverify_web.html>-->
-
+<!--[if IE]>
+</div>
+<![endif]-->
+<!-- IPSSO html form updated 2010 June 29 -->
+</body>
+</html>
