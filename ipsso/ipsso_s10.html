@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="/apps/CAS/resources/login_html.css" media="screen and (min-device-width: 481px)"> -->
     
     <link rel="stylesheet" type="text/css" href="/apps/CAS/resources/login_mobile.css"  />
-	<style type="text/css" media="screen and (min-width: 481px)">
+  <style type="text/css" media="screen and (min-width: 481px)">
     <!--
     @import url("/apps/CAS/resources/login_html.css");
     -->
@@ -36,56 +36,63 @@
 <div class="loginArea loginArea1Col"> 
 <div class="clearfloats"></div>
 <form id="fm1">
-	<!-- Message from client webapp to be displayed on the CAS login screen -->
-  	<div id="clientmessage">
-	<!--display any errors-->
-  	</div> <!-- end clientmessage -->
-	   
-	<!--display login form-->
-	<div id="login">
-	  <fieldset>
-	    <legend>Library Account Login</legend>
-	      
-	        <label for="name">Name</label>
+  <!-- Message from client webapp to be displayed on the CAS login screen -->
+    <div id="clientmessage">
+  <!--display any errors-->
+    </div> <!-- end clientmessage -->
+     
+  <!--display login form-->
+  <div id="login">
+    <fieldset>
+      <legend>Library Account Login</legend>
+        
+          <label for="name">Name</label>
             <div class="loginFieldBg">
-              <input id="name" name="name" type="text" value="" size="20" maxlength="40" tabindex="15" class="loginField">
-	        </div>
-	      
+              <input id="name" name="name" type="text" value="" size="40" maxlength="40" tabindex="15" class="loginField">
+          </div>
+        
             <fieldset class="barcodeAltChoice">
             <legend>Your College ID # plus the College Code</legend>
-                    
-              <label for="code">e.g. A01234567ST</label>
+              <label for="code">e.g. A01234567ST</label>      
               <div class="loginFieldBg">
-        	      <input id="code" name="code" type="password" value="" size="20" maxlength="40" tabindex="20" class="loginField">
-		      </div>
+                <input id="code" name="code" type="password" value="" size="40" maxlength="40" tabindex="20" class="loginField">            
+          </div> 
+          <span class="formLabelExample">
+                  <p>For Example:</p>
+                  <p>0012345<span class="schoolExample">EC</span> (East Central College)</p>
+                  <p>V00123450<span class="schoolExample">JC</span> (Jefferson  College)</p>
+                  <p>0234567<span class="schoolExample">SC</span> (St. Charles Community College)</p>
+                  <p>01234<span class="schoolExample">COP</span> (St. Louis College of Pharmacy)</p>
+                  <p>A01234567<span class="schoolExample">ST</span> (St. Louis Community College)</p>
+          </span>
  <!--           
               <label for="user_name">Or: Your login/user name</label>
               <div class="loginFieldBg">
                   <input id="user_name" name="username" type="text" value="" size="20" maxlength="25" tabindex="25" class="loginField">
-	          </div>
+            </div>
             
             </fieldset>
 -->
 
 <!--
             
-			<div id="ipssopinentry">
+      <div id="ipssopinentry">
             <label for="pin">PIN</label>
             <div class="loginFieldBg">
               <input id="pin" name="pin" type="password" value="" size="20" maxlength="40" tabindex="30" class="loginField">
-	        </div>
-			</div>
+          </div>
+      </div>
 -->
             
 <!--ifneedspin-->
 
 <!--
-			<fieldset class="newpin" id="ipssonewpin">
+      <fieldset class="newpin" id="ipssonewpin">
             <legend>Please enter a new PIN</legend>
                 <label for="pin1">New PIN</label>
                 <div class="loginFieldBg">
                   <input id="pin1" name="pin1" type="password" value="" size="20" maxlength="40" tabindex="35" class="loginField">
-	            </div>
+              </div>
                     
                 <label for="pin2">Retype new PIN</label>
                 <div class="loginFieldBg">
@@ -99,19 +106,19 @@
         <!-- This button is hidden unless using mobile devices. Even if hidden it enables Enter key to submit. -->
         <input type="submit" name="Log In" class="loginSubmit">
 
-	  </fieldset>
-	</div>  <!-- end login -->
+    </fieldset>
+  </div>  <!-- end login -->
     <div class="clearfloats"></div>
     <div class="formButtons">
-    	<a href="#" onclick="document.forms['fm1'].submit();"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div></a>
-  	</div>
+      <a href="#" onclick="document.forms['fm1'].submit();"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div></a>
+    </div>
 </form>
 
 <!--Enable form focus-->
 <script type="text/javascript"><!--//--><![CDATA[//><!--
 //Hide the main PIN entry if the new pin section is active.
 try { if ( document.getElementById("ipssonewpin") ) {
-	document.getElementById("ipssopinentry").style.display="none"; } }
+  document.getElementById("ipssopinentry").style.display="none"; } }
 catch(err) {}
 
 //Look for the first field in the external patron part of the form. This field will get cursor focus.

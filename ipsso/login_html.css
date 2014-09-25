@@ -3,7 +3,7 @@
 
 body { font-size:85%; }
 
-div #login { width:48%; }
+div #login { width:30em; }
 
 .formButtons { text-align:center; padding-top:.8em; }
 
@@ -61,3 +61,4 @@ fieldset .barcodeAltChoice { margin:2em 0; }
 .pressedState .buttonSpriteSpan1 .buttonSpriteSpan2  { background-position:bottom left; outline:none; }
 
 .loginSubmit { display:none; }
+.schoolExample {color:red; font-weight:bold;}
