@@ -5,6 +5,9 @@ jQuery(document).ready(function(){
 	jQuery(".showMe").show();
 	if (jQuery('span .availabilityMessage:contains("STLCC Electronic Resources")').addClass('change').length) {
     jQuery("span.change").find("span").text('Available').removeClass('itemsNotAvailable').addClass('itemsAvailable')};
-  });
+	if (jQuery('span .availabilityMessage:contains("Electronic Resource (ONLINE)")').addClass('change').length) {
+    jQuery("span.change").find("span").text('Available').removeClass('itemsNotAvailable').addClass('itemsAvailable')};  
+});
+
 
 
