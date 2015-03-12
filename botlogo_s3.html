@@ -32,7 +32,7 @@ if (!document.getElementById("recordnum")) {} else{
 var ref = document.getElementById("recordnum").getAttribute("href");
 var str = ref.indexOf("=")
 var recno = ref.substr(str+1,8);
-var encoreLink = '<a href="http://archwayencore.searchmobius.org/iii/encorestchar/record/C%7CR'+recno+'"><span class="navButton">Search Encore</span></a>';
+var encoreLink = '<a href="http://stchas.searchmobius.org/iii/encore/record/C__R'+recno+'__Orightresult__X5?lang=eng&suite=stchar"><span class="navButton">Search Encore</span></a>';
 // Put link to Encore record on record page
 document.getElementById("encoreLink").innerHTML = encoreLink;
 }
@@ -52,6 +52,20 @@ document.getElementById("encoreLink").innerHTML = encoreLink;
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-16416080-1', 'auto');
+  ga('send', 'pageview');
+
+$('#stlccAsk').on('click', function() {
+  ga('send', 'event', 'stlccAsk', 'click', 'stlccAsk-buttons');
+});
 </script>
 
 

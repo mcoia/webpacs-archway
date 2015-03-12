@@ -48,7 +48,7 @@ div #login_ldap { border-bottom:1px solid #686868; margin-bottom:1em; }
 .loginTopLogo { margin: 0 auto 1em; padding-bottom:1em; }
 
 .loginTopLogo img { border:none; }
-
+.schoolExample {color:red; font-weight:bold;}
 
 /* sprite button */
 .formButtons a { display:none; }

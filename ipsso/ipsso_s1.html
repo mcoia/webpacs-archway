@@ -1,0 +1,375 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html lang="en">
+<head>
+<title>Archway Library Catalog                                                    /ECC</title>
+<base target="_self"/>
+<link rel="stylesheet" type="text/css" href="/scripts/ProStyles.css" />
+<link rel="stylesheet" type="text/css" href="/screens/styles.css" />
+<link rel="shortcut icon" type="ximage/icon" href="/screens/favicon.ico" />
+<script type="text/javascript" src="/scripts/common.js"></script>
+
+<script type="text/javascript" src="/scripts/elcontent.js"></script>
+
+<script type="text/JavaScript">
+<!-- Hide the JS
+startTimeout(900000, "/search");
+// -->
+</script>
+<noscript>
+<meta http-equiv="Refresh" content="900;URL=/search" />
+</noscript>
+
+<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4"><link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print"><script type="text/javascript" src="/screens/bibdisplay.js"></script>
+</head>
+<body id="cas">
+<!-- begin toplogo.html file -->
+<!-- Rel 2009B Example Set -->
+<!-- Updated: 06 Oct 2010 -->
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="/screens/jquery.cookie.js"></script>
+<script type="text/javascript" src="/screens/domainredirect2.js"></script>
+<script type="text/javascript" src="/screens/mobileredirect.js"></script>
+<script type="text/javascript" src="/screens/856links.js"></script>
+<script src="/screens/menu-collapsed.js" type="text/javascript"></script>
+<script src="/screens/tabs.js"></script>
+<script type="text/javascript" src='/screens/sms.js'> </script>
+<script type="text/javascript">
+$(document).ready(function () {
+  $("span:contains(WebPAC PRO)").hide(); //Hide the iii footer
+
+  $('#searchtype').change(function(){
+      $("#exampleText").load("/screens/" + this.value + ".inc");
+  });
+  //Changes the search examples
+  
+  var selectAny = $('#b option[value=""]')
+  $('#b option:not([value^="e"])').detach(); 
+  selectAny.prependTo("#b")
+
+  //Hides the out-of-scope locations 
+  if ( $('.rightColumn ').css('display') == 'none' ) {
+    $('#sideChat').html('') 
+}
+});
+</script>
+
+<script type="text/javascript">
+if (document.body){document.body.className = "bodybg";}
+</script>
+
+<link rel="stylesheet" type="text/css" href="/screens/styles_s1.css" / >
+<link type="text/css" rel="stylesheet" href="/screens/jquery.modalbox.css" />
+<script type="text/javascript" src="/screens/jquery.modalbox-1.5.0-min.js"></script>
+
+<div class="minHeight">
+<div class="fullPage">
+
+<div id="skipNav"><a href="#content" tabindex="1">Skip to content</a></div>
+<div class="topLogo">
+
+<div class="topLogoImage">
+<a href="/" tabindex="10"><img src="/screens/archway.png" alt="Archway Catalog"></a>
+</div>
+
+<div class="scopeLogo">
+<a href="/search/"><img src="/screens/eastcentral.png" alt="East Central College"></a>
+</div>
+
+<div id="alertMessage"></div>
+
+</div><!--topLogo-->
+
+
+<div class="topNavClear"></div>
+
+<div class="topNavClear"></div>
+
+
+<div class="searchNav">
+
+<div id="searchNavMenu">
+
+<div class="navRight">
+<ul>
+<li><a href="http://searchmobius.org/">MOBIUS</a></li>
+<li><a href="/">Archway</a></li>
+<li><a href="/search~S1">East Central College</a></li>
+<li><a href="/patroninfo" tabindex="120">My Library Account</a></li>
+<li><a href="/help" tabindex="115">Help</a></li>
+</ul> 
+
+</div>
+
+<div class="clear"></div>
+
+</div>
+
+</div><!--searchNav-->
+
+
+<div class="clear"></div>
+<div class="sidebarJco">
+<div class="pageNavColumnJ"><!-- nav menu column-->
+
+<h1 class="navHeader">Search Options</h1>
+<ul id="rightCol">
+<li><a href="/search/X">Advanced Search</a></li>
+<li><a href="/search/Y">Keyword</a></li>
+<li><a href="/search/t">Title</a></li>
+<li><a href="/search/a">Author</a></li>
+
+<li><a href="/search/d">Subject (LC)</a></li>
+<li><a href="/search/m">Subject (Children's)</a></li>
+<li><a href="/search/s">Journals, Magazines, Newspapers</a></li>
+<li><a href="#">Numerical Search</a>
+  <ul>
+       <li><a href="/search/c">Library of Congress (LC) Call Number</a></li>
+       <li><a href="/search/e">Dewey Call Number</a></li>
+       <li><a href="/search/f">Other Call Number</a></li>
+       <li><a href="/search/g">Government Document Call Number</a></li>
+       <li><a href="/search/i">ISBN, ISSN, Music, Etc., Number</a></li>
+       <li><a href="/search/o">OCLC Number</a></li>
+       
+  </ul>
+</li>
+<li><a href="/search/b">Course Reserves</a></li>
+
+
+
+
+
+</ul>
+
+
+<!--
+<li><a href="/feeds">Feeds</a></li>
+<li><a href="/screens/rpro.html">Research Pro</a></li>
+<li><a href="/iii/calendar">Programs Calendar</a></li>
+<li><a href="/">KidsOnline</a></li>
+<li><a href="/ftlist">Featured item lists</a></li>
+<li><a href="/screens/resources_index.html">Other resources</a></li>
+-->
+
+<!--
+</ul>
+
+<h1 class="navHeader">Course Reserves</h1>
+<ul class="leftCol">
+<li><a href="/search/r">Course Search</a></li>
+<li><a href="/search/p">Instructor Search</a></li>
+
+</ul>
+-->
+
+</div>
+
+<div class="rightColumn">
+<div class="chat-widget" id="sideChat">
+  <div class="needs-js">
+    JavaScript disabled or chat unavailable.
+  </div>
+</div>
+</div>
+</div>
+
+
+<div class="pageContentColumn"><!-- content container -->
+<a name="content" id="content"></a>
+<!--end toplogo.html-->
+
+<br />
+<div class="pageContentInner">
+<h1 class="pageHeader">Login</h1>
+<div class="form1Part formLogin" id="accessibleForm">
+<form id="fm1">
+  <!-- Message from client webapp to be displayed on the CAS login screen -->
+    <div id="clientmessage">
+  <!--display any errors-->
+    </div> <!-- end clientmessage -->
+     
+  <!--display login form-->
+  <div id="login">
+    <fieldset>
+      <legend>Please enter the following information:</legend>
+        <div class="loginFieldBg">
+          <div class="formEntryArea">
+            <label for="name"><span id="nameprompt">Your Name</span></label><input name="name" id="name" value="" size="40" maxlength="40"><span class="formLabelExample">For example: Jane Smith</span>
+          </div>
+        </div>
+            
+              <div class="loginFieldBg">
+                <div class="formEntryArea">      
+                 <label for="code"><span id="codeprompt">Your College ID # plus your College Code</span></label>
+                   <input id="code" name="code" type="password" value="" size="40" maxlength="40" tabindex="20" class="loginField">
+                   <span class="formLabelExample">
+                  <p>For Example:</p>
+                  <p>0012345<span class="schoolExample">EC</span> (East Central College)</p>
+                  <p>V00123450<span class="schoolExample">JC</span> (Jefferson  College)</p>
+                  <p>0234567<span class="schoolExample">SC</span> (St. Charles Community College)</p>
+                  <p>01234<span class="schoolExample">COP</span> (St. Louis College of Pharmacy)</p>
+                  <p>A01234567<span class="schoolExample">ST</span> (St. Louis Community College)</p>
+                  </span>
+                </div>
+              </div>
+ <!--           
+              <label for="user_name">Or: Your login/user name</label>
+              <div class="loginFieldBg">
+                  <input id="user_name" name="username" type="text" value="" size="20" maxlength="25" tabindex="25" class="loginField">
+            </div>
+            
+            </fieldset>
+-->
+
+<!--
+            
+      <div id="ipssopinentry">
+            <label for="pin">PIN</label>
+            <div class="loginFieldBg">
+              <input id="pin" name="pin" type="password" value="" size="20" maxlength="40" tabindex="30" class="loginField">
+          </div>
+      </div>
+-->
+            
+<!--ifneedspin-->
+
+<!--
+      <fieldset class="newpin" id="ipssonewpin">
+            <legend>Please enter a new PIN</legend>
+                <label for="pin1">New PIN</label>
+                <div class="loginFieldBg">
+                  <input id="pin1" name="pin1" type="password" value="" size="20" maxlength="40" tabindex="35" class="loginField">
+              </div>
+                    
+                <label for="pin2">Retype new PIN</label>
+                <div class="loginFieldBg">
+                  <input id="pin2" name="pin2" type="password" value="" size="20" maxlength="40" tabindex="40" class="loginField">
+                </div>
+
+            </fieldset>
+-->
+
+<!--xif-->
+        <!-- This button is hidden unless using mobile devices. Even if hidden it enables Enter key to submit. -->
+        
+<div class="clearfloats"></div>
+    <div class="formButtonArea">
+      <a href="#" onclick="document.forms['fm1'].submit();"><div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Submit</span></span></div></div></a>
+    </div>
+    </fieldset>
+  </div>  <!-- end login -->
+    
+</form>
+<!--Enable form focus-->
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+//Hide the main PIN entry if the new pin section is active.
+try { if ( document.getElementById("ipssonewpin") ) {
+  document.getElementById("ipssopinentry").style.display="none"; } }
+catch(err) {}
+
+//Look for the first field in the external patron part of the form. This field will get cursor focus.
+var ipssoFirstField;
+try { ipssoFirstField = document.forms[0].extpatid; }
+catch(err) {
+}
+//If we still don't have a field, look for the name field in the library account part.
+if ( ipssoFirstField==undefined ) { ipssoFirstField = document.forms[0].name; }
+//Set focus. Ignore errors.
+try { ipssoFirstField.focus(); }
+catch(err) {}
+
+document.onkeydown = enterSubmit
+
+function enterSubmit(e) {
+var keycode;
+if (window.event) keycode = window.event.keyCode;
+else if (e) keycode = e.which;
+if (keycode==13)
+ document.forms[0].submit();
+}
+
+//--><!]]></script>
+</div>
+
+</div><!-- pageContentInner -->
+
+<br />
+<!-- begin botlogo.html file -->
+<!-- Rel 2009B Example Set -->
+<!-- Updated: Sept 2009 -->
+</div><!-- pageContent  -->
+<div style="clear:both"></div>
+<div id="botlogo">
+<p><strong>Archway</strong> includes the collections of the following Eastern Missouri college libraries:</p>
+<p><a href="http://www.eastcentral.edu/library/">East Central College</a> | <a href="http://www.jeffco.edu/library/">Jefferson College</a> | <a href="http://www.stchas.edu/library/">St. Charles Community College</a> | <a href="http://www.stlcop.edu/library/">St. Louis College of Pharmacy</a> | <a href="http://www.stlcc.edu/Libraries/">St. Louis Community College</a></p>
+</div>
+</div><!-- fullPage -->
+</div><!-- min-height -->
+
+  
+
+  
+<script type="text/javascript">
+    $(document).ready(function () {
+            syndeticsInterval = setInterval ( "syndeticsLink()", 250 );
+        }) 
+  function syndeticsLink()
+  {
+    if ( $("#syndeticsMessage").html('') ){
+  if ($(".syn_title")[0])
+    {
+    $("#syndeticsMessage").html('<a href="#syndetics">Reviews Available Below</a>')
+    }
+    }
+    setTimeout(function(){
+    clearInterval(syndeticsInterval);
+    }, 10000);
+  }
+</script>
+
+<script type="text/javascript">
+  try {
+     if (window.parent.location.href === undefined) {
+        $('.chat-widget').hide()
+     } else {
+     }
+  } catch (err) {
+        $('.chat-widget').hide()
+  }
+</script> 
+
+<script type="text/javascript">
+  (function() {
+    var x = document.createElement("script"); x.type = "text/javascript"; x.async = true;
+    x.src = (document.location.protocol === "https:" ? "https://" : "http://") + "us.libraryh3lp.com/js/libraryh3lp.js?7243";
+    var y = document.getElementsByTagName("script")[0]; y.parentNode.insertBefore(x, y);
+  })();
+</script>
+
+
+<link rel="shortcut icon" type="ximage/icon" href="/screens/favicon.ico" />
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16416080-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+try { document.forms[0].elements[1].focus(); }
+catch(err) {}
+//--><!]]></script>
+
+<!--[if IE]>
+</div>
+<![endif]-->
+<!-- IPSSO html form updated 2010 June 29 -->
+</body>
+</html>

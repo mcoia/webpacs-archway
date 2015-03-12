@@ -40,6 +40,8 @@
 AVAILLIM=<span class="availLimMessage">Limit search to available items</span>|<span class="availLimMessage">Search results limited to available items</span>
 AVAILLIM_STATS=-,o
 BOTLOGO=@screens/botlogo.html
+BOTLOGO1=@screens/botlogo_s1.html
+BOTLOGO2=@screens/botlogo_s2.html
 BOTLOGO3=@screens/botlogo_s3.html
 ICON_BUT_CANCEL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel</span></span></div></div>
 ICON_BUT_CLOSEWINDOW=<span class="button"><img src="/screens/ico_x.png" alt=""><span class="buttonText">Close Window</span></span>
@@ -168,7 +170,7 @@ IMAGE_MATTYPEg=/screens/media_dvd.gif
 IMAGE_MATTYPEi=/screens/media_cdbook.gif
 IMAGE_MATTYPEj=/screens/media_musicalsound.gif
 IMAGE_MATTYPEk=/screens/media_2dgraphic.gif
-IMAGE_MATTYPEm=/screens/media_computerfile.gif
+IMAGE_MATTYPEm=/screens/media_electronicresource.gif
 IMAGE_MATTYPEo=/screens/media_kit.gif
 IMAGE_MATTYPEp=/screens/media_mixed.gif
 IMAGE_MATTYPEr=/screens/media_3dartwork.gif
@@ -182,6 +184,7 @@ IMAGE_MATTYPE2=/screens/media_ebook.gif
 IMAGE_MATTYPE3=/screens/media_efilm.gif
 IMAGE_MATTYPE4=/screens/media_eaudiobook.gif
 IMAGE_MATTYPE5=/screens/media_cdrom.gif
+IMAGE_MATTYPE6=/screens/media_bluray.gif
 INDEX_EXT=cefg
 MEDIA=2
 NO_COPIES=Currently no copies available
@@ -205,7 +208,7 @@ ICON_BIB_PAGING_CAPTION=
 ICON_BIB_PAGING_NEXT=<span class="button"><span class="buttonText" id="buttonNextRecord">Next Record</span><img src="/screens/ico_next.gif" alt=""></span>
 ICON_BIB_PAGING_PREV=<span class="button"><img src="/screens/ico_previous.gif" alt=""><span class="buttonText">Previous Record</span></span>
 ICON_RECORDLINK=<a id="recordnum" href="%s"><span class="button"><img src="/screens/ico_bookmark.png" alt=""><span class="buttonText">Permanent Link</span></span></a>
-LINK856TEXT=Connect to
+LINK856TEXT=Online at:
 MARC=yes
 SHOWOREC=30
 TABLEPARAM_BIB=width="100%" cellpadding="0" cellspacing="0" border="0"|cellpadding="0" cellspacing="0" border="0" align="center"
@@ -275,7 +278,7 @@ ICON_BUT_CLEAR_MARKED=<span class="navButton">Clear Saved Records</span>
 ICON_BUT_EXPORT_MULTI=<span class="navButtonOneLine">Export Saved</span>
 ICON_BUT_EXPORT_VIEW_SAVES=<span class="button"><img src="/screens/ico_bag.png" alt=""><span class="buttonText">View Saved Record</span></span>
 ICON_BUT_VIEW_SAVES=<span class="navButton">View Saved Records</span>
-EMAILOP=From the Library Catalog|exporter|
+EMAILOP=From the Library Catalog|mcohelp@mobiusconsortium.org|
 EXPORT_SELECT_TABLE=Sendto:browser,email,local|Format:full,brief,marc,procite,endnote
 XRECTYPE=bi
 
@@ -288,10 +291,10 @@ ICON_BUT_REQUEST_RESET=<div onmousedown="this.className='pressedState';" onmouse
 ICON_BUT_REQUEST_SELECTED=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Request Selected</span></span></div></div>
 ICON_REQUEST=<span class="navButtonSmall navButton">Request</span>
 #REQFILLTIME=14|<br>Request available in approximately %d days|<br>Current estimated availability: approximately %d days|<br>This material may be immediately available
-REQUEST=Request item|denyiflocalavail|ask|t
+REQUEST=Request item|bib|ask|t
 #REQUEST_ARTICLE_IFCHKIN=Y
 #REQUEST_INSTRUCTION=Please enter any special instructions: 
-REQUEST_MULTI=Request All Items in Book Cart|denyiflocalavail|ask|t
+REQUEST_MULTI=Request All Items in Book Cart|bib|ask|t
 
 # Patron Record
 ICON_BUT_PAT_CANCEL=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Cancel</span></span></div></div>
@@ -323,7 +326,7 @@ ICON_SORTREQDATE=<div onmousedown="this.className='pressedState';" onmouseout="t
 MIN_PIN_LENGTH=6
 #MODIFY_PFLDS=z
 #MODIFY_PFLDS=ahtpzHx
-MY_WEBPAC=F,2
+MY_WEBPAC=F,2,0-255
 NEWPIN_MSG=Please enter a Personal Identification Number (PIN)
 PATRON_FIELDS=nat
 #Note that in the PATRON_MSG web option you should replace z with the field tag used on your system for messages.
@@ -340,6 +343,7 @@ TABLEPARAM_PATFUNC=border="0"|border="0"|border="0"
 #TIMEOUT_POPUP=600
 
 # My Millennium
+ICON_BUT_LOGOUT=Log Out
 ICON_BUT_PAT_PSEARCH_REMOVE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Delete All Searches</span></span></div></div>
 BUT_PAT_PSEARCH_UPDATE=/screens/updatelist.gif" class="button
 ICON_BUT_PAT_PSEARCH_UPDATE=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Update List</span></span></div></div>
@@ -355,7 +359,7 @@ ICON_READING_HISTORY_OPTIN=<div onmousedown="this.className='pressedState';" onm
 ICON_READING_HISTORY_OPTOUT=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Opt Out</span></span></div></div>
 ICON_READING_HISTORY_EXPORT=<div onmousedown="this.className='pressedState';" onmouseout="this.className='';" onmouseup="this.className='';"><div class="buttonSpriteDiv"><span class="buttonSpriteSpan1"><span class="buttonSpriteSpan2">Export My Reading History</span></span></div></div>
 LOGGEDIN_MSG=<span class="loggedInMessage">You are logged in <span class="loggedInMoreInfo">to %s</span> as %s</span>
-NO_REVERIFY=acq,req,ecr
+NO_REVERIFY=acq,req,ecr,wam
 PATRONVIEW_START=holds,ill,mylists,fines,chkouts,bookings,psearch,mffavs,readhist,patrate,patreview,programs,irnr
 PREF_SEARCHES_P1=10|N
 PREF_SEARCHES_P2=10|N
@@ -434,7 +438,7 @@ TABLEPARAM_RSRV_BIBS=width="100%" border="0" cellpadding="0" cellspacing="0"
 # Featured Lists
 ICON_BUT_PREVSCRN=<span class="navButtonOneLine">Back</span>
 ICON_BUT_RET2FEAT=<span class="navButtonOneLine">Back</span>
-FEATURED_LIST=71,174,04,162,22,167,30,76,161,181|NEW TITLES AND LISTS||# TITLES
+FEATURED_LIST=71,174,04,162,22,167,30,76,161,181,87|NEW TITLES AND LISTS||# TITLES
 
 # Content Linking and Other Resources
 # If your system uses SSL, use the https example, to avoid secure/nonsecure warning on Internet Explorer.
@@ -558,7 +562,8 @@ TABLEPARAM_PROG_SECTIONS=width="100%" border="0" cellspacing="0" align="center"
 
 # Encore
 
-PATFEEDS_MT=74.82.32.132
+#PATFEEDS_MT=74.82.32.132
+PATFEEDS_MT=10.17.5.118
 
 # Scoping
 
@@ -567,4 +572,4 @@ LOCKSCOPE=no
 # Login Options
 
 IPSSO_USEHTML=T
-
+PROXYDNS=archwaywam.searchmobius.org

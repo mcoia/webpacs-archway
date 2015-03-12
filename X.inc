@@ -9,5 +9,4 @@ Type the search term you want to find. Examples:
 </ul>
 
 
-
 </div>

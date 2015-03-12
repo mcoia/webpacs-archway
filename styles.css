@@ -42,7 +42,7 @@ a img {border:none;}
 
 body { font-family:"Trebuchet MS",Verdana,Arial,Helvetica,sans-serif; font-size:85%; font-style:normal; font-weight: normal; height:100%; text-align:center; width:100%; margin-top:0px; background:#FFFFFF }
 
-body.bodybg { background:url(background.gif) 2% 0% repeat-x #4D4D4D; color: #444444; }
+/* body.bodybg { background:url(background.gif) 2% 0% repeat-x #4D4D4D; color: #444444; } */
 
 /* Generated popup body */
 body > font { background:#FFFFFF; font-size:1.3em; line-height:2em; margin-left:3px; }
@@ -134,6 +134,7 @@ a:hover  { color: #420A63; }
 .formRequired { color:#990000;font-weight:bold;font-size:1.3em;position:relative;top:5px; }
 .formsTogether { width:95%; }
 .formsTogether .form1Part { width:96%; }
+.schoolExample {color:red; font-weight:bold;}
 
 .additionalCopies { margin: 20px 6px; }
 
@@ -159,7 +160,7 @@ a:hover  { color: #420A63; }
 
 #barcodeInput {float:left; width:20em;}
 
-#barcodeExample {float:left; width:18em; }
+#barcodeExample {float:left; width:21em; }
 
 .bibClear { clear:both; }
 
@@ -203,7 +204,17 @@ a:hover  { color: #420A63; }
 
 .bibDisplayJacket  { float:left; margin:0 0 1em 5%; display:inline; width:6em; }
 
-.bibLinks th { text-align:center; }
+.bibLinks th {  padding: 8px 0px 6px 35px;
+    text-align: left; font-size: 12.5px;
+    font-family: Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif;
+    font-weight: bold; }
+
+.bibLinks td { background-image:url("/screens/ico_next.gif"); 
+background-repeat: no-repeat; 
+background-position: 5.5% center; 
+padding-left: 60.9px;
+padding-bottom:2.1px;
+text-align: left;}
 
 .bibMedia  { margin-left:auto; margin-right:auto; }
 
@@ -436,7 +447,7 @@ table.browseResourceTable { border:0; }
 
 .browseScreen td { vertical-align:top; }
 
-.browseSearchtool  td { border:none; }
+.browseSearchtool  td { border:none; text-align: left; padding: 5px;}
 
 .browseSearchtool { background:url('tile_search.jpg') repeat-x bottom left; border-color:#D3D3D3; border-style:solid; border-width:0 0 1px 0; font-size:.9em; padding:0; }
 
@@ -602,6 +613,16 @@ div .bibResourceSidebar { display:none; }
 .popupForm .formButtonArea { clear:both; }
 
 .popupForm h2 { margin: 7px 0 2px; }
+
+.limitBox {
+    padding: 10px;
+}
+
+.frontLimits {width:32%; margin: auto}
+
+.fields td {
+    padding: 2px;
+}
 
 .formButtonArea { margin:3px 0 0 15px; }
 
@@ -894,7 +915,7 @@ width:19%;
 
 #patButBookings a { background:#FFFFFF url('ico_checkbox.png') no-repeat top left; margin-left:5px; padding-left:25px; line-height:1.8em; }
 
-#patButFines a, #patButHolds a, #patButChkouts a, #patButBookings a { margin-top:3px; margin-left:0px; padding-left:28px; line-height:30px; }
+#patButFines a, #patButHolds a, #patButChkouts a, #patButBookings a, #patEncore a { margin-top:3px; margin-left:0px; padding-left:28px; line-height:30px; }
 
 #patButFines, #patButHolds, #patButChkouts, #patButBookings { }
 
