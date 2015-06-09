@@ -66,7 +66,7 @@ CUSTOM_MESSAGES=F
 STARTOVER=/search
 STATGROUP=login
 STYLESHEET=/screens/styles.css
-SUPPRESS_OPTION=NEWSRCH
+#SUPPRESS_OPTION=NEWSRCH
 TIMEOUT=900;URL=/search
 TOPLOGO=@screens/toplogo.html
 TOPLOGO1=@screens/toplogo_s1.html
@@ -91,18 +91,18 @@ STAFF_LOGGEDIN_MSG=<span class="loggedInMessage">You are logged into staff mode 
 
 # General and Phrase Searching
 ICON_BUT_ANOTHER=<span class="navButton">Another Search</span>
-ICON_BUT_NEWSRCH=Archway
-ICON_BUT_NEWSRCH1=East Central College
-ICON_BUT_NEWSRCH2=Jefferson College
-ICON_BUT_NEWSRCH3=St. Charles Community College
-ICON_BUT_NEWSRCH4=St. Louis Community College
-ICON_BUT_NEWSRCH5=STLCC Florissant Valley
-ICON_BUT_NEWSRCH6=STLCC Forest Park
-ICON_BUT_NEWSRCH7=STLCC Highland Park
-ICON_BUT_NEWSRCH8=STLCC Meramec
-ICON_BUT_NEWSRCH9=St. Louis College of Pharmacy
-ICON_BUT_NEWSRCH10=STLCC Archives
-ICON_BUT_NEWSRCH11=STLCC Wildwood
+ICON_BUT_NEWSRCH=<span class="navButtonOneLine">Start Over</span>
+ICON_BUT_NEWSRCH1=<span class="navButtonOneLine">Start Over</span>
+ICON_BUT_NEWSRCH2=<span class="navButtonOneLine">Start Over</span>
+ICON_BUT_NEWSRCH3=<span class="navButtonOneLine">Start Over</span>
+ICON_BUT_NEWSRCH4=<span class="navButtonOneLine">Start Over</span>
+ICON_BUT_NEWSRCH5=<span class="navButtonOneLine">Start Over</span>
+ICON_BUT_NEWSRCH6=<span class="navButtonOneLine">Start Over</span>
+ICON_BUT_NEWSRCH7=<span class="navButtonOneLine">Start Over</span>
+ICON_BUT_NEWSRCH8=<span class="navButtonOneLine">Start Over</span>
+ICON_BUT_NEWSRCH9=<span class="navButtonOneLine">Start Over</span>
+ICON_BUT_NEWSRCH10=<span class="navButtonOneLine">Start Over</span>
+ICON_BUT_NEWSRCH11=<span class="navButtonOneLine">Start Over</span>
 ICON_BUT_WORDSRCH=<span class="navButton">Search as Words</span>
 DROP_DOWN=Xtadms
 FRAMEURL=0
