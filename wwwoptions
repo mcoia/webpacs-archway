@@ -87,7 +87,7 @@ XSTARTOVER=/search
 # Staff
 ICON_BUT_PUBLIC=<span class="navButtonOneLine">Patron View</span>
 ICON_BUT_STAFF=<span class="navButtonOneLine">Staff View</span>
-STAFF=1-2,52,102,154,181-182
+STAFF=1-2,52,102,154
 STAFF_LOGGEDIN_MSG=<span class="loggedInMessage">You are logged into staff mode at %s as %s</span>
 
 # General and Phrase Searching
