@@ -91,7 +91,7 @@ STAFF=1-2,52,102,154
 STAFF_LOGGEDIN_MSG=<span class="loggedInMessage">You are logged into staff mode at %s as %s</span>
 
 # General and Phrase Searching
-ICON_BUT_ANOTHER=<span class="navButton">Another Search</span>
+ICON_BUT_ANOTHER=<span class="navButton anotherSearch">Another Search</span>
 ICON_BUT_NEWSRCH=<span class="navButtonOneLine">Start Over</span>
 ICON_BUT_NEWSRCH1=<span class="navButtonOneLine">Start Over</span>
 ICON_BUT_NEWSRCH2=<span class="navButtonOneLine">Start Over</span>
