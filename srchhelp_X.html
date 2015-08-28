@@ -142,7 +142,7 @@ Use "near" to specify words close to each other, in any order.<br>
 $(document).ready(function () {
 	$(window).load(function() {
 
-//adds prospector button to scrhelp index pages
+//adds innreach button to scrhelp index pages
 
 
 	function advSearchinnReachButton() {
@@ -171,7 +171,7 @@ innReachButton = "<a id='innReachLink' href=''><span class='navButton'>Search MO
 
 
 		if ($('h2:contains("NO ENTRIES FOUND")')[0]){ //for individual search index pages
-			$('h2:contains("NO ENTRIES FOUND")').after(innReachButton); // drop a button that doesn't go anywhere
+			$('.miscButtons').append(innReachButton); // drop a button that doesn't go anywhere
 	     		advSearchinnReachButton();
 		}
 	})
