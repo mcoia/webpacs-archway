@@ -12,7 +12,7 @@ function updateinnReachButton() {
 	    $("#innReachLink").attr("href", innReachUrl + innReachArg)
 	}
 
-    innReachUrl = "http://encore.searchmobius.org/iii/encore/search/C__S";
+    innReachUrl = "http://searchmobius.org/iii/encore/search/C__S";
 
 
 	$(document).ready(function () {
