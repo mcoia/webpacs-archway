@@ -6,25 +6,27 @@
     right:.5em;
     top:.5em;
 }
-span.AskButton {
-padding: 6px 7px;
-}
-span.AskButton  {
-    background: url("big_120_button_blank.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
-    color: #000000;
+span.sideButton  {
+    border-radius: 5px;
+    border: 1px solid black;
+    background: #fbfcfc;
+    background: -moz-linear-gradient(top, #fbfcfc 0%, #a4d0d5 100%);
+    background: -webkit-linear-gradient(top, #fbfcfc 0%,#a4d0d5 100%);
+    background: linear-gradient(to bottom, #fbfcfc 0%,#a4d0d5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbfcfc', endColorstr='#a4d0d5',GradientType=0 );
     cursor: pointer;
     display: block;
     font-size: 14px;
     font-weight: normal;
-    height: 36px;
     line-height: 18px;
     text-align: center;
-    width: 106px;
+    padding: 6px 7px;
 }
 .rightColumn {
     float: left;
     padding-bottom: 10px;
-    width: 192px;
+    width: 48%;
+    margin-right:2%;
 }
 .sidebarJco {
 	float: right;
