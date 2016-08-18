@@ -9,7 +9,8 @@ div#searchNavMenu {
 }
 
 .scopeLogo {
-    top:18px; 
+    top:50%;
+    margin-top:-27px; 
 }
 
 .stlcopBox {
