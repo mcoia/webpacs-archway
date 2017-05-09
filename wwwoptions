@@ -362,6 +362,7 @@ ICON_READING_HISTORY_EXPORT=<div onmousedown="this.className='pressedState';" on
 LOGGEDIN_MSG=<span class="loggedInMessage">You are logged in <span class="loggedInMoreInfo">to %s</span> as %s</span>
 NO_REVERIFY=acq,req,ecr
 PATRONVIEW_START=holds,ill,mylists,fines,chkouts,bookings,psearch,mffavs,readhist,patrate,patreview,programs,irnr
+#PATRONVIEW_START=holds,ill,mylists,fines,chkouts,bookings,psearch,mffavs,readhist,patrate,patreview,programs
 PREF_SEARCHES_P1=10|N
 PREF_SEARCHES_P2=10|N
 PREF_SEARCHES_P52=10|N
@@ -425,6 +426,9 @@ IR_PLACEMENT=1
 ICON_INNREACH_ENCORE=<span class="navButton">Search MOBIUS</span>
 INNREACH_ENCORE=http://searchmobius.org/iii/encore/search/C__S%s__Orightresult__U?lang=eng&suite=cobalt
 #INNREACH=<span class="navButton">Search MOBIUS</span>@searchmobius.org(X=X*;Y=Y*;a=a;c=c;d=d;e=e;f=c;g=g;i=i;m=h;o=o;p=p;s=s;t=t)
+
+# ArticleReach
+ARTICLEREACH_CENTRALS=arlir.iii.com
 
 # Media Management
 ICON_BUT_RET2CRS=<span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Return to Course</span></span>
@@ -565,7 +569,8 @@ TABLEPARAM_PROG_SECTIONS=width="100%" border="0" cellspacing="0" align="center"
 
 # Encore
 
-PATFEEDS_MT=74.82.32.132
+#PATFEEDS_MT=74.82.32.132
+PATFEEDS_MT=10.17.202.10
 
 # Scoping
 
