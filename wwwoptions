@@ -34,6 +34,7 @@
 # WebPAC Pro
 # Research Pro
 # Program Registration
+# ArticleReach
 
 
 # General Display and Behavior
@@ -427,9 +428,6 @@ ICON_INNREACH_ENCORE=<span class="navButton">Search MOBIUS</span>
 INNREACH_ENCORE=http://searchmobius.org/iii/encore/search/C__S%s__Orightresult__U?lang=eng&suite=cobalt
 #INNREACH=<span class="navButton">Search MOBIUS</span>@searchmobius.org(X=X*;Y=Y*;a=a;c=c;d=d;e=e;f=c;g=g;i=i;m=h;o=o;p=p;s=s;t=t)
 
-# ArticleReach
-ARTICLEREACH_CENTRALS=arlir.iii.com
-
 # Media Management
 ICON_BUT_RET2CRS=<span class="button"><img src="/screens/ico_back.png" alt=""><span class="buttonText">Return to Course</span></span>
 ERESERVE=[0123456789]
@@ -566,6 +564,12 @@ ICON_VIEW_ADDITIONAL_SESSIONS=<span class="button"><span class="buttonText">View
 ICON_HIDE_ADDITIONAL_SESSIONS=<span class="button"><span class="buttonText">Hide Additional Sessions</span></span>
 ICON_PROGRAM_CAL=<span class="button"><img src="/screens/ico_calendar.png" alt=""><span class="buttonText">Events Calendar</span></span>
 TABLEPARAM_PROG_SECTIONS=width="100%" border="0" cellspacing="0" align="center"
+
+# ArticleReach
+ARTICLEREACH_CENTRALS=arlir.iii.com
+ARTICLEREACH_LABELS=1|2|14|15  
+ICON_ARTICLEREACH=Request Article
+ICON_MYARTICLEREACH=<span class="button"><img src="/screens/media_periodicalsmall.gif" alt=""><span class="buttonText">Article Requests</span></span>
 
 # Encore
 
