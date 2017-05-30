@@ -2,7 +2,6 @@
 <!--{ifbibdisplay}-->
 <!--{xif}-->
 <!--{catedit}-->
-<link rel="stylesheet" type="text/css" href="/screens/styles_bib_s2.css" >
 
 <div id="bibDisplayBody">
 <div class="navigationRowRecord">
@@ -23,9 +22,7 @@
 </div>
 
 <div class="bibClear"></div>
-<div class="rightBib">
 
-</div>
 <div class="bibDisplayJacket">
 <!--{bibimage}-->
 <p id="syndeticsMessage"></p>
@@ -80,14 +77,14 @@
 </div>
 </a>
 
- <script>
+	 <script>
 	$(document).ready(function(){
       if ($('.bibLinks').html().length > 0) {
       $('#smsfeatures').hide();
       }                                           
     });
      </script>
-	 
+
     <!-- a quick script to hide the SMS menu if there are no items. same as the javascript in the SMS form, but it's really just to see if the items exist.  If they don't, we hide the buttons -->
        <script>
        var f = document.getElementById('bib_detail');
@@ -108,7 +105,7 @@
 
     </script>
 
-       
+ 
     <!-- just a placeholder for the sms form -->
     <div id='sms' style="visibility:hidden;display:none">
     </div>
