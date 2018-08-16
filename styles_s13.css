@@ -1,0 +1,55 @@
+.frontLimits {
+   width: 35%; 
+   }
+
+#googlebooks { display: block; font-size:.9em; }
+
+#googlebooks img {margin-top:1em; }
+
+.googlebooks { display:none; }
+
+.linkBanner {
+    background-color:#CC0000;   
+    margin:10px;
+    position:relative;
+    text-align:right;
+    padding:.5em 0;
+    clear:both;
+    float:right;
+    width:100%;
+}
+
+.linkBanner a {color: #ffffff; font-weight:bold; text-decoration:none;}
+
+.linkBanner .navLeft {float: left;}
+
+.linkBanner .navRight {float: right;}
+
+.linkBanner .navLeft ul li {margin-left: 0; margin-right:2em;}
+
+.linkBanner ul {list-style-type:none; margin: 0; padding: 0 1.2em;}
+
+.linkBanner ul li {display: inline; margin-left:2em;}
+
+.macLogo {
+    width:169px;
+    position:absolute;
+    top:10px;
+    left:38.5%;
+}
+
+.clusterLogo {top: 1px;}
+
+.topLogoImage {
+    padding: 57px 15px 15px;
+}
+
+.browseSearchtool  td { border:none; padding: 5px 14px 5px 14px; text-align: center;}
+
+.pageNavColumn {
+    border:3px ridge #CC0000;
+}
+
+
+
+#patButAR { display: none; }

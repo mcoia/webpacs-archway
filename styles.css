@@ -203,7 +203,7 @@ a:hover  { color: #420A63; }
 .bibDisplayItemsMain, .resourceLicenseArea { float:right; width:80%; }
 
 .bibDisplayJacket  { float:left; margin:0 0 1em 5%; display:inline; width:6em; }
-
+/*
 .bibLinks th {  padding: 8px 0px 6px 35px;
     text-align: left; font-size: 12.5px;
     font-family: Arial,"Arial Unicode MS",Helvetica,Verdana,sans-serif;
@@ -215,6 +215,8 @@ background-position: 5.5% center;
 padding-left: 60.9px;
 padding-bottom:2.1px;
 text-align: left;}
+*/
+.bibLinks th { text-align:center; }
 
 .bibMedia  { margin-left:auto; margin-right:auto; }
 

@@ -1,0 +1,43 @@
+.frontLimits {
+   width: 35%; 
+   }
+
+#googlebooks { display: block; font-size:.9em; }
+
+#googlebooks img {margin-top:1em; }
+
+.googlebooks { display:none; }   
+
+.linkBanner {
+    background:#0087B1;
+    margin-top: 20px;
+    position:relative;
+    text-align:right;
+    padding:.5em 0;
+    clear:both;
+    float:right;
+    width:100%;
+}
+
+.linkBanner a {color: #ffffff; font-weight:bold; text-decoration:none;}
+
+.linkBanner .navLeft {float: left;}
+
+.linkBanner .navRight {float: right;}
+
+.linkBanner .navLeft ul li {margin-left: 0; margin-right:2em;}
+
+.linkBanner ul {list-style-type:none; margin: 0; padding: 0 1.2em;}
+
+.linkBanner ul li {display: inline; margin-left:2em;}
+
+
+.topLogoImage {
+    padding:24px 10px;
+}
+
+.clusterLogo {
+    top:10px;
+}
+
+#patButAR { display: none; }

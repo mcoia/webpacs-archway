@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!-- Rel 2009B Example Set -->
+<!-- Updated: 09 June 2010 -->
+<head>
+<title>Archway Catalog</title>
+<meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4">
+<link rel="stylesheet" type="text/css" href="/screens/styles_print.css" media="print">
+<!--<link rel="stylesheet" type="text/css" href="/screens/stylesmain.css" > Un-comment to offer a larger logo on mainmenu.-->
+<script type="text/javascript">/* <![CDATA[ */
+function iiiSearchValidate() {
+	try{
+	  if (document.getElementById('search').searcharg.value==null||document.getElementById('search').searcharg.value=="") {
+		return false;
+		}
+	}
+	catch(err) {
+	}
+  return true;
+}
+
+function iiiDoSubmit_1()
+{
+//getFormHandleForm() is in common.js
+var obj = getFormHandleForm(1);
+if(iiiSearchValidate()){
+obj.submit();
+}
+}
+/* ]]> */
+</script>
+</head>
+<body>
+<!--{toplogo}-->
+
+<div class="pageContentInner mainSearch">
+
+<h1 class="accessibleAddInfo">Search</h1>
+
+<div id="accessibleForm" class="form1Part">
+<div class="browseSearchtool">
+<div id="tabs">
+    <div id="tab-1" class="tabContent">
+
+<div class="innerTab">
+<div class="innerTabForm X">
+    <div class="inlineBlock">
+<select class="searchtype" name="searchtype" id="searchtype">
+<option value="X" selected="selected">Keyword</option>
+<option value="t">Title</option>
+<option value="s">Journal Title</option>
+<option value="a">Author</option>
+<option value="d">Subject</option>
+</select>
+<form method="get" action="/search~S13/X?"enctype="multipart/form-data">
+</div><!-- inlineBlock -->       
+
+<input type="text" name="SEARCH" id="search" maxlength="75" size="39">
+
+
+    <input type="hidden" name="SORT" value="D">
+<div class="frontLimits">
+<table>
+<tr class="limitBox">
+    <p>Check one or more formats, or leave all unchecked for no limit.</p>
+	<td>
+	<label for="formata"><input type="checkbox" name="m" id="m" value="a">Book</label>
+	<label for="format2"><input type="checkbox" name="m" id="m" value="2">eBook</label>
+    <label for="formati"><input type="checkbox" name="m" id="m" value="i">Audiobook</label>
+	<label for="formatg"><input type="checkbox" name="m" id="m" value="g">Video/Film</label>
+    <label for="formatj"><input type="checkbox" name="m" id="m" value="j">Music Audio</label>
+	</td>
+</tr>
+</table>
+</div>
+    <input type="submit" value="Submit">
+</form>
+</div><!-- innerTabForm X -->
+<div class="innerTabForm otherIndexes">
+<form action="/search~S13/" method="get" name="search" id="search">
+
+<label for="searchtype" class="accessibleAddInfo">Search type</label>
+<select name="searchtype" class="searchtype" id="searchtype">
+<option value="X" selected="selected">Keyword</option>
+<option value="t">Title</option>
+<option value="s">Journal Title</option>
+<option value="a">Author</option>
+<option value="d">Subject</option>
+</select>
+<!--{nosort}-->
+<label for="searcharg" class="accessibleAddInfo">Search term</label>
+<input maxlength="75" name="searcharg" size="39">
+ 
+
+<span class="nowrap formButtonArea">
+
+<input value="Submit" type="submit">
+
+</span>
+
+</form>
+</div>
+</div><!-- innertab -->
+</div>
+</div>
+
+</div><!-- browseSearchtool -->
+</div><!-- form1Part -->
+<!--{botlogo}-->
+</div><!--pageContentInner -->
+
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+try { document.forms[0].searcharg.focus(); }
+catch(err) {}
+//--><!]]></script>
+</body>
+</html>
