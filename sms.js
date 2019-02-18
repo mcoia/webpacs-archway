@@ -50,7 +50,7 @@ try {
  var tr = itms.getElementsByTagName('TR');	// get each row
   for(i = 1; i < tr.length; i++) {
     var x=tr[i].getElementsByTagName('TD');			// get each cell
-    if (x.length == 4) {								// if there's only 3 cells (like our ITEM table)
+    if (x.length >= 3) {								// if there's only 3 cells (like our ITEM table)
       var loc = x[0].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");		// get the location (remove tags)
 	  // var callLinks = x[1].getElementsByTagName("a"); //get the call number without extras
 	  // var call = callLinks[0].innerHTML.replace(/(<([^>]+)>|&nbsp;)/ig,"");

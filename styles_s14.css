@@ -38,8 +38,12 @@
     padding:24px 10px;
 }
 
+.topLogoImage img { 
+ height: 100px;
+ width: auto; 
+}
+
 .clusterLogo {
     top:10px;
 }
 
-#patButAR { display: none; }
