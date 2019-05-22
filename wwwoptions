@@ -257,7 +257,7 @@ CHECKIN_FONTCOLOR=ARRIVED=GREEN|EXPECTED=BLACK|TO BIND/BOUND=RED|LATE=BLACK|OTHE
 CHECKIN_STATUS=EXPECTED=Expected|ARRIVED=Arrived|PARTIALLY RECEIVED=Partial|MISSING=Missing|BOUND=Bound|AT BINDERY=To bind|BINDERY PREP=Binding prepration|REMOVED=Removed|NOT PUBLISHED=Not published|OUT OF PRINT=Out of print|UNAVAILABLE=Unavailable|LATE=Late
 #For the above wwwoption, see page 106918 of the manual for the correct label terminology.  For the left (all caps) side of the wwwoption, use what's in the manual, not what's in Millennium. 
 #DISPLAY_CHECKIN_856=z
-DISPLAY_CHECKIN_856=uzlm3|true
+DISPLAY_CHECKIN_856=zlm3|true
 HOLDINGS_REQ=Deliver this article to me
 SORT_ITEMS=true
 SUPPRESS_CARD=UI
@@ -447,7 +447,7 @@ TABLEPARAM_RSRV_BIBS=width="100%" border="0" cellpadding="0" cellspacing="0"
 # Featured Lists
 ICON_BUT_PREVSCRN=<span class="navButtonOneLine">Back</span>
 ICON_BUT_RET2FEAT=<span class="navButtonOneLine">Back</span>
-FEATURED_LIST=71,57,104,162,167,30,76,161,181,87,16,172,179,175|NEW TITLES AND LISTS||# TITLES
+FEATURED_LIST=71,57,4,162,167,30,76,161,181,87,16,172,179,175|NEW TITLES AND LISTS||# TITLES
 
 # Content Linking and Other Resources
 # If your system uses SSL, use the https example, to avoid secure/nonsecure warning on Internet Explorer.
