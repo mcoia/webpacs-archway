@@ -68,7 +68,8 @@ obj.submit();
     <label for="format2"><input type="checkbox" name="m" id="m" value="2" /> eBook<br /></label>
 	</td>
     <td>
-	<label for="formatg"><input type="checkbox" name="m" id="m" value="g" /> DVD<br /></label>
+	<label for="formatg"><input type="checkbox" name="m" id="videocheckbox" value="g" /> Video<br /></label>
+	<input type="hidden" name="dummy" id="bluraycheckbox" value="6" />
     <label for="formati"><input type="checkbox" name="m" id="m" value="i" /> Audiobook<br /></label>
    	</td>
 </tr>
@@ -76,6 +77,22 @@ obj.submit();
 </div>
     <input type="submit" value="Submit">
 </form>
+<script type="text/javascript">
+function videoclicked()
+{
+	var videoelement = document.getElementById("videocheckbox");
+	if (videoelement.checked)
+	{
+		document.getElementById("bluraycheckbox").name = "m";	
+	}	
+	else
+	{
+		document.getElementById("bluraycheckbox").name = "dummy";
+	}
+}
+document.getElementById("videocheckbox").addEventListener("change",videoclicked);
+window.addEventListener("load",videoclicked);
+</script>
 </div><!-- innerTabForm X -->
 <div class="innerTabForm otherIndexes">
 <form action="/search/" method="get" name="search" id="search">
