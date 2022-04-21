@@ -2,6 +2,13 @@
 <!--{ifbibdisplay}-->
 <!--{xif}-->
 <!--{catedit}-->
+<script>
+$(document).ready(function() {
+  if($(".bibDisplayUrls").html().trim()==''){
+    $(".bibDisplayUrls").hide();
+	}
+ });
+</script>
 
 <div id="bibDisplayBody">
 <div class="navigationRowRecord">

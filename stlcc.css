@@ -42,6 +42,12 @@ span.sideButton  {
 	padding: 0.5%;
 }
 
+.bibDisplayUrls {
+	border-top: 1px solid #767c70;
+	border-bottom: 1px solid #767c70;
+	margin: 10px;
+	padding: 5px;
+}
 
 
 
